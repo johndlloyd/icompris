@@ -1,0 +1,20 @@
+/* GCompris - BabyTangram.qml
+ *
+ * SPDX-FileCopyrightText: 2019 Johnny Jazeix <jazeix@gmail.com>
+ *
+ * Authors:
+ *   Yves Combe /  Philippe Banwarth (GTK+ version)
+ *   Johnny Jazeix <jazeix@gmail.com> / Bruno Coudoin <bruno.coudoin@gcompris.net> (Qt Quick port)
+ *
+ *   SPDX-License-Identifier: GPL-3.0-or-later
+ */
+import core 1.0
+
+import "dataset.js" as Dataset
+import "../tangram"
+
+Tangram {
+    id: activity
+    dataset: Dataset.dataset
+    resourceUrl: "qrc:/gcompris/src/activities/baby_tangram/resource/"
+}

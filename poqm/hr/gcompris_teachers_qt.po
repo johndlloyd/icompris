@@ -1,0 +1,2303 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: gcompris_teachers\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Igor Dobrača <igor.dobraca@skole.hr>\n"
+"Language-Team: Croatian <kde-i18n-doc@kde.org>\n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Qt-Contexts: true\n"
+"X-Generator: Poedit 3.8\n"
+
+#: server/activities/adjacent_numbers/ActivityEditor.qml:13
+#: server/activities/binary_bulb/ActivityEditor.qml:12
+#: server/activities/fractions_create/ActivityEditor.qml:12
+#: server/activities/learn_additions/ActivityEditor.qml:14
+#: server/activities/learn_digits/ActivityEditor.qml:13
+#: server/activities/learn_subtractions/ActivityEditor.qml:14
+#: server/activities/multiple_choice_questions/ActivityEditor.qml:13
+msgctxt "ActivityEditor|"
+msgid "Rules to create a valid dataset:"
+msgstr "Pravila za stvaranje valjanog skupa podataka:"
+
+#: server/activities/adjacent_numbers/ActivityEditor.qml:15
+msgctxt "ActivityEditor|"
+msgid ""
+"If \"Random start number\" is selected, the number of sublevels will be the "
+"minimum between the \"Sublevels\" value and the result of: (\"Maximum start "
+"number\" - \"Minimum start number\") / \"Step between numbers\" + 1."
+msgstr ""
+"Ako je odabrano \"Slučajni početni broj\", broj podrazina bit će minimalni "
+"između vrijednosti \"Podrazina\" i rezultata: (\"Maksimalni početni broj\" - "
+"\"Minimalni početni broj\") / \"Korak između brojeva\" + 1."
+
+#: server/activities/adjacent_numbers/ActivityEditor.qml:17
+msgctxt "ActivityEditor|"
+msgid ""
+"If \"Random start number\" is not selected, the \"Start numbers\" list must "
+"contain only numbers, and each of them will be used as start number for a "
+"sublevel."
+msgstr ""
+"Ako nije odabrano \"Slučajni početni broj\", popis \"Početni brojevi\" mora "
+"sadržavati samo brojeve, a svaki od njih će se koristiti kao početni broj za "
+"podrazinu."
+
+#: server/activities/adjacent_numbers/ActivityEditor.qml:19
+msgctxt "ActivityEditor|"
+msgid ""
+"\"Position of missing numbers\" must contain a list of numbers corresponding "
+"to the index of numbers to find. Index numbers start from 0 (the first "
+"number of the sequence), and must not be greater than \"Sequence length\" - "
+"1. Also, the length of the list can not be greater than \"Sequence length\" "
+"- 2, to always have at least 2 visible numbers in the sequence."
+msgstr ""
+"\"Pozicija nedostajućih brojeva\" mora sadržavati popis brojeva koji "
+"odgovaraju indeksu brojeva koje treba pronaći. Indeksni brojevi počinju od 0 "
+"(prvi broj u nizu) i ne smiju biti veći od \"Duljine niza\" - 1. Također, "
+"duljina popisa ne može biti veća od \"Duljine niza\" - 2, kako bi uvijek "
+"bilo barem 2 vidljiva broja u nizu."
+
+#: server/activities/adjacent_numbers/AdjacentNumbersDataDisplay.qml:36
+msgctxt "AdjacentNumbersDataDisplay|"
+msgid "Tiles:"
+msgstr "Pločice:"
+
+#: server/activities/adjacent_numbers/AdjacentNumbersDataDisplay.qml:60
+msgctxt "AdjacentNumbersDataDisplay|"
+msgid "Answer:"
+msgstr "Odgovor:"
+
+#: server/activities/adjacent_numbers/AdjacentNumbersEditor.qml:28
+msgctxt "AdjacentNumbersEditor|"
+msgid "Random start numbers"
+msgstr "Slučajni početni brojevi"
+
+#: server/activities/adjacent_numbers/AdjacentNumbersEditor.qml:29
+msgctxt "AdjacentNumbersEditor|"
+msgid "Sublevels"
+msgstr "Podrazine"
+
+#: server/activities/adjacent_numbers/AdjacentNumbersEditor.qml:30
+msgctxt "AdjacentNumbersEditor|"
+msgid "Start numbers"
+msgstr "Početni brojevi"
+
+#: server/activities/adjacent_numbers/AdjacentNumbersEditor.qml:31
+msgctxt "AdjacentNumbersEditor|"
+msgid "Minimum start number"
+msgstr "Minimalni početni broj"
+
+#: server/activities/adjacent_numbers/AdjacentNumbersEditor.qml:32
+msgctxt "AdjacentNumbersEditor|"
+msgid "Maximum start number"
+msgstr "Maksimalni početni broj"
+
+#: server/activities/adjacent_numbers/AdjacentNumbersEditor.qml:33
+msgctxt "AdjacentNumbersEditor|"
+msgid "Step between numbers"
+msgstr "Korak između brojeva"
+
+#: server/activities/adjacent_numbers/AdjacentNumbersEditor.qml:34
+msgctxt "AdjacentNumbersEditor|"
+msgid "Sequence length"
+msgstr "Duljina sekvence"
+
+#: server/activities/adjacent_numbers/AdjacentNumbersEditor.qml:35
+msgctxt "AdjacentNumbersEditor|"
+msgid "Position of missing numbers"
+msgstr "Položaj nedostajućih brojeva"
+
+#: server/activities/adjacent_numbers/AdjacentNumbersEditor.qml:36
+msgctxt "AdjacentNumbersEditor|"
+msgid "Proposed numbers"
+msgstr "Predloženi brojevi"
+
+#: server/activities/adjacent_numbers/AdjacentNumbersEditor.qml:98
+msgctxt "AdjacentNumbersEditor|"
+msgid "Dataset is empty."
+msgstr "Skup podataka je prazan."
+
+#: server/activities/adjacent_numbers/AdjacentNumbersEditor.qml:100
+msgctxt "AdjacentNumbersEditor|"
+msgid "\"Start numbers\" must contain only numbers, and not be empty."
+msgstr ""
+"\"Početni brojevi\" moraju sadržavati samo brojeve i ne smiju biti prazni."
+
+#: server/activities/adjacent_numbers/AdjacentNumbersEditor.qml:102
+msgctxt "AdjacentNumbersEditor|"
+msgid ""
+"\"Position of missing numbers\" must contain only numbers, and not be empty."
+msgstr ""
+"\"Pozicija nedostajućih brojeva\" mora sadržavati samo brojeve i ne smije "
+"biti prazna."
+
+#: server/activities/adjacent_numbers/AdjacentNumbersEditor.qml:104
+msgctxt "AdjacentNumbersEditor|"
+msgid "\"Position of missing numbers\" contains too much numbers."
+msgstr "\"Pozicija nedostajućih brojeva\" sadrži previše brojeva."
+
+#: server/activities/adjacent_numbers/AdjacentNumbersEditor.qml:106
+msgctxt "AdjacentNumbersEditor|"
+msgid "\"Position of missing numbers\" contains invalid numbers."
+msgstr "\"Pozicija nedostajućih brojeva\" sadrži nevažeće brojeve."
+
+#: server/activities/algebra_by/AlgebraDataDisplay.qml:19
+msgctxt "AlgebraDataDisplay|"
+msgid "timeout"
+msgstr "timeout"
+
+#. %1 is an operation, %2 the result. Example: "2 x 5 = 10"
+#: server/activities/algebra_by/AlgebraDataDisplay.qml:22
+#, qt-format
+msgctxt "AlgebraDataDisplay|"
+msgid "%1 = %2"
+msgstr "%1 = %2"
+
+#. %1 is the answer. Example: "Answer: 10"
+#: server/activities/algebra_by/AlgebraDataDisplay.qml:24
+#, qt-format
+msgctxt "AlgebraDataDisplay|"
+msgid "Answer: %1"
+msgstr "Odgovor: %1"
+
+#: server/activities/algebra_by/AlgebraEditor.qml:25
+msgctxt "AlgebraEditor|"
+msgid "Rules to create a valid dataset:"
+msgstr "Pravila za stvaranje valjanog skupa podataka:"
+
+#: server/activities/algebra_by/AlgebraEditor.qml:27
+msgctxt "AlgebraEditor|"
+msgid ""
+"When \"Random operands\" is selected, if \"Result value limit\" is more than "
+"0 it defines the maximum allowed for the result of each operation. It must "
+"be large enough to generate enough questions for the given number of "
+"sublevels using the minimum and maximum operand values."
+msgstr ""
+"Kada je odabrano \"Slučajni operandi\", ako je \"Ograničenje vrijednosti "
+"rezultata\" veće od 0, definira se maksimalna dopuštena vrijednost za "
+"rezultat svake operacije. Mora biti dovoljno veliko da generira dovoljno "
+"pitanja za zadani broj podrazina koristeći minimalne i maksimalne "
+"vrijednosti operanda."
+
+#: server/activities/algebra_by/AlgebraEditor.qml:29
+msgctxt "AlgebraEditor|"
+msgid ""
+"If \"Random operands\" is not selected, the sublevel list on the right side "
+"must not be empty."
+msgstr ""
+"Ako nije odabrano \"Slučajni operandi\", popis podrazina s desne strane ne "
+"smije biti prazan."
+
+#: server/activities/algebra_by/AlgebraEditor.qml:33
+msgctxt "AlgebraEditor|"
+msgid "Random operands"
+msgstr "Slučajni operandi"
+
+#: server/activities/algebra_by/AlgebraEditor.qml:34
+#: server/activities/algebra_by/AlgebraEditor.qml:39
+msgctxt "AlgebraEditor|"
+msgid "Sublevels"
+msgstr "Podrazine"
+
+#: server/activities/algebra_by/AlgebraEditor.qml:35
+msgctxt "AlgebraEditor|"
+msgid "Minimum operand value"
+msgstr "Minimalna vrijednost operanda"
+
+#: server/activities/algebra_by/AlgebraEditor.qml:36
+msgctxt "AlgebraEditor|"
+msgid "Maximum operand value"
+msgstr "Maksimalna vrijednost operanda"
+
+#: server/activities/algebra_by/AlgebraEditor.qml:37
+msgctxt "AlgebraEditor|"
+msgid "Result value limit"
+msgstr "Ograničenje vrijednosti rezultata"
+
+#: server/activities/algebra_by/AlgebraEditor.qml:38
+msgctxt "AlgebraEditor|"
+msgid "Shuffle"
+msgstr "Nasumice"
+
+#: server/activities/algebra_by/AlgebraEditor.qml:44
+msgctxt "AlgebraEditor|"
+msgid "First operand"
+msgstr "Prvi operand"
+
+#: server/activities/algebra_by/AlgebraEditor.qml:45
+msgctxt "AlgebraEditor|"
+msgid "Second operand"
+msgstr "Drugi operand"
+
+#: server/activities/algebra_div/ActivityEditor.qml:16
+msgctxt "ActivityEditor|"
+msgid ""
+"When \"Random operands\" is selected, the right side operand is always "
+"between minimum and maximum values. The left side operand is generated by "
+"multiplying the right side operand by another number between minimum and "
+"maximum values."
+msgstr ""
+"Kada je odabrano \"Slučajni operandi\", desni operand je uvijek između "
+"minimalne i maksimalne vrijednosti. Lijevi operand generira se množenjem "
+"desnog operanda s drugim brojem između minimalne i maksimalne vrijednosti."
+
+#: server/activities/algebra_div/ActivityEditor.qml:18
+msgctxt "ActivityEditor|"
+msgid ""
+"If \"Random operands\" is not selected, for each sublevel you must make sure "
+"that the \"First operand\" is a multiple of the \"Second operand\"."
+msgstr ""
+"Ako nije odabrano \"Slučajni operandi\", za svaku podrazinu morate se "
+"uvjeriti da je \"Prvi operand\" višekratnik \"Drugog operanda\"."
+
+#: server/activities/algebra_div/ActivityEditor.qml:23
+msgctxt "ActivityEditor|"
+msgid "Random operands"
+msgstr "Slučajni operandi"
+
+#: server/activities/algebra_div/ActivityEditor.qml:24
+#: server/activities/algebra_div/ActivityEditor.qml:29
+msgctxt "ActivityEditor|"
+msgid "Sublevels"
+msgstr "Podrazine"
+
+#: server/activities/algebra_div/ActivityEditor.qml:25
+msgctxt "ActivityEditor|"
+msgid "Minimum operand value"
+msgstr "Minimalna vrijednost operanda"
+
+#: server/activities/algebra_div/ActivityEditor.qml:26
+msgctxt "ActivityEditor|"
+msgid "Maximum operand value"
+msgstr "Maksimalna vrijednost operanda"
+
+#: server/activities/algebra_div/ActivityEditor.qml:27
+msgctxt "ActivityEditor|"
+msgid "Result value limit"
+msgstr "Ograničenje vrijednosti rezultata"
+
+#: server/activities/algebra_div/ActivityEditor.qml:28
+msgctxt "ActivityEditor|"
+msgid "Shuffle"
+msgstr "Nasumice"
+
+#: server/activities/algebra_div/ActivityEditor.qml:34
+msgctxt "ActivityEditor|"
+msgid "First operand"
+msgstr "Prvi operand"
+
+#: server/activities/algebra_div/ActivityEditor.qml:35
+msgctxt "ActivityEditor|"
+msgid "Second operand"
+msgstr "Drugi operand"
+
+#: server/activities/algebra_minus/ActivityEditor.qml:16
+msgctxt "ActivityEditor|"
+msgid ""
+"If \"Random operands\" is not selected, for each sublevel you must make sure "
+"that the \"First operand\" is greater than the \"Second operand\"."
+msgstr ""
+"Ako nije odabrano \"Slučajni operandi\", za svaku podrazinu morate se "
+"uvjeriti da je \"Prvi operand\" veći od \"Drugog operanda\"."
+
+#: server/activities/binary_bulb/ActivityEditor.qml:14
+msgctxt "ActivityEditor|"
+msgid ""
+"If \"Random numbers\" is not selected, \"Numbers to find\" must contain a "
+"list of integer numbers. Each number must be between 0 and the maximum "
+"number which can be represented with the given \"Bulb count\"."
+msgstr ""
+"Ako nije odabrano \"Slučajni brojevi\", \"Brojevi za pronalaženje\" moraju "
+"sadržavati popis cijelih brojeva. Svaki broj mora biti između 0 i "
+"maksimalnog broja koji se može predstaviti zadanim \"Brojem žarulja\"."
+
+#: server/activities/binary_bulb/BinaryBulbDataDisplay.qml:28
+msgctxt "BinaryBulbDataDisplay|"
+msgid "Expected:"
+msgstr "Očekivano:"
+
+#: server/activities/binary_bulb/BinaryBulbDataDisplay.qml:34
+msgctxt "BinaryBulbDataDisplay|"
+msgid "Answer:"
+msgstr "Odgovor:"
+
+#. %1 is the numerical value, %2 is the binary value. Example: "5 (101)"
+#: server/activities/binary_bulb/BinaryBulbDataDisplay.qml:46
+#: server/activities/binary_bulb/BinaryBulbDataDisplay.qml:55
+#, qt-format
+msgctxt "BinaryBulbDataDisplay|"
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#: server/activities/binary_bulb/BinaryBulbEditor.qml:28
+msgctxt "BinaryBulbEditor|"
+msgid "Random numbers"
+msgstr "Slučajni brojevi"
+
+#: server/activities/binary_bulb/BinaryBulbEditor.qml:29
+msgctxt "BinaryBulbEditor|"
+msgid "Sublevels"
+msgstr "Podrazine"
+
+#: server/activities/binary_bulb/BinaryBulbEditor.qml:30
+msgctxt "BinaryBulbEditor|"
+msgid "Numbers to find"
+msgstr "Brojevi koje treba pronaći"
+
+#: server/activities/binary_bulb/BinaryBulbEditor.qml:31
+msgctxt "BinaryBulbEditor|"
+msgid "Shuffle questions"
+msgstr "Nasumično izmiješaj pitanja"
+
+#: server/activities/binary_bulb/BinaryBulbEditor.qml:32
+msgctxt "BinaryBulbEditor|"
+msgid "Bulb count"
+msgstr "Broj žarulja"
+
+#: server/activities/binary_bulb/BinaryBulbEditor.qml:33
+msgctxt "BinaryBulbEditor|"
+msgid "Display the current result"
+msgstr "Prikaži trenutni rezultat"
+
+#: server/activities/binary_bulb/BinaryBulbEditor.qml:34
+msgctxt "BinaryBulbEditor|"
+msgid "Display the bulb values"
+msgstr "Prikaži vrijednosti žarulje"
+
+#: server/activities/binary_bulb/BinaryBulbEditor.qml:87
+msgctxt "BinaryBulbEditor|"
+msgid "Dataset is empty."
+msgstr "Skup podataka je prazan."
+
+#: server/activities/binary_bulb/BinaryBulbEditor.qml:101
+#, qt-format
+msgctxt "BinaryBulbEditor|"
+msgid "\"Numbers to find\" for level %1 must not be empty."
+msgstr "\"Brojevi koje treba pronaći\" za razinu %1 ne smiju biti prazni."
+
+#: server/activities/binary_bulb/BinaryBulbEditor.qml:115
+#, qt-format
+msgctxt "BinaryBulbEditor|"
+msgid ""
+"These values are invalid for level %1: %2. The values must be integer "
+"numbers between 0 and %3."
+msgstr ""
+"Ove vrijednosti nisu valjane za razinu %1: %2. Vrijednosti moraju biti "
+"cijeli brojevi između 0 i %3."
+
+#: server/activities/binary_bulb/BinaryBulbEditor.qml:119
+#, qt-format
+msgctxt "BinaryBulbEditor|"
+msgid "The following errors need to be fixed:<ul>%1</ul>"
+msgstr "Potrebno je ispraviti sljedeće greške:<ul> %1</ul>"
+
+#: server/activities/clockgame/ClockGameDataDisplay.qml:30
+msgctxt "ClockGameDataDisplay|"
+msgid "Expected:"
+msgstr "Očekivano:"
+
+#: server/activities/clockgame/ClockGameDataDisplay.qml:36
+msgctxt "ClockGameDataDisplay|"
+msgid "Answer:"
+msgstr "Odgovor:"
+
+#: server/activities/clockgame/ClockgameEditor.qml:27
+msgctxt "ClockgameEditor|"
+msgid "Exercise count"
+msgstr "Broj vježbi"
+
+#: server/activities/clockgame/ClockgameEditor.qml:28
+msgctxt "ClockgameEditor|"
+msgid "Find minutes"
+msgstr "Pronađi minute"
+
+#: server/activities/clockgame/ClockgameEditor.qml:29
+msgctxt "ClockgameEditor|"
+msgid "Find seconds"
+msgstr "Pronađi sekunde"
+
+#: server/activities/clockgame/ClockgameEditor.qml:30
+msgctxt "ClockgameEditor|"
+msgid "Display hours numbers"
+msgstr "Prikaz broja sati"
+
+#: server/activities/clockgame/ClockgameEditor.qml:31
+msgctxt "ClockgameEditor|"
+msgid "Display hours marks"
+msgstr "Prikaz oznaka sati"
+
+#: server/activities/clockgame/ClockgameEditor.qml:32
+msgctxt "ClockgameEditor|"
+msgid "Grey/white background between each hour"
+msgstr "Siva/bijela pozadina između svakog sata"
+
+#: server/activities/clockgame/ClockgameEditor.qml:33
+msgctxt "ClockgameEditor|"
+msgid "Display minutes numbers"
+msgstr "Prikaz brojeva minuta"
+
+#: server/activities/clockgame/ClockgameEditor.qml:34
+msgctxt "ClockgameEditor|"
+msgid "Hide the Hint button in the bar (which gives the current time)"
+msgstr "Sakrij gumb Savjet u traci (koji prikazuje trenutno vrijeme)"
+
+#: server/activities/clockgame/ClockgameEditor.qml:35
+msgctxt "ClockgameEditor|"
+msgid "Fixed hour"
+msgstr "Fiksni sat"
+
+#: server/activities/clockgame/ClockgameEditor.qml:36
+#: server/activities/clockgame/ClockgameEditor.qml:38
+#: server/activities/clockgame/ClockgameEditor.qml:40
+msgctxt "ClockgameEditor|"
+msgid "Value"
+msgstr "Vrijednost"
+
+#: server/activities/clockgame/ClockgameEditor.qml:37
+msgctxt "ClockgameEditor|"
+msgid "Fixed minutes"
+msgstr "Fiksne minute"
+
+#: server/activities/clockgame/ClockgameEditor.qml:39
+msgctxt "ClockgameEditor|"
+msgid "Fixed seconds"
+msgstr "Fiksne sekunde"
+
+#: server/activities/comparator/ComparatorDataDisplay.qml:30
+msgctxt "ComparatorDataDisplay|"
+msgid "Result:"
+msgstr "Rezultat:"
+
+#: server/activities/comparator/ComparatorEditor.qml:29
+msgctxt "ComparatorEditor|"
+msgid "Shuffle"
+msgstr "Nasumice"
+
+#: server/activities/comparator/ComparatorEditor.qml:30
+msgctxt "ComparatorEditor|"
+msgid "Questions"
+msgstr "Pitanja"
+
+#: server/activities/comparator/ComparatorEditor.qml:36
+msgctxt "ComparatorEditor|"
+msgid "Left number"
+msgstr "Lijevi broj"
+
+#: server/activities/comparator/ComparatorEditor.qml:37
+msgctxt "ComparatorEditor|"
+msgid "Right number"
+msgstr "Desni broj"
+
+#: server/activities/comparator/ComparatorEditor.qml:109
+msgctxt "ComparatorEditor|"
+msgid "Dataset is empty."
+msgstr "Skup podataka je prazan."
+
+#: server/activities/comparator/ComparatorEditor.qml:119
+#, qt-format
+msgctxt "ComparatorEditor|"
+msgid "Level %1 must not be empty."
+msgstr "Razina %1 ne smije biti prazna."
+
+#: server/activities/comparator/ComparatorEditor.qml:126
+#, qt-format
+msgctxt "ComparatorEditor|"
+msgid "\"Left number\" in Question %1 of Level %2 must contain a number."
+msgstr "\"Lijevi broj\" u pitanju %1 na razini %2 mora sadržavati broj."
+
+#: server/activities/comparator/ComparatorEditor.qml:130
+#, qt-format
+msgctxt "ComparatorEditor|"
+msgid "\"Right number\" in Question %1 of Level %2 must contain a number."
+msgstr "\"Ispravan broj\" u pitanju %1 na razini %2 mora sadržavati broj."
+
+#: server/activities/comparator/ComparatorEditor.qml:136
+#, qt-format
+msgctxt "ComparatorEditor|"
+msgid "The following errors need to be fixed:<ul>%1</ul>"
+msgstr "Potrebno je ispraviti sljedeće greške:<ul> %1</ul>"
+
+#: server/activities/DailyReport.qml:33
+msgctxt "DailyReport|"
+msgid "All groups"
+msgstr "Sve grupe"
+
+#. Group name first, then Date range, with a space between them. Example: "Group Name 01/07/2025-08/07/2025"
+#: server/activities/DailyReport.qml:129
+#, qt-format
+msgctxt "DailyReport|"
+msgid "%1 %2"
+msgstr "%1 %2"
+
+#: server/activities/DailyReport.qml:133
+msgctxt "DailyReport|"
+msgid "Calendar"
+msgstr "Kalendar"
+
+#: server/activities/DailyReport.qml:184
+msgctxt "DailyReport|"
+msgid "Count"
+msgstr "Brojač"
+
+#: server/activities/DailyReport.qml:193
+msgctxt "DailyReport|"
+msgid "Time"
+msgstr "Vrijeme"
+
+#: server/activities/DailyReport.qml:202
+msgctxt "DailyReport|"
+msgid "Ratio"
+msgstr "Omjer"
+
+#. Number of result lines
+#: server/activities/DailyReport.qml:213
+#, qt-format
+msgctxt "DailyReport|"
+msgid "Lines: %1"
+msgstr "Broj redaka: %1"
+
+#. Success ratio, example: "50 %"
+#: server/activities/DailyReport.qml:313
+#, qt-format
+msgctxt "DailyReport|"
+msgid "%1 %"
+msgstr "%1 %"
+
+#: server/activities/fractions_create/ActivityEditor.qml:14
+msgctxt "ActivityEditor|"
+msgid ""
+"\"Instruction\" must contain some text telling the fraction to represent."
+msgstr "\"Uputa\" mora sadržavati tekst koji objašnjava razlomak."
+
+#: server/activities/fractions_create/FractionsCreateEditor.qml:29
+msgctxt "FractionsCreateEditor|"
+msgid "Shuffle"
+msgstr "Nasumice"
+
+#: server/activities/fractions_create/FractionsCreateEditor.qml:30
+msgctxt "FractionsCreateEditor|"
+msgid "Questions"
+msgstr "Pitanja"
+
+#: server/activities/fractions_create/FractionsCreateEditor.qml:36
+msgctxt "FractionsCreateEditor|"
+msgid "Numerator"
+msgstr "Brojnik"
+
+#: server/activities/fractions_create/FractionsCreateEditor.qml:37
+msgctxt "FractionsCreateEditor|"
+msgid "Denominator"
+msgstr "Nazivnik"
+
+#: server/activities/fractions_create/FractionsCreateEditor.qml:38
+msgctxt "FractionsCreateEditor|"
+msgid "Instruction"
+msgstr "Upute"
+
+#: server/activities/fractions_create/FractionsCreateEditor.qml:130
+msgctxt "FractionsCreateEditor|"
+msgid "Dataset is empty."
+msgstr "Skup podataka je prazan."
+
+#: server/activities/fractions_create/FractionsCreateEditor.qml:140
+#, qt-format
+msgctxt "FractionsCreateEditor|"
+msgid "Level %1 must not be empty."
+msgstr "Razina %1 ne smije biti prazna."
+
+#: server/activities/fractions_create/FractionsCreateEditor.qml:146
+#, qt-format
+msgctxt "FractionsCreateEditor|"
+msgid "\"Instruction\" of Question %1 from Level %2 must not be empty."
+msgstr "\"Uputa\" za pitanje %1 iz razine %2 ne smije biti prazna."
+
+#: server/activities/fractions_create/FractionsCreateEditor.qml:152
+#, qt-format
+msgctxt "FractionsCreateEditor|"
+msgid "The following errors need to be fixed:<ul>%1</ul>"
+msgstr "Potrebno je ispraviti sljedeće greške:<ul> %1</ul>"
+
+#: server/activities/fractions_create/FractionsCreateEditor.qml:160
+msgctxt "FractionsCreateEditor|"
+msgid "Rectangle"
+msgstr "Pravokutnik"
+
+#: server/activities/fractions_create/FractionsCreateEditor.qml:161
+msgctxt "FractionsCreateEditor|"
+msgid "Circle"
+msgstr "Krug"
+
+#: server/activities/fractions_create/FractionsCreateEditor.qml:164
+msgctxt "FractionsCreateEditor|"
+msgid "Chart Type"
+msgstr "Vrsta grafikona"
+
+#: server/activities/fractions_find/FractionsFindDataDisplay.qml:26
+msgctxt "FractionsFindDataDisplay|"
+msgid "Expected:"
+msgstr "Očekivano:"
+
+#: server/activities/fractions_find/FractionsFindDataDisplay.qml:60
+msgctxt "FractionsFindDataDisplay|"
+msgid "Answer:"
+msgstr "Odgovor:"
+
+#: server/activities/fractions_find/FractionsFindEditor.qml:29
+msgctxt "FractionsFindEditor|"
+msgid "Shuffle"
+msgstr "Nasumice"
+
+#: server/activities/fractions_find/FractionsFindEditor.qml:30
+msgctxt "FractionsFindEditor|"
+msgid "Questions"
+msgstr "Pitanja"
+
+#: server/activities/fractions_find/FractionsFindEditor.qml:36
+msgctxt "FractionsFindEditor|"
+msgid "Static numerator"
+msgstr "Statički brojnik"
+
+#: server/activities/fractions_find/FractionsFindEditor.qml:37
+msgctxt "FractionsFindEditor|"
+msgid "Static denominator"
+msgstr "Statički nazivnik"
+
+#: server/activities/fractions_find/FractionsFindEditor.qml:38
+msgctxt "FractionsFindEditor|"
+msgid "Numerator"
+msgstr "Brojnik"
+
+#: server/activities/fractions_find/FractionsFindEditor.qml:39
+msgctxt "FractionsFindEditor|"
+msgid "Denominator"
+msgstr "Nazivnik"
+
+#: server/activities/fractions_find/FractionsFindEditor.qml:40
+msgctxt "FractionsFindEditor|"
+msgid "Maximum of units"
+msgstr "Maksimalan broj jedinica"
+
+#: server/activities/fractions_find/FractionsFindEditor.qml:41
+msgctxt "FractionsFindEditor|"
+msgid "Random fraction"
+msgstr "Slučajni razlomak"
+
+#: server/activities/fractions_find/FractionsFindEditor.qml:159
+msgctxt "FractionsFindEditor|"
+msgid "Dataset is empty."
+msgstr "Skup podataka je prazan."
+
+#: server/activities/fractions_find/FractionsFindEditor.qml:169
+#, qt-format
+msgctxt "FractionsFindEditor|"
+msgid "Level %1 must not be empty."
+msgstr "Razina %1 ne smije biti prazna."
+
+#: server/activities/fractions_find/FractionsFindEditor.qml:173
+#, qt-format
+msgctxt "FractionsFindEditor|"
+msgid "The following errors need to be fixed:<ul>%1</ul>"
+msgstr "Potrebno je ispraviti sljedeće greške:<ul> %1</ul>"
+
+#: server/activities/fractions_find/FractionsFindEditor.qml:181
+msgctxt "FractionsFindEditor|"
+msgid "Rectangle"
+msgstr "Pravokutnik"
+
+#: server/activities/fractions_find/FractionsFindEditor.qml:182
+msgctxt "FractionsFindEditor|"
+msgid "Circle"
+msgstr "Krug"
+
+#: server/activities/fractions_find/FractionsFindEditor.qml:185
+msgctxt "FractionsFindEditor|"
+msgid "Chart Type"
+msgstr "Vrsta grafikona"
+
+#. %1 is number of hints displayed. Example: "Hints: 1"
+#: server/activities/guess24/Guess24DataDisplay.qml:79
+#, qt-format
+msgctxt "Guess24DataDisplay|"
+msgid "Hints: %1"
+msgstr "Savjeti: %1"
+
+#: server/activities/learn_additions/ActivityEditor.qml:16
+msgctxt "ActivityEditor|"
+msgid ""
+"\"Additions\" must contain a list of additions which results are between 0 "
+"and 9."
+msgstr ""
+"\"Zbrajanja\" moraju sadržavati popis zbrojeva čiji su rezultati između 0 i "
+"9."
+
+#: server/activities/learn_additions/ActivityEditor.qml:18
+#: server/activities/learn_subtractions/ActivityEditor.qml:18
+msgctxt "ActivityEditor|"
+msgid ""
+"\"Number of circles\" can not be smaller than the largest result to find."
+msgstr ""
+"\"Broj krugova\" ne može biti manji od najvećeg rezultata koji treba pronaći."
+
+#: server/activities/learn_decimals/LearnDecimalsEditor.qml:28
+msgctxt "LearnDecimalsEditor|"
+msgid "Shuffle"
+msgstr "Nasumice"
+
+#: server/activities/learn_decimals/LearnDecimalsEditor.qml:29
+msgctxt "LearnDecimalsEditor|"
+msgid "Sublevels"
+msgstr "Podrazine"
+
+#: server/activities/learn_decimals/LearnDecimalsEditor.qml:39
+msgctxt "LearnDecimalsEditor|"
+msgid "Fixed Number"
+msgstr "Fiksni broj"
+
+#: server/activities/learn_decimals/LearnDecimalsEditor.qml:40
+msgctxt "LearnDecimalsEditor|"
+msgid "Minimum Value"
+msgstr "Minimalna vrijednost"
+
+#: server/activities/learn_decimals/LearnDecimalsEditor.qml:41
+msgctxt "LearnDecimalsEditor|"
+msgid "Maximum Value"
+msgstr "Maksimalna vrijednost"
+
+#: server/activities/learn_decimals/LearnDecimalsEditor.qml:140
+msgctxt "LearnDecimalsEditor|"
+msgid "Dataset is empty."
+msgstr "Skup podataka je prazan."
+
+#: server/activities/learn_decimals/LearnDecimalsEditor.qml:150
+#, qt-format
+msgctxt "LearnDecimalsEditor|"
+msgid "Level %1 must not be empty."
+msgstr "Razina %1 ne smije biti prazna."
+
+#: server/activities/learn_decimals/LearnDecimalsEditor.qml:154
+#, qt-format
+msgctxt "LearnDecimalsEditor|"
+msgid "The following errors need to be fixed:<ul>%1</ul>"
+msgstr "Potrebno je ispraviti sljedeće greške:<ul> %1</ul>"
+
+#: server/activities/learn_decimals/LearnDecimalsEditor.qml:162
+msgctxt "LearnDecimalsEditor|"
+msgid "Random"
+msgstr "Nasumično"
+
+#: server/activities/learn_decimals/LearnDecimalsEditor.qml:163
+msgctxt "LearnDecimalsEditor|"
+msgid "Fixed"
+msgstr "Fiksno"
+
+#: server/activities/learn_decimals/LearnDecimalsEditor.qml:168
+msgctxt "LearnDecimalsEditor|"
+msgid "Mode"
+msgstr "Način"
+
+#: server/activities/learn_decimals_additions/DecimalAdditionEditor.qml:29
+msgctxt "DecimalAdditionEditor|"
+msgid "Shuffle"
+msgstr "Nasumice"
+
+#: server/activities/learn_decimals_additions/DecimalAdditionEditor.qml:30
+msgctxt "DecimalAdditionEditor|"
+msgid "Sublevels"
+msgstr "Podrazine"
+
+#: server/activities/learn_decimals_additions/DecimalAdditionEditor.qml:41
+msgctxt "DecimalAdditionEditor|"
+msgid "First Number"
+msgstr "Prvi broj"
+
+#: server/activities/learn_decimals_additions/DecimalAdditionEditor.qml:42
+msgctxt "DecimalAdditionEditor|"
+msgid "Second Number"
+msgstr "Drugi broj"
+
+#: server/activities/learn_decimals_additions/DecimalAdditionEditor.qml:43
+msgctxt "DecimalAdditionEditor|"
+msgid "Minimum Value"
+msgstr "Minimalna vrijednost"
+
+#: server/activities/learn_decimals_additions/DecimalAdditionEditor.qml:44
+msgctxt "DecimalAdditionEditor|"
+msgid "Maximum Value"
+msgstr "Maksimalna vrijednost"
+
+#: server/activities/learn_decimals_additions/DecimalAdditionEditor.qml:182
+msgctxt "DecimalAdditionEditor|"
+msgid "Dataset is empty."
+msgstr "Skup podataka je prazan."
+
+#: server/activities/learn_decimals_additions/DecimalAdditionEditor.qml:192
+#, qt-format
+msgctxt "DecimalAdditionEditor|"
+msgid "Level %1 must not be empty."
+msgstr "Razina %1 ne smije biti prazna."
+
+#: server/activities/learn_decimals_additions/DecimalAdditionEditor.qml:196
+#, qt-format
+msgctxt "DecimalAdditionEditor|"
+msgid "The following errors need to be fixed:<ul>%1</ul>"
+msgstr "Potrebno je ispraviti sljedeće greške:<ul> %1</ul>"
+
+#: server/activities/learn_decimals_additions/DecimalAdditionEditor.qml:204
+msgctxt "DecimalAdditionEditor|"
+msgid "Random"
+msgstr "Nasumično"
+
+#: server/activities/learn_decimals_additions/DecimalAdditionEditor.qml:205
+msgctxt "DecimalAdditionEditor|"
+msgid "Fixed"
+msgstr "Fiksno"
+
+#: server/activities/learn_decimals_additions/DecimalAdditionEditor.qml:210
+msgctxt "DecimalAdditionEditor|"
+msgid "Mode"
+msgstr "Način"
+
+#: server/activities/learn_digits/ActivityEditor.qml:15
+msgctxt "ActivityEditor|"
+msgid "\"Numbers\" must contain a list of numbers between 0 and 9."
+msgstr "\"Brojevi\" moraju sadržavati popis brojeva između 0 i 9."
+
+#: server/activities/learn_digits/ActivityEditor.qml:17
+msgctxt "ActivityEditor|"
+msgid ""
+"\"Number of circles\" can not be smaller than the largest number to find."
+msgstr ""
+"\"Broj krugova\" ne može biti manji od najvećeg broja koji treba pronaći."
+
+#. %1 is an operation, %2 the result. Example: "2 x 5 = 10"
+#: server/activities/learn_digits/LearnDigitsDataDisplay.qml:24
+#, qt-format
+msgctxt "LearnDigitsDataDisplay|"
+msgid "%1 = %2"
+msgstr "%1 = %2"
+
+#. %1 is the answer. Example: "Answer: 10"
+#: server/activities/learn_digits/LearnDigitsDataDisplay.qml:27
+#, qt-format
+msgctxt "LearnDigitsDataDisplay|"
+msgid "Answer: %1"
+msgstr "Odgovor: %1"
+
+#: server/activities/learn_digits/LearnDigitsEditor.qml:32
+msgctxt "LearnDigitsEditor|"
+msgid "Number of circles"
+msgstr "Broj krugova"
+
+#: server/activities/learn_digits/LearnDigitsEditor.qml:33
+msgctxt "LearnDigitsEditor|"
+msgid "Random order"
+msgstr "Slučajan redoslijed"
+
+#: server/activities/learn_digits/LearnDigitsEditor.qml:99
+msgctxt "LearnDigitsEditor|"
+msgid "Dataset is empty."
+msgstr "Skup podataka je prazan."
+
+#: server/activities/learn_digits/LearnDigitsEditor.qml:101
+msgctxt "LearnDigitsEditor|"
+msgid ""
+"\"Numbers\" must only contain integer numbers between 0 and 9, and must not "
+"be empty."
+msgstr ""
+"\"Brojevi\" moraju sadržavati samo cijele brojeve između 0 i 9 i ne smiju "
+"biti prazni."
+
+#: server/activities/learn_digits/LearnDigitsEditor.qml:103
+msgctxt "LearnDigitsEditor|"
+msgid ""
+"\"Additions\" must only contain additions which results are integer numbers "
+"between 0 and 9, and must not be empty."
+msgstr ""
+"\"Zbrajanja\" moraju sadržavati samo zbrajanja čiji su rezultati cijeli "
+"brojevi između 0 i 9 i ne smiju biti prazna."
+
+#: server/activities/learn_digits/LearnDigitsEditor.qml:105
+msgctxt "LearnDigitsEditor|"
+msgid ""
+"\"Subtractions\" must only contain subtractions which results are integer "
+"numbers between 0 and 9, and must not be empty."
+msgstr ""
+"\"Oduzimanja\" moraju sadržavati samo oduzimanja čiji su rezultati cijeli "
+"brojevi između 0 i 9 i ne smiju biti prazna."
+
+#: server/activities/learn_digits/LearnDigitsEditor.qml:161
+msgctxt "LearnDigitsEditor|"
+msgid "Numbers"
+msgstr "Brojevi"
+
+#: server/activities/learn_digits/LearnDigitsEditor.qml:163
+msgctxt "LearnDigitsEditor|"
+msgid "Additions"
+msgstr "Zbrajanja"
+
+#: server/activities/learn_digits/LearnDigitsEditor.qml:165
+msgctxt "LearnDigitsEditor|"
+msgid "Subtractions"
+msgstr "Oduzimanja"
+
+#: server/activities/learn_quantities/ActivityEditor.qml:24
+msgctxt "ActivityEditor|"
+msgid "Fixed Number"
+msgstr "Fiksni broj"
+
+#: server/activities/learn_quantities/ActivityEditor.qml:25
+msgctxt "ActivityEditor|"
+msgid "Minimum Value"
+msgstr "Minimalna vrijednost"
+
+#: server/activities/learn_quantities/ActivityEditor.qml:26
+msgctxt "ActivityEditor|"
+msgid "Maximum Value"
+msgstr "Maksimalna vrijednost"
+
+#: server/activities/learn_subtractions/ActivityEditor.qml:16
+msgctxt "ActivityEditor|"
+msgid ""
+"\"Subtractions\" must contain a list of subtractions which results are "
+"between 0 and 9."
+msgstr ""
+"\"Oduzimanja\" moraju sadržavati popis oduzimanja čiji su rezultati između 0 "
+"i 9."
+
+#: server/activities/LineReport.qml:65
+msgctxt "LineReport|"
+msgid "Back"
+msgstr "Natrag"
+
+#: server/activities/LineReport.qml:71
+msgctxt "LineReport|"
+msgid "Refresh"
+msgstr "Osvježi"
+
+#: server/activities/LineReport.qml:77
+#, qt-format
+msgctxt "LineReport|"
+msgid "Lines: %1"
+msgstr "Broj redaka: %1"
+
+#: server/activities/LineReport.qml:227
+#, qt-format
+msgctxt "LineReport|"
+msgid "Level: <b>%1</b>"
+msgstr "Razina: <b>%1</b>"
+
+#. Result duration in seconds. Example: "Duration: 25s"
+#: server/activities/LineReport.qml:243 server/activities/LineReport.qml:253
+#, qt-format
+msgctxt "LineReport|"
+msgid "Duration: %1s"
+msgstr "Trajanje: %1s"
+
+#: server/activities/multiple_choice_questions/ActivityEditor.qml:15
+msgctxt "ActivityEditor|"
+msgid ""
+"In \"Single answer\" mode, users can select only one answer. In \"Multiple "
+"answers\" mode, they can select multiple answers."
+msgstr ""
+"U načinu rada \"Jedan odgovor\" korisnici mogu odabrati samo jedan odgovor. "
+"U načinu rada \"Više odgovora\" mogu odabrati više odgovora."
+
+#: server/activities/multiple_choice_questions/ActivityEditor.qml:17
+msgctxt "ActivityEditor|"
+msgid ""
+"All entries in the \"Correct answers\" list must also be present in the "
+"\"Answers\" list."
+msgstr ""
+"Svi unosi na popisu \"Točni odgovori\" moraju biti prisutni i na popisu "
+"\"Odgovori\"."
+
+#: server/activities/multiple_choice_questions/ActivityEditor.qml:19
+msgctxt "ActivityEditor|"
+msgid ""
+"\"Correct answer text\" and \"Wrong answer text\" are optional messages "
+"displayed after users validate their answer. You can leave those empty if "
+"you want."
+msgstr ""
+"\"Točan tekst odgovora\" i \"Netočan tekst odgovora\" su opcionalne poruke "
+"koje se prikazuju nakon što korisnici potvrde svoj odgovor. Možete ih "
+"ostaviti praznima ako želite."
+
+#: server/activities/multiple_choice_questions/MultipleChoiceDataDisplay.qml:27
+msgctxt "MultipleChoiceDataDisplay|"
+msgid "Question:"
+msgstr "Pitanje:"
+
+#: server/activities/multiple_choice_questions/MultipleChoiceDataDisplay.qml:33
+msgctxt "MultipleChoiceDataDisplay|"
+msgid "Answer:"
+msgstr "Odgovor:"
+
+#: server/activities/multiple_choice_questions/MultipleChoiceDataDisplay.qml:39
+msgctxt "MultipleChoiceDataDisplay|"
+msgid "Expected:"
+msgstr "Očekivano:"
+
+#: server/activities/multiple_choice_questions/MultipleChoiceDataDisplay.qml:45
+msgctxt "MultipleChoiceDataDisplay|"
+msgid "Proposed:"
+msgstr "Predloženo:"
+
+#: server/activities/multiple_choice_questions/MultipleChoiceEditor.qml:29
+msgctxt "MultipleChoiceEditor|"
+msgid "Shuffle"
+msgstr "Nasumice"
+
+#: server/activities/multiple_choice_questions/MultipleChoiceEditor.qml:30
+msgctxt "MultipleChoiceEditor|"
+msgid "Sublevels"
+msgstr "Podrazine"
+
+#: server/activities/multiple_choice_questions/MultipleChoiceEditor.qml:36
+msgctxt "MultipleChoiceEditor|"
+msgid "Shuffle answers"
+msgstr "Nasumično promiješaj odgovore"
+
+#: server/activities/multiple_choice_questions/MultipleChoiceEditor.qml:37
+msgctxt "MultipleChoiceEditor|"
+msgid "Question"
+msgstr "Pitanje"
+
+#: server/activities/multiple_choice_questions/MultipleChoiceEditor.qml:38
+msgctxt "MultipleChoiceEditor|"
+msgid "Answers"
+msgstr "Odgovori"
+
+#: server/activities/multiple_choice_questions/MultipleChoiceEditor.qml:39
+msgctxt "MultipleChoiceEditor|"
+msgid "Correct answers"
+msgstr "Točni odgovori"
+
+#: server/activities/multiple_choice_questions/MultipleChoiceEditor.qml:40
+msgctxt "MultipleChoiceEditor|"
+msgid "Correct answer text"
+msgstr "Točan tekst odgovora"
+
+#: server/activities/multiple_choice_questions/MultipleChoiceEditor.qml:41
+msgctxt "MultipleChoiceEditor|"
+msgid "Wrong answer text"
+msgstr "Tekst s pogrešnim odgovorom"
+
+#: server/activities/multiple_choice_questions/MultipleChoiceEditor.qml:121
+msgctxt "MultipleChoiceEditor|"
+msgid "Dataset is empty."
+msgstr "Skup podataka je prazan."
+
+#: server/activities/multiple_choice_questions/MultipleChoiceEditor.qml:131
+#, qt-format
+msgctxt "MultipleChoiceEditor|"
+msgid "Level %1 must not be empty."
+msgstr "Razina %1 ne smije biti prazna."
+
+#: server/activities/multiple_choice_questions/MultipleChoiceEditor.qml:138
+#, qt-format
+msgctxt "MultipleChoiceEditor|"
+msgid "\"Question\" in Sublevel %1 of Level %2 must not be empty."
+msgstr "\"Pitanje\" u podrazini %1 razine %2 ne smije biti prazno."
+
+#: server/activities/multiple_choice_questions/MultipleChoiceEditor.qml:143
+#, qt-format
+msgctxt "MultipleChoiceEditor|"
+msgid "\"Answers\" in Sublevel %1 of Level %2 must not be empty."
+msgstr "\"Odgovori\" u podrazini %1 razine %2 ne smiju biti prazni."
+
+#: server/activities/multiple_choice_questions/MultipleChoiceEditor.qml:148
+#, qt-format
+msgctxt "MultipleChoiceEditor|"
+msgid "\"Correct answers\" in Sublevel %1 of Level %2 must not be empty."
+msgstr "\"Točni odgovori\" u podrazini %1 razine %2 ne smije biti prazna."
+
+#: server/activities/multiple_choice_questions/MultipleChoiceEditor.qml:155
+#, qt-format
+msgctxt "MultipleChoiceEditor|"
+msgid ""
+"In Sublevel %1 of Level %2, the correct answer \"%3\" is not in the \"Answers"
+"\" list."
+msgstr ""
+"U podrazini %1 razine %2, točan odgovor \"%3\" nije na popisu \"Odgovori\"."
+
+#: server/activities/multiple_choice_questions/MultipleChoiceEditor.qml:163
+#, qt-format
+msgctxt "MultipleChoiceEditor|"
+msgid "The following errors need to be fixed:<ul>%1</ul>"
+msgstr "Potrebno je ispraviti sljedeće greške:<ul> %1</ul>"
+
+#: server/activities/multiple_choice_questions/MultipleChoiceEditor.qml:171
+msgctxt "MultipleChoiceEditor|"
+msgid "Single answer"
+msgstr "Jedan odgovor"
+
+#: server/activities/multiple_choice_questions/MultipleChoiceEditor.qml:172
+msgctxt "MultipleChoiceEditor|"
+msgid "Multiple answers"
+msgstr "Višestruki odgovori"
+
+#: server/activities/multiple_choice_questions/MultipleChoiceEditor.qml:177
+msgctxt "MultipleChoiceEditor|"
+msgid "Mode"
+msgstr "Način"
+
+#: server/activities/vertical_subtraction/VerticalEditor.qml:29
+msgctxt "VerticalEditor|"
+msgid "Sublevels"
+msgstr "Podrazine"
+
+#: server/activities/vertical_subtraction/VerticalEditor.qml:31
+msgctxt "VerticalEditor|"
+msgid "Number of digits"
+msgstr "Broj znamenki"
+
+#: server/activities/vertical_subtraction/VerticalEditor.qml:33
+msgctxt "VerticalEditor|"
+msgid "Number of lines"
+msgstr "Broj redaka"
+
+#: server/activities/vertical_subtraction/VerticalEditor.qml:34
+msgctxt "VerticalEditor|"
+msgid "With carry"
+msgstr "S prenošenjem"
+
+#: server/activities/vertical_subtraction/VerticalEditor.qml:35
+msgctxt "VerticalEditor|"
+msgid "Already laid"
+msgstr "Već položeno"
+
+#: server/activities/vertical_subtraction/VerticalEditor.qml:36
+msgctxt "VerticalEditor|"
+msgid "Write your operation"
+msgstr "Napišite svoju operaciju"
+
+#: server/components/CalendarPane.qml:77
+msgctxt "CalendarPane|"
+msgid "Calendar"
+msgstr "Kalendar"
+
+#: server/components/CheckUserEditDelegate.qml:34
+msgctxt "CheckUserEditDelegate|"
+msgid "Edit pupil"
+msgstr "Uredi učenika"
+
+#: server/components/EditorBox.qml:84
+msgctxt "EditorBox|"
+msgid "Add"
+msgstr "Dodaj"
+
+#: server/components/EditorBox.qml:95
+msgctxt "EditorBox|"
+msgid "Remove"
+msgstr "Ukloni"
+
+#: server/components/EditorBox.qml:107
+msgctxt "EditorBox|"
+msgid "Move up"
+msgstr "Pomakni gore"
+
+#: server/components/EditorBox.qml:119
+msgctxt "EditorBox|"
+msgid "Move down"
+msgstr "Pomakni dolje"
+
+#: server/components/FieldEdit.qml:318
+msgctxt "FieldEdit|"
+msgid "Add an entry"
+msgstr "Dodaj unos"
+
+#: server/components/FieldEdit.qml:330
+msgctxt "FieldEdit|"
+msgid "Remove last entry"
+msgstr "Ukloni zadnji unos"
+
+#: server/components/FoldDown.qml:151
+msgctxt "FoldDown|"
+msgid "Filter list"
+msgstr "Popis filtera"
+
+#: server/components/OkCancelButtons.qml:21
+msgctxt "OkCancelButtons|"
+msgid "OK"
+msgstr "U redu"
+
+#: server/components/OkCancelButtons.qml:22
+msgctxt "OkCancelButtons|"
+msgid "Cancel"
+msgstr "Otkaži"
+
+#: server/components/RadioGroupEditDelegate.qml:59
+msgctxt "RadioGroupEditDelegate|"
+msgid "Edit group"
+msgstr "Uredi grupu"
+
+#: server/components/RadioGroupEditDelegate.qml:71
+msgctxt "RadioGroupEditDelegate|"
+msgid "Delete group"
+msgstr "Izbriši grupu"
+
+#: server/components/ServerLanguageList.qml:32
+msgctxt "ServerLanguageList|"
+msgid "Your system default"
+msgstr "Zadane postavke sustava"
+
+#: server/controllers/database-controller.cpp:83
+#: server/controllers/database-controller.cpp:89
+#, qt-format
+msgctxt "controllers::DatabaseController|"
+msgid ""
+"File %1\n"
+"Error SQL: %2"
+msgstr ""
+"Datoteka %1\n"
+"SQL greška: %2"
+
+#: server/controllers/database-controller.cpp:125
+msgctxt "controllers::DatabaseController|"
+msgid "Table teacher_ could not be updated to current version."
+msgstr "Tablica teacher_ nije mogla biti ažurirana na trenutnu verziju."
+
+#: server/controllers/database-controller.cpp:351
+msgctxt "controllers::DatabaseController|"
+msgid "Error creating teacher."
+msgstr "Pogreška pri stvaranju učitelja."
+
+#: server/controllers/database-controller.cpp:373
+msgctxt "controllers::DatabaseController|"
+msgid "Wrong password."
+msgstr "Pogrešna lozinka."
+
+#: server/controllers/database-controller.cpp:417
+#, qt-format
+msgctxt "controllers::DatabaseController|"
+msgid "Group <b>%1</b> already exists."
+msgstr "Grupa <b>%1</b> već postoji."
+
+#: server/controllers/database-controller.cpp:438
+#, qt-format
+msgctxt "controllers::DatabaseController|"
+msgid "Group <b>%1</b> could not be updated to <b>%2</b>."
+msgstr "Grupa <b>%1</b> nije mogla biti ažurirana na <b>%2</b> ."
+
+#: server/controllers/database-controller.cpp:456
+#, qt-format
+msgctxt "controllers::DatabaseController|"
+msgid "Group <b>%1</b> could not be deleted from table group_."
+msgstr "Grupa <b>%1</b> nije mogla biti izbrisana iz tablice group_."
+
+#: server/controllers/database-controller.cpp:459
+#, qt-format
+msgctxt "controllers::DatabaseController|"
+msgid "Group <b>%1</b> could not be deleted from table group_user_."
+msgstr "Grupa <b>%1</b> nije mogla biti izbrisana iz tablice group_user_."
+
+#: server/controllers/database-controller.cpp:483
+#, qt-format
+msgctxt "controllers::DatabaseController|"
+msgid "Pupil login <b>%1</b> already exists or password is empty."
+msgstr "Prijava učenika <b>%1</b> već postoji ili je lozinka prazna."
+
+#: server/controllers/database-controller.cpp:502
+#, qt-format
+msgctxt "controllers::DatabaseController|"
+msgid "<b>%1</b> could not be updated to <b>%2</b>."
+msgstr "<b>%1</b> nije moguće ažurirati na <b>%2</b> ."
+
+#: server/controllers/database-controller.cpp:522
+#, qt-format
+msgctxt "controllers::DatabaseController|"
+msgid "User <b>%1</b> could not be deleted from table user_."
+msgstr "Korisnik <b>%1</b> nije mogao biti izbrisan iz tablice user_."
+
+#: server/controllers/database-controller.cpp:527
+#, qt-format
+msgctxt "controllers::DatabaseController|"
+msgid "User <b>%1</b> could not be deleted from table result_."
+msgstr "Korisnik <b>%1</b> nije mogao biti izbrisan iz tablice result_."
+
+#: server/controllers/database-controller.cpp:542
+#, qt-format
+msgctxt "controllers::DatabaseController|"
+msgid "User <b>%1</b> could not be deleted from table group_user_."
+msgstr "Korisnik <b>%1</b> nije mogao biti izbrisan iz tablice group_user_."
+
+#: server/controllers/database-controller.cpp:557
+#, qt-format
+msgctxt "controllers::DatabaseController|"
+msgid "User <b>%1</b> already exists in group <b>%2</b>."
+msgstr "Korisnik <b>%1</b> već postoji u grupi <b>%2</b> ."
+
+#: server/controllers/database-controller.cpp:572
+#, qt-format
+msgctxt "controllers::DatabaseController|"
+msgid "User <b>%1</b> group <b>%2</b> couldn't be deleted."
+msgstr "Korisnik <b>%1</b> grupa <b>%2</b> nije mogla biti izbrisana."
+
+#: server/controllers/database-controller.cpp:607
+#, qt-format
+msgctxt "controllers::DatabaseController|"
+msgid "Result could not be added for user <b>%1</b>"
+msgstr "Rezultat nije mogao biti dodan za korisnika <b>%1</b>"
+
+#: server/controllers/database-controller.cpp:619
+#, qt-format
+msgctxt "controllers::DatabaseController|"
+msgid "Error inserting activity: %1"
+msgstr "Pogreška pri umetanju aktivnosti: %1"
+
+#: server/controllers/database-controller.cpp:665
+#, qt-format
+msgctxt "controllers::DatabaseController|"
+msgid "Dataset <b>%1</b> already exists."
+msgstr "Skup podataka <b>%1</b> već postoji."
+
+#: server/controllers/database-controller.cpp:682
+#, qt-format
+msgctxt "controllers::DatabaseController|"
+msgid "Dataset <b>%1</b> could not be updated to <b>%2</b>."
+msgstr "Skup podataka <b>%1</b> nije moguće ažurirati na <b>%2</b> ."
+
+#: server/controllers/database-controller.cpp:697
+#, qt-format
+msgctxt "controllers::DatabaseController|"
+msgid "Dataset <b>%1</b> couldn't be deleted."
+msgstr "Skup podataka <b>%1</b> nije moguće izbrisati."
+
+#: server/controllers/network-controller.cpp:46
+#, qt-format
+msgctxt "controllers::NetworkController|"
+msgid "Unable to start the server: %1."
+msgstr "Nije moguće pokrenuti poslužitelj: %1."
+
+#: server/dialogs/CreateDbDialog.qml:19
+msgctxt "CreateDbDialog|"
+msgid "You are about to create a new GCompris database."
+msgstr "Namjeravate stvoriti novu GCompris bazu podataka."
+
+#: server/dialogs/CreateDbDialog.qml:38
+msgctxt "CreateDbDialog|"
+msgid "Database file"
+msgstr "Datoteka baze podataka"
+
+#: server/dialogs/CreateDbDialog.qml:40
+msgctxt "CreateDbDialog|"
+msgid "created in:"
+msgstr "stvoreno u:"
+
+#: server/dialogs/CreateDbDialog.qml:64
+msgctxt "CreateDbDialog|"
+msgid "New database creation"
+msgstr "Izrada nove baze podataka"
+
+#: server/dialogs/CreateDbDialog.qml:92
+msgctxt "CreateDbDialog|"
+msgid "Teacher login"
+msgstr "Prijava učitelja"
+
+#: server/dialogs/CreateDbDialog.qml:108
+msgctxt "CreateDbDialog|"
+msgid "Password"
+msgstr "Lozinka"
+
+#: server/dialogs/CreateDbDialog.qml:124
+msgctxt "CreateDbDialog|"
+msgid "Encrypted database (enabled by default)"
+msgstr "Šifrirana baza podataka (omogućeno prema zadanim postavkama)"
+
+#: server/dialogs/DatasetEditorDialog.qml:54
+msgctxt "DatasetEditorDialog|"
+msgid "Create dataset"
+msgstr "Izradi skup podataka"
+
+#: server/dialogs/DatasetEditorDialog.qml:64
+msgctxt "DatasetEditorDialog|"
+msgid "Update dataset"
+msgstr "Ažuriranje skupa podataka"
+
+#: server/dialogs/DatasetEditorDialog.qml:79
+msgctxt "DatasetEditorDialog|"
+msgid "Dataset name is empty"
+msgstr "Naziv skupa podataka je prazan"
+
+#: server/dialogs/DatasetEditorDialog.qml:86
+msgctxt "DatasetEditorDialog|"
+msgid "Difficulty should be between 1 and 6"
+msgstr "Teškoća bi trebala biti između 1 i 6"
+
+#: server/dialogs/DatasetEditorDialog.qml:239
+msgctxt "DatasetEditorDialog|"
+msgid "INVALID DATASET"
+msgstr "NEVAŽEĆI SKUP PODATAKA"
+
+#: server/dialogs/DatasetEditorDialog.qml:342
+msgctxt "DatasetEditorDialog|"
+msgid "Editor"
+msgstr "Uređivač"
+
+#: server/dialogs/DatasetEditorDialog.qml:345
+msgctxt "DatasetEditorDialog|"
+msgid "Raw JSON"
+msgstr "Neobrađeni JSON"
+
+#: server/dialogs/DatasetEditorDialog.qml:375
+msgctxt "DatasetEditorDialog|"
+msgid "Activity name"
+msgstr "Naziv aktivnosti"
+
+#: server/dialogs/DatasetEditorDialog.qml:389
+msgctxt "DatasetEditorDialog|"
+msgid "Dataset name"
+msgstr "Naziv skupa podataka"
+
+#: server/dialogs/DatasetEditorDialog.qml:403
+msgctxt "DatasetEditorDialog|"
+msgid "Goal"
+msgstr "Cilj"
+
+#: server/dialogs/DatasetEditorDialog.qml:417
+msgctxt "DatasetEditorDialog|"
+msgid "Difficulty"
+msgstr "Težina"
+
+#: server/dialogs/DatasetEditorDialog.qml:515
+msgctxt "DatasetEditorDialog|"
+msgid "Instructions"
+msgstr "Upute"
+
+#: server/dialogs/DatasetEditorDialog.qml:521
+msgctxt "DatasetEditorDialog|"
+msgid "No specific instructions for this editor."
+msgstr "Nema posebnih uputa za ovaj uređivač."
+
+#: server/dialogs/ErrorDialog.qml:46
+msgctxt "ErrorDialog|"
+msgid "Information"
+msgstr "Informacija"
+
+#: server/dialogs/ExportPupilsDialog.qml:79
+msgctxt "ExportPupilsDialog|"
+msgid "Export pupils to CSV file"
+msgstr "Izvoz učenika u CSV datoteku"
+
+#: server/dialogs/ExportPupilsDialog.qml:121
+msgctxt "ExportPupilsDialog|"
+msgid "Save file"
+msgstr "Spremi datoteku"
+
+#: server/dialogs/ExportPupilsDialog.qml:131
+msgctxt "ExportPupilsDialog|"
+msgid "Pupils"
+msgstr "Učenici"
+
+#: server/dialogs/GroupDialog.qml:114
+msgctxt "GroupDialog|"
+msgid "Name"
+msgstr "Ime"
+
+#: server/dialogs/GroupDialog.qml:128
+msgctxt "GroupDialog|"
+msgid "Description"
+msgstr "Opis"
+
+#: server/dialogs/ImportPupilsDialog.qml:70
+msgctxt "ImportPupilsDialog|"
+msgid "Import pupils from CSV file"
+msgstr "Uvoz učenika iz CSV datoteke"
+
+#: server/dialogs/ImportPupilsDialog.qml:88
+msgctxt "ImportPupilsDialog|"
+msgid ""
+"Format: name;groups;password\n"
+"Example:\n"
+"Patrick Dummy;group 1;1234\n"
+"Patricia Brown;group 1,group 2;4321\n"
+msgstr ""
+"Format: name;groups;password\n"
+"Primjer\n"
+"Patrick Dummy;group 1;1234\n"
+"Patricia Brown;group 1,group 2;4321\n"
+
+#: server/dialogs/ImportPupilsDialog.qml:94
+msgctxt "ImportPupilsDialog|"
+msgid "Add CSV file"
+msgstr "Dodaj CSV datoteku"
+
+#: server/dialogs/ImportPupilsDialog.qml:141
+msgctxt "ImportPupilsDialog|"
+msgid "Import pupils"
+msgstr "Uvoz učenika"
+
+#: server/dialogs/PupilDialog.qml:59
+msgctxt "PupilDialog|"
+msgid "Pupil's name is empty"
+msgstr "Ime učenika je prazno"
+
+#: server/dialogs/PupilDialog.qml:153
+msgctxt "PupilDialog|"
+msgid "Pupil's name"
+msgstr "Ime učenika"
+
+#: server/dialogs/PupilDialog.qml:166
+msgctxt "PupilDialog|"
+msgid "Password"
+msgstr "Lozinka"
+
+#: server/dialogs/PupilDialog.qml:217
+msgctxt "PupilDialog|"
+msgid "Password images:"
+msgstr "Slike lozinke:"
+
+#: server/dialogs/PupilDialog.qml:252
+msgctxt "PupilDialog|"
+msgid "Groups"
+msgstr "Grupe"
+
+#: server/dialogs/PupilsToGroupsDialog.qml:87
+msgctxt "PupilsToGroupsDialog|"
+msgid "Select the groups to add these pupils to:"
+msgstr "Odaberite grupe u koje želite dodati ove učenike:"
+
+#: server/dialogs/PupilsToGroupsDialog.qml:88
+msgctxt "PupilsToGroupsDialog|"
+msgid "Select the groups from which to remove these pupils:"
+msgstr "Odaberite grupe iz kojih želite ukloniti ove učenike:"
+
+#: server/dialogs/RemoveDatasetDialog.qml:70
+msgctxt "RemoveDatasetDialog|"
+msgid ""
+"Are you sure you want to delete the following dataset from the database?"
+msgstr ""
+"Jeste li sigurni da želite izbrisati sljedeći skup podataka iz baze podataka?"
+
+#: server/dialogs/RemovePupilsDialog.qml:76
+msgctxt "RemovePupilsDialog|"
+msgid ""
+"Are you sure you want to remove the following pupils from the database ?"
+msgstr "Jeste li sigurni da želite ukloniti sljedeće učenike iz baze podataka?"
+
+#: server/dialogs/SendDatasetDialog.qml:93
+msgctxt "SendDatasetDialog|"
+msgid "Do you want to send the dataset to selected pupils?"
+msgstr "Želite li poslati skup podataka odabranim učenicima?"
+
+#: server/dialogs/SendDatasetDialog.qml:94
+msgctxt "SendDatasetDialog|"
+msgid "Are you sure you want to remove the dataset from selected pupils?"
+msgstr ""
+"Jeste li sigurni da želite ukloniti skup podataka od odabranih učenika?"
+
+#: server/dialogs/SendDatasetDialog.qml:95
+msgctxt "SendDatasetDialog|"
+msgid ""
+"Are you sure you want to remove all the existing datasets from selected "
+"pupils?"
+msgstr ""
+"Jeste li sigurni da želite ukloniti sve postojeće skupove podataka od "
+"odabranih učenika?"
+
+#: server/dialogs/SendDatasetDialog.qml:129
+msgctxt "SendDatasetDialog|"
+msgid "Pupils"
+msgstr "Učenici"
+
+#: server/dialogs/SqlLineDialog.qml:19
+msgctxt "SqlLineDialog|"
+msgid "Line details"
+msgstr "Detaljni prikaz"
+
+#: server/dialogs/SqlLineDialog.qml:193
+msgctxt "SqlLineDialog|"
+msgid "Close"
+msgstr "Zatvori"
+
+#: server/Main.qml:48
+msgctxt "Main|"
+msgid "GCompris Teachers Tool"
+msgstr "GCompris alat za učitelje"
+
+#: server/panels/NavigationPanel.qml:70
+msgctxt "NavigationPanel|"
+msgid "Login"
+msgstr "Prijava"
+
+#: server/panels/NavigationPanel.qml:78
+msgctxt "NavigationPanel|"
+msgid "Pupils and Groups"
+msgstr "Učenici i grupe"
+
+#: server/panels/NavigationPanel.qml:86
+msgctxt "NavigationPanel|"
+msgid "Connect devices"
+msgstr "Povezivanje uređaja"
+
+#: server/panels/NavigationPanel.qml:94
+msgctxt "NavigationPanel|"
+msgid "Activities"
+msgstr "Aktivnosti"
+
+#: server/panels/NavigationPanel.qml:102
+msgctxt "NavigationPanel|"
+msgid "Datasets"
+msgstr "Skupovi podataka"
+
+#: server/panels/NavigationPanel.qml:110
+msgctxt "NavigationPanel|"
+msgid "Charts"
+msgstr "Grafikoni"
+
+#: server/panels/NavigationPanel.qml:118
+msgctxt "NavigationPanel|"
+msgid "Settings"
+msgstr "Postavke"
+
+#: server/panels/SelectorPanel.qml:50
+msgctxt "SelectorPanel|"
+msgid "Groups"
+msgstr "Grupe"
+
+#: server/panels/SelectorPanel.qml:69
+msgctxt "SelectorPanel|"
+msgid "Pupils"
+msgstr "Učenici"
+
+#: server/panels/SelectorPanel.qml:85
+msgctxt "SelectorPanel|"
+msgid "Activities"
+msgstr "Aktivnosti"
+
+#: server/singletons/Master.qml:40
+msgctxt "Master|"
+msgid "User ID"
+msgstr "Korisnički ID"
+
+#: server/singletons/Master.qml:41
+msgctxt "Master|"
+msgid "Name"
+msgstr "Ime"
+
+#: server/singletons/Master.qml:42
+msgctxt "Master|"
+msgid "Names"
+msgstr "Imena"
+
+#: server/singletons/Master.qml:43
+msgctxt "Master|"
+msgid "Password"
+msgstr "Lozinka"
+
+#: server/singletons/Master.qml:44
+msgctxt "Master|"
+msgid "Users IDs"
+msgstr "ID korisnika"
+
+#: server/singletons/Master.qml:45
+msgctxt "Master|"
+msgid "Activity Id"
+msgstr "ID aktivnosti"
+
+#: server/singletons/Master.qml:46
+msgctxt "Master|"
+msgid "Activity"
+msgstr "Aktivnost"
+
+#: server/singletons/Master.qml:47
+msgctxt "Master|"
+msgid "Group"
+msgstr "Grupa"
+
+#: server/singletons/Master.qml:48
+msgctxt "Master|"
+msgid "Description"
+msgstr "Opis"
+
+#: server/singletons/Master.qml:49
+msgctxt "Master|"
+msgid "Groups"
+msgstr "Grupe"
+
+#: server/singletons/Master.qml:50
+msgctxt "Master|"
+msgid "Groups IDs"
+msgstr "ID grupa"
+
+#: server/singletons/Master.qml:51 server/singletons/Master.qml:55
+msgctxt "Master|"
+msgid "Date"
+msgstr "Datum"
+
+#: server/singletons/Master.qml:52 server/singletons/Master.qml:57
+msgctxt "Master|"
+msgid "Success"
+msgstr "Uspješno"
+
+#: server/singletons/Master.qml:53
+msgctxt "Master|"
+msgid "Duration"
+msgstr "Trajanje"
+
+#: server/singletons/Master.qml:54
+msgctxt "Master|"
+msgid "Data"
+msgstr "Podaci"
+
+#: server/singletons/Master.qml:56
+msgctxt "Master|"
+msgid "Count"
+msgstr "Brojač"
+
+#: server/singletons/Master.qml:58
+msgctxt "Master|"
+msgid "Failed"
+msgstr "Neuspjeh"
+
+#: server/singletons/Master.qml:59
+msgctxt "Master|"
+msgid "Success ratio"
+msgstr "Omjer uspjeha"
+
+#: server/views/ChartsView.qml:136
+msgctxt "ChartsView|"
+msgid "Activities"
+msgstr "Aktivnosti"
+
+#: server/views/ChartsView.qml:143
+msgctxt "ChartsView|"
+msgid "Pupils"
+msgstr "Učenici"
+
+#: server/views/datas/AllData.qml:69
+msgctxt "AllData|"
+msgid "Available requests"
+msgstr "Dostupni zahtjevi"
+
+#: server/views/datas/AllData.qml:77
+msgctxt "AllData|"
+msgid "All users activities"
+msgstr "Sve aktivnosti korisnika"
+
+#: server/views/datas/AllData.qml:77
+msgctxt "AllData|"
+msgid "Pupils activities"
+msgstr "Aktivnosti učenika"
+
+#: server/views/datas/AllData.qml:77
+msgctxt "AllData|"
+msgid "All groups"
+msgstr "Sve grupe"
+
+#: server/views/datas/AllData.qml:77
+msgctxt "AllData|"
+msgid "Failed activities"
+msgstr "Neuspješne aktivnosti"
+
+#: server/views/datas/AllData.qml:78
+msgctxt "AllData|"
+msgid "User's groups"
+msgstr "Grupe korisnika"
+
+#: server/views/datas/AllData.qml:78
+msgctxt "AllData|"
+msgid "Group's users"
+msgstr "Korisnici grupe"
+
+#: server/views/datas/AllData.qml:78
+msgctxt "AllData|"
+msgid "Daily activities"
+msgstr "Dnevne aktivnosti"
+
+#: server/views/datas/AllData.qml:78
+msgctxt "AllData|"
+msgid "Daily ratios"
+msgstr "Dnevni omjeri"
+
+#. Number of lines
+#: server/views/datas/AllData.qml:90
+#, qt-format
+msgctxt "AllData|"
+msgid "%1 lines"
+msgstr "%1 redaka"
+
+#: server/views/datas/DuplicateData.qml:175
+msgctxt "DuplicateData|"
+msgid "Commands"
+msgstr "Naredbe"
+
+#: server/views/datas/DuplicateData.qml:188
+msgctxt "DuplicateData|"
+msgid "Random date"
+msgstr "Nasumični datum"
+
+#: server/views/datas/DuplicateData.qml:195
+msgctxt "DuplicateData|"
+msgid "Duplicate"
+msgstr "Dupliciraj"
+
+#: server/views/datas/DuplicateData.qml:199
+msgctxt "DuplicateData|"
+msgid "You are about to duplicate datas"
+msgstr "Spremate se duplicirati podatke"
+
+#: server/views/datas/DuplicateData.qml:199
+#: server/views/datas/DuplicateData.qml:212
+msgctxt "DuplicateData|"
+msgid "No action now"
+msgstr "Nema akcije sada"
+
+#: server/views/datas/DuplicateData.qml:208
+msgctxt "DuplicateData|"
+msgid "Delete"
+msgstr "Izbriši"
+
+#: server/views/datas/DuplicateData.qml:212
+msgctxt "DuplicateData|"
+msgid "You are about to delete datas"
+msgstr "Spremate se izbrisati podatke"
+
+#: server/views/datas/DuplicateData.qml:230
+msgctxt "DuplicateData|"
+msgid "Copy to"
+msgstr "Kopiraj u"
+
+#: server/views/DatasetsView.qml:44
+msgctxt "DatasetsView|"
+msgid "Activities"
+msgstr "Aktivnosti"
+
+#: server/views/DatasetsView.qml:63
+msgctxt "DatasetsView|"
+msgid "Datasets"
+msgstr "Skupovi podataka"
+
+#: server/views/DatasetsView.qml:95
+msgctxt "DatasetsView|"
+msgid "Datasets management"
+msgstr "Upravljanje skupovima podataka"
+
+#: server/views/DatasetsView.qml:113
+msgctxt "DatasetsView|"
+msgid "Create dataset"
+msgstr "Izradi skup podataka"
+
+#: server/views/DatasetsView.qml:122
+msgctxt "DatasetsView|"
+msgid "Update dataset"
+msgstr "Ažuriranje skupa podataka"
+
+#: server/views/DatasetsView.qml:131
+msgctxt "DatasetsView|"
+msgid "Send dataset to clients"
+msgstr "Pošalji skup podataka klijentima"
+
+#: server/views/DatasetsView.qml:150
+msgctxt "DatasetsView|"
+msgid "Remove dataset from clients"
+msgstr "Uklonite klijentima skup podataka"
+
+#: server/views/DatasetsView.qml:175
+msgctxt "DatasetsView|"
+msgid "Remove all datasets from clients"
+msgstr "Uklonite klijentima sve skupove podataka"
+
+#: server/views/DatasetsView.qml:185
+msgctxt "DatasetsView|"
+msgid "Delete dataset"
+msgstr "Izbriši skup podataka"
+
+#: server/views/DevelopmentView.qml:43
+msgctxt "DevelopmentView|"
+msgid "Edit data"
+msgstr "Uredi podatke"
+
+#: server/views/DevelopmentView.qml:47
+msgctxt "DevelopmentView|"
+msgid "All requests"
+msgstr "Svi zahtjevi"
+
+#: server/views/DevicesView.qml:52
+msgctxt "DevicesView|"
+msgid "Not connected"
+msgstr "Nije povezan"
+
+#: server/views/DevicesView.qml:54
+msgctxt "DevicesView|"
+msgid "Bad password input"
+msgstr "Unos pogrešne lozinke"
+
+#: server/views/DevicesView.qml:56
+msgctxt "DevicesView|"
+msgid "Logged"
+msgstr "Prijavljen"
+
+#: server/views/DevicesView.qml:58
+msgctxt "DevicesView|"
+msgid "Connection lost"
+msgstr "Veza je prekinuta"
+
+#: server/views/DevicesView.qml:60
+msgctxt "DevicesView|"
+msgid "Disconnected"
+msgstr "Isključeno"
+
+#: server/views/DevicesView.qml:62
+msgctxt "DevicesView|"
+msgid "Unknown connection status"
+msgstr "Nepoznat status veze"
+
+#: server/views/DevicesView.qml:84
+msgctxt "DevicesView|"
+msgid "Groups"
+msgstr "Grupe"
+
+#: server/views/DevicesView.qml:101
+msgctxt "DevicesView|"
+msgid "Pupils"
+msgstr "Učenici"
+
+#: server/views/DevicesView.qml:135
+msgctxt "DevicesView|"
+msgid "Network"
+msgstr "Mreža"
+
+#: server/views/DevicesView.qml:158
+msgctxt "DevicesView|"
+msgid "Connect devices"
+msgstr "Povezivanje uređaja"
+
+#: server/views/DevicesView.qml:171
+msgctxt "DevicesView|"
+msgid "Send login list"
+msgstr "Pošalji popis za prijavu"
+
+#: server/views/DevicesView.qml:195
+msgctxt "DevicesView|"
+msgid "Disconnect selected pupils"
+msgstr "Isključite odabrane učenike"
+
+#: server/views/DevicesView.qml:213
+msgctxt "DevicesView|"
+msgid "Disconnect everybody"
+msgstr "Isključite sve"
+
+#: server/views/DevicesView.qml:229
+msgctxt "DevicesView|"
+msgid "Server ID:"
+msgstr "ID poslužitelja:"
+
+#: server/views/DevicesView.qml:236
+msgctxt "DevicesView|"
+msgid "Teacher port:"
+msgstr "Učiteljski priključak:"
+
+#: server/views/DevicesView.qml:243
+msgctxt "DevicesView|"
+msgid "Connected:"
+msgstr "Povezano:"
+
+#: server/views/DevicesView.qml:250
+msgctxt "DevicesView|"
+msgid "Logged:"
+msgstr "Prijavljeno:"
+
+#: server/views/DevicesView.qml:257
+msgctxt "DevicesView|"
+msgid "Data received:"
+msgstr "Primljeni podaci:"
+
+#: server/views/DevicesView.qml:285
+msgctxt "DevicesView|"
+msgid "Network logs"
+msgstr "Mrežni zapisnici"
+
+#: server/views/DevicesView.qml:297
+msgctxt "DevicesView|"
+msgid "Clear logs"
+msgstr "Očisti zapise"
+
+#: server/views/DevicesView.qml:317
+#, qt-format
+msgctxt "DevicesView|"
+msgid "Server already running on port %1"
+msgstr "Poslužitelj već radi na portu %1"
+
+#: server/views/LoginView.qml:43
+msgctxt "LoginView|"
+msgid "Incorrect password"
+msgstr "Netočna lozinka"
+
+#: server/views/LoginView.qml:47
+msgctxt "LoginView|"
+msgid "GCompris-teachers is already running on this computer"
+msgstr "GCompris-teachers već je pokrenut na ovom računalu"
+
+#: server/views/LoginView.qml:48
+msgctxt "LoginView|"
+msgid "Only data browsing is permitted"
+msgstr "Dopušteno je samo pregledavanje podataka"
+
+#: server/views/LoginView.qml:89
+msgctxt "LoginView|"
+msgid "Teacher login"
+msgstr "Prijava učitelja"
+
+#: server/views/LoginView.qml:110
+msgctxt "LoginView|"
+msgid "Password"
+msgstr "Lozinka"
+
+#: server/views/LoginView.qml:128
+msgctxt "LoginView|"
+msgid "Login"
+msgstr "Prijava"
+
+#: server/views/LoginView.qml:137
+msgctxt "LoginView|"
+msgid "Create teacher database"
+msgstr "Izradi bazu podataka za učitelja"
+
+#: server/views/LoginView.qml:158
+msgctxt "LoginView|"
+msgid "Database file:"
+msgstr "Datoteka baze podataka:"
+
+#: server/views/ManagePupilsView.qml:34 server/views/ManagePupilsView.qml:149
+msgctxt "ManagePupilsView|"
+msgid "Add a group"
+msgstr "Dodaj grupu"
+
+#: server/views/ManagePupilsView.qml:44
+msgctxt "ManagePupilsView|"
+msgid "Are you sure you want to remove this group?"
+msgstr "Jeste li sigurni da želite ukloniti ovu grupu?"
+
+#: server/views/ManagePupilsView.qml:45
+msgctxt "ManagePupilsView|"
+msgid "Pupils will not be removed."
+msgstr "Učenici neće biti uklonjeni."
+
+#: server/views/ManagePupilsView.qml:52
+msgctxt "ManagePupilsView|"
+msgid "Edit group"
+msgstr "Uredi grupu"
+
+#: server/views/ManagePupilsView.qml:68 server/views/ManagePupilsView.qml:207
+msgctxt "ManagePupilsView|"
+msgid "Add a pupil"
+msgstr "Dodaj učenika"
+
+#: server/views/ManagePupilsView.qml:74
+msgctxt "ManagePupilsView|"
+msgid "Edit pupil's name and groups"
+msgstr "Uredi imena učenika i grupa"
+
+#: server/views/ManagePupilsView.qml:122
+msgctxt "ManagePupilsView|"
+msgid "Groups"
+msgstr "Grupe"
+
+#: server/views/ManagePupilsView.qml:159
+msgctxt "ManagePupilsView|"
+msgid "Pupils and groups"
+msgstr "Učenici i grupe"
+
+#: server/views/ManagePupilsView.qml:188
+msgctxt "ManagePupilsView|"
+msgid "Pupils management"
+msgstr "Upravljanje učenicima"
+
+#: server/views/ManagePupilsView.qml:216
+msgctxt "ManagePupilsView|"
+msgid "Add to groups"
+msgstr "Dodaj u grupe"
+
+#: server/views/ManagePupilsView.qml:225
+msgctxt "ManagePupilsView|"
+msgid "Remove from groups"
+msgstr "Ukloni iz grupa"
+
+#: server/views/ManagePupilsView.qml:234
+msgctxt "ManagePupilsView|"
+msgid "Export pupils"
+msgstr "Izvoz učenika"
+
+#: server/views/ManagePupilsView.qml:242
+msgctxt "ManagePupilsView|"
+msgid "Import pupils"
+msgstr "Uvoz učenika"
+
+#: server/views/ManagePupilsView.qml:251
+msgctxt "ManagePupilsView|"
+msgid "Remove pupils"
+msgstr "Ukloni učenike"
+
+#: server/views/SettingsView.qml:65
+msgctxt "SettingsView|"
+msgid "Menu panel"
+msgstr "Izbornik"
+
+#: server/views/SettingsView.qml:66
+msgctxt "SettingsView|"
+msgid "Left"
+msgstr "Lijevo"
+
+#: server/views/SettingsView.qml:66
+msgctxt "SettingsView|"
+msgid "Right"
+msgstr "Desno"
+
+#: server/views/SettingsView.qml:77
+msgctxt "SettingsView|"
+msgid "Font size"
+msgstr "Veličina slova"
+
+#: server/views/SettingsView.qml:87
+msgctxt "SettingsView|"
+msgid "Theme"
+msgstr "Tema"
+
+#: server/views/SettingsView.qml:88
+msgctxt "SettingsView|"
+msgid "Dark"
+msgstr "Tamna"
+
+#: server/views/SettingsView.qml:88
+msgctxt "SettingsView|"
+msgid "Light"
+msgstr "Svijetla"
+
+#: server/views/SettingsView.qml:103
+msgctxt "SettingsView|"
+msgid "Language selector"
+msgstr "Odabir jezika"
+
+#: server/views/SettingsView.qml:149
+msgctxt "SettingsView|"
+msgid "Server ID"
+msgstr "ID poslužitelja"
+
+#: server/views/SettingsView.qml:171
+msgctxt "SettingsView|"
+msgid "Port"
+msgstr "Port"
+
+#. next line will display if the server is running or already running
+#: server/views/SettingsView.qml:189
+msgctxt "SettingsView|"
+msgid "Server is"
+msgstr "Poslužitelj"
+
+#: server/views/SettingsView.qml:190
+msgctxt "SettingsView|"
+msgid "Running"
+msgstr "je aktivan"
+
+#: server/views/SettingsView.qml:190
+#, qt-format
+msgctxt "SettingsView|"
+msgid "Already running on port %1"
+msgstr "je već pokrenut na portu %1"
+
+#: server/views/SettingsView.qml:198
+msgctxt "SettingsView|"
+msgid "Host name"
+msgstr "Naziv hosta"
+
+#: server/views/SettingsView.qml:205
+msgctxt "SettingsView|"
+msgid "Server IP"
+msgstr "IP adresa poslužitelja"
+
+#: server/views/SettingsView.qml:212
+msgctxt "SettingsView|"
+msgid "Broadcast IPs"
+msgstr "IP adresa za broadcast"
+
+#: server/views/SettingsView.qml:219
+msgctxt "SettingsView|"
+msgid "Netmask"
+msgstr "Mrežna maska"
+
+#: server/views/SettingsView.qml:224
+msgctxt "SettingsView|"
+msgid "MAC address"
+msgstr "MAC adresa"
+
+#: server/views/SettingsView.qml:231
+msgctxt "SettingsView|"
+msgid "GCompris version"
+msgstr "GCompris verzija"
+
+#: server/views/SettingsView.qml:238
+msgctxt "SettingsView|"
+msgid "Qt version"
+msgstr "Qt verzija"
+
+#: server/views/SettingsView.qml:251
+msgctxt "SettingsView|"
+msgid "Teacher login"
+msgstr "Prijava učitelja"
+
+#: server/views/SettingsView.qml:259
+msgctxt "SettingsView|"
+msgid "Database file"
+msgstr "Datoteka baze podataka"
+
+#: server/views/SettingsView.qml:266
+msgctxt "SettingsView|"
+msgid "Encrypted database"
+msgstr "Šifrirana baza podataka"
+
+#: server/views/SettingsView.qml:267
+msgctxt "SettingsView|"
+msgid "Yes"
+msgstr "Da"
+
+#: server/views/SettingsView.qml:267
+msgctxt "SettingsView|"
+msgid "No"
+msgstr "Ne"
+
+#: server/views/SettingsView.qml:272
+msgctxt "SettingsView|"
+msgid "Pupils"
+msgstr "Učenici"
+
+#: server/views/SettingsView.qml:278
+msgctxt "SettingsView|"
+msgid "Groups"
+msgstr "Groupe"
+
+#: server/views/SettingsView.qml:291
+msgctxt "SettingsView|"
+msgid "Pupils connected"
+msgstr "Povezano učenika"
+
+#: server/views/SettingsView.qml:298
+msgctxt "SettingsView|"
+msgid "Pupils logged"
+msgstr "Prijavljeno učenika"
+
+#: server/views/SettingsView.qml:305
+msgctxt "SettingsView|"
+msgid "Activities data received"
+msgstr "Primljeni podaci o aktivnostima"
+
+#~ msgctxt "NavigationPanel|"
+#~ msgid "Development (WIP)"
+#~ msgstr "Razvoj (u tijeku)"
+
+#~ msgctxt "SqlLineDialog|"
+#~ msgid "<"
+#~ msgstr "<"
+
+#~ msgctxt "SqlLineDialog|"
+#~ msgid ">"
+#~ msgstr ">"
+
+#~ msgctxt "LoginView|"
+#~ msgid "GCompris Teachers Tool"
+#~ msgstr "GCompris alat za učitelje"

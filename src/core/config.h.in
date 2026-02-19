@@ -1,0 +1,40 @@
+/* GCompris - config.h
+ *
+ * SPDX-FileCopyrightText: 2015 Bruno Coudoin <bruno.coudoin@gcompris.net>
+ *
+ * Authors:
+ *   Bruno Coudoin <bruno.coudoin@gcompris.net>
+ *
+ *   SPDX-License-Identifier: GPL-3.0-or-later
+ */
+#ifndef GCOMPRIS_CONFIG_H
+#define GCOMPRIS_CONFIG_H
+
+#include <qglobal.h>
+/* Version number of package (string) */
+#define VERSION "@GCOMPRIS_VERSION@"
+/* Version number of package (integer) */
+#define VERSION_CODE @GCOMPRIS_VERSION_CODE@
+
+/* Folder where rccs and translations are installed */
+#ifdef  Q_OS_MACOS
+#define GCOMPRIS_DATA_FOLDER "../Resources"
+#elif  Q_OS_IOS
+#define GCOMPRIS_DATA_FOLDER "."
+#else
+#define GCOMPRIS_DATA_FOLDER "../@_data_dest_dir@"
+#endif
+/* GCompris for android, gcompris-qt for others */
+#define GCOMPRIS_APPLICATION_NAME "@GCOMPRIS_EXECUTABLE_NAME@"
+/* Compressed audio format */
+#define COMPRESSED_AUDIO "@COMPRESSED_AUDIO@"
+/* Download Allowed */
+#define DOWNLOAD_ALLOWED "@WITH_DOWNLOAD@"
+/* Date at which GCompris has been built */
+#define BUILD_DATE "@BUILD_DATE@"
+
+/* Defines the renderer backend: Qt software renderer (requires Qt 5.8), openGL or default one */
+#define GRAPHICAL_RENDERER "@GRAPHICAL_RENDERER@"
+
+#cmakedefine WITH_RCC
+#endif // GCOMPRIS_CONFIG_H

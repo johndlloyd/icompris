@@ -1,0 +1,4 @@
+A Gcompris egy minőségi oktató szoftvercsomag amely sokféle feladatot tartalmaz 2-10 éves gyermekek számára.
+Bár néhány tevékenység játék központú, ettől függetlenül oktató jellegű.
+Lentebb néhány tevékenység listáját találod melyek egy-egy ilyen kategóriában elérhetőek.
+Jelenleg a GCompris több mint 100 féle tevékenységet kínál és több is fejlesztés alatt áll. A Gcompris ingyenes szoftver, amely azt jelenti, kedvedre átalakíthatod, fejlesztheted, és a legfontosabb: megoszthatod bármely gyerekkel.

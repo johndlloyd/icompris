@@ -1,0 +1,2313 @@
+# SPDX-FileCopyrightText: 2025 Toms Trasuns <toms.trasuns@posteo.net>
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"PO-Revision-Date: 2025-12-28 16:24+0200\n"
+"Last-Translator: Toms Trasūns <toms.trasuns@posteo.net>\n"
+"Language-Team: Latvian <kde-i18n-doc@kde.org>\n"
+"Language: lv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Qt-Contexts: true\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : "
+"2);\n"
+"X-Generator: Lokalize 25.12.0\n"
+
+#: server/activities/adjacent_numbers/ActivityEditor.qml:13
+#: server/activities/binary_bulb/ActivityEditor.qml:12
+#: server/activities/fractions_create/ActivityEditor.qml:12
+#: server/activities/learn_additions/ActivityEditor.qml:14
+#: server/activities/learn_digits/ActivityEditor.qml:13
+#: server/activities/learn_subtractions/ActivityEditor.qml:14
+#: server/activities/multiple_choice_questions/ActivityEditor.qml:13
+msgctxt "ActivityEditor|"
+msgid "Rules to create a valid dataset:"
+msgstr "Noteikumi derīgas datu kopas izveidošanai:"
+
+#: server/activities/adjacent_numbers/ActivityEditor.qml:15
+msgctxt "ActivityEditor|"
+msgid ""
+"If \"Random start number\" is selected, the number of sublevels will be the "
+"minimum between the \"Sublevels\" value and the result of: (\"Maximum start "
+"number\" - \"Minimum start number\") / \"Step between numbers\" + 1."
+msgstr ""
+"Ir ir atlasīts „Nejaušs sākuma skaitlis“, apakšlīmeņu skaits būs minimālais "
+"skaits starp „Apakšlīmeņu“ vērtību un izteiksmes vērtību: („Maksimālais "
+"sākuma skaitlis“ − „Minimālais sākuma skaitlis“) / „Solis starp skaitļiem“ "
+"+1."
+
+#: server/activities/adjacent_numbers/ActivityEditor.qml:17
+msgctxt "ActivityEditor|"
+msgid ""
+"If \"Random start number\" is not selected, the \"Start numbers\" list must "
+"contain only numbers, and each of them will be used as start number for a "
+"sublevel."
+msgstr ""
+"Ja „Nejaušs sākuma skaitlis“ nav atlasīts, „Sākuma skaitļu“ saraksts drīkst "
+"saturēt tikai skaitļus, bet katrs no tiem tiks izmantots kā apakšlīmeņa "
+"sākuma skaitlis."
+
+#: server/activities/adjacent_numbers/ActivityEditor.qml:19
+msgctxt "ActivityEditor|"
+msgid ""
+"\"Position of missing numbers\" must contain a list of numbers corresponding "
+"to the index of numbers to find. Index numbers start from 0 (the first "
+"number of the sequence), and must not be greater than \"Sequence length\" - "
+"1. Also, the length of the list can not be greater than \"Sequence length\" "
+"- 2, to always have at least 2 visible numbers in the sequence."
+msgstr ""
+"„Trūkstošos skaitļu novietojums“ drīkst saturēt tikai skaitļu sarakstu, kas "
+"atbilst atrodamo skaitļu indeksam. Indeksa skaitļi sākas no 0 (secības "
+"pirmais skaitlis) un nevar pārsniegt „Secības garums“ − 1. Tāpat arī "
+"saraksta garums nevar pārsniegt „Secības garums“ − 2, lai secība vienmēr "
+"saturētu vismaz divus redzamus skaitļus."
+
+#: server/activities/adjacent_numbers/AdjacentNumbersDataDisplay.qml:36
+msgctxt "AdjacentNumbersDataDisplay|"
+msgid "Tiles:"
+msgstr "Nosaukumi:"
+
+#: server/activities/adjacent_numbers/AdjacentNumbersDataDisplay.qml:60
+msgctxt "AdjacentNumbersDataDisplay|"
+msgid "Answer:"
+msgstr "Atbilde:"
+
+#: server/activities/adjacent_numbers/AdjacentNumbersEditor.qml:28
+msgctxt "AdjacentNumbersEditor|"
+msgid "Random start numbers"
+msgstr "Nejauši sākuma skaitļi"
+
+#: server/activities/adjacent_numbers/AdjacentNumbersEditor.qml:29
+msgctxt "AdjacentNumbersEditor|"
+msgid "Sublevels"
+msgstr "Apakšlīmeņi"
+
+#: server/activities/adjacent_numbers/AdjacentNumbersEditor.qml:30
+msgctxt "AdjacentNumbersEditor|"
+msgid "Start numbers"
+msgstr "Sākuma skaitļi"
+
+#: server/activities/adjacent_numbers/AdjacentNumbersEditor.qml:31
+msgctxt "AdjacentNumbersEditor|"
+msgid "Minimum start number"
+msgstr "Minimālais sākuma skaitlis"
+
+#: server/activities/adjacent_numbers/AdjacentNumbersEditor.qml:32
+msgctxt "AdjacentNumbersEditor|"
+msgid "Maximum start number"
+msgstr "Maksimālais sākuma skaitlis"
+
+#: server/activities/adjacent_numbers/AdjacentNumbersEditor.qml:33
+msgctxt "AdjacentNumbersEditor|"
+msgid "Step between numbers"
+msgstr "Soļi starp skaitļiem"
+
+#: server/activities/adjacent_numbers/AdjacentNumbersEditor.qml:34
+msgctxt "AdjacentNumbersEditor|"
+msgid "Sequence length"
+msgstr "Secības garums"
+
+#: server/activities/adjacent_numbers/AdjacentNumbersEditor.qml:35
+msgctxt "AdjacentNumbersEditor|"
+msgid "Position of missing numbers"
+msgstr "Trūkstošo skaitļu novietojums"
+
+#: server/activities/adjacent_numbers/AdjacentNumbersEditor.qml:36
+msgctxt "AdjacentNumbersEditor|"
+msgid "Proposed numbers"
+msgstr "Piedāvātie skaitļi"
+
+#: server/activities/adjacent_numbers/AdjacentNumbersEditor.qml:98
+msgctxt "AdjacentNumbersEditor|"
+msgid "Dataset is empty."
+msgstr "Datu kopa ir tukša."
+
+#: server/activities/adjacent_numbers/AdjacentNumbersEditor.qml:100
+msgctxt "AdjacentNumbersEditor|"
+msgid "\"Start numbers\" must contain only numbers, and not be empty."
+msgstr "Sākuma skaitļiem ir jāsatur tikai skaitļus un tie nevar būt tukši."
+
+#: server/activities/adjacent_numbers/AdjacentNumbersEditor.qml:102
+msgctxt "AdjacentNumbersEditor|"
+msgid ""
+"\"Position of missing numbers\" must contain only numbers, and not be empty."
+msgstr ""
+"Trūkstošo skaitļu novietojumam ir jāsatur tikai skaitļi un tie nevar būt "
+"tukši."
+
+#: server/activities/adjacent_numbers/AdjacentNumbersEditor.qml:104
+msgctxt "AdjacentNumbersEditor|"
+msgid "\"Position of missing numbers\" contains too much numbers."
+msgstr "Trūkstošo skaitļu novietojums satur pārāk daudz skaitļu."
+
+#: server/activities/adjacent_numbers/AdjacentNumbersEditor.qml:106
+msgctxt "AdjacentNumbersEditor|"
+msgid "\"Position of missing numbers\" contains invalid numbers."
+msgstr "Trūkstošo skaitļu novietojums satur nederīgus skaitļus."
+
+#: server/activities/algebra_by/AlgebraDataDisplay.qml:19
+msgctxt "AlgebraDataDisplay|"
+msgid "timeout"
+msgstr "noildze"
+
+#. %1 is an operation, %2 the result. Example: "2 x 5 = 10"
+#: server/activities/algebra_by/AlgebraDataDisplay.qml:22
+#, qt-format
+msgctxt "AlgebraDataDisplay|"
+msgid "%1 = %2"
+msgstr "%1 = %2"
+
+#. %1 is the answer. Example: "Answer: 10"
+#: server/activities/algebra_by/AlgebraDataDisplay.qml:24
+#, qt-format
+msgctxt "AlgebraDataDisplay|"
+msgid "Answer: %1"
+msgstr "Atbilde: %1"
+
+#: server/activities/algebra_by/AlgebraEditor.qml:25
+msgctxt "AlgebraEditor|"
+msgid "Rules to create a valid dataset:"
+msgstr "Noteikumi derīgas datu kopas izveidošanai:"
+
+#: server/activities/algebra_by/AlgebraEditor.qml:27
+msgctxt "AlgebraEditor|"
+msgid ""
+"When \"Random operands\" is selected, if \"Result value limit\" is more than "
+"0 it defines the maximum allowed for the result of each operation. It must "
+"be large enough to generate enough questions for the given number of "
+"sublevels using the minimum and maximum operand values."
+msgstr ""
+"Ja ir atlasīti „Nejauši operandi“, bet „Rezultātu vērtības robeža“ ir "
+"lielāka par nulli, tā nosaka katras operācijas rezultāta maksimālo atļauto "
+"vērtību. Tai ir jābūt pietiekami lielai, lai ģenerētu pietiekami daudz "
+"jautājumu dotā skaitļa apakšlīmeņiem, izmantojot minimālās un maksimālās "
+"operandu vērtības."
+
+#: server/activities/algebra_by/AlgebraEditor.qml:29
+msgctxt "AlgebraEditor|"
+msgid ""
+"If \"Random operands\" is not selected, the sublevel list on the right side "
+"must not be empty."
+msgstr ""
+"Ja ir atlasīta opcijas „Nejauši operandi“, labajā pusē esošajam apakšlīmeņu "
+"sarakstam ir jābūt tukšam."
+
+#: server/activities/algebra_by/AlgebraEditor.qml:33
+msgctxt "AlgebraEditor|"
+msgid "Random operands"
+msgstr "Nejauši operandi"
+
+#: server/activities/algebra_by/AlgebraEditor.qml:34
+#: server/activities/algebra_by/AlgebraEditor.qml:39
+msgctxt "AlgebraEditor|"
+msgid "Sublevels"
+msgstr "Apakšlīmeņi"
+
+#: server/activities/algebra_by/AlgebraEditor.qml:35
+msgctxt "AlgebraEditor|"
+msgid "Minimum operand value"
+msgstr "Minimālā operanda vērtība"
+
+#: server/activities/algebra_by/AlgebraEditor.qml:36
+msgctxt "AlgebraEditor|"
+msgid "Maximum operand value"
+msgstr "Maksimālā operanda vērtība"
+
+#: server/activities/algebra_by/AlgebraEditor.qml:37
+msgctxt "AlgebraEditor|"
+msgid "Result value limit"
+msgstr "Rezultāt vērtības limits"
+
+#: server/activities/algebra_by/AlgebraEditor.qml:38
+msgctxt "AlgebraEditor|"
+msgid "Shuffle"
+msgstr "Jaukt secību"
+
+#: server/activities/algebra_by/AlgebraEditor.qml:44
+msgctxt "AlgebraEditor|"
+msgid "First operand"
+msgstr "Pirmais operands"
+
+#: server/activities/algebra_by/AlgebraEditor.qml:45
+msgctxt "AlgebraEditor|"
+msgid "Second operand"
+msgstr "Otrais operands"
+
+#: server/activities/algebra_div/ActivityEditor.qml:16
+msgctxt "ActivityEditor|"
+msgid ""
+"When \"Random operands\" is selected, the right side operand is always "
+"between minimum and maximum values. The left side operand is generated by "
+"multiplying the right side operand by another number between minimum and "
+"maximum values."
+msgstr ""
+"Ja ir atlasīta opcijas „Nejauši operandi“, labajā pusē esošajam operandam "
+"vienmēr ir jābūt starp minimālo un maksimālo vērtību. Kreisās puses operands "
+"tiek ģenerēts, pareizinot labās puses operandu ar citu skaitli star minimālo "
+"un maksimālo vērtību."
+
+#: server/activities/algebra_div/ActivityEditor.qml:18
+msgctxt "ActivityEditor|"
+msgid ""
+"If \"Random operands\" is not selected, for each sublevel you must make sure "
+"that the \"First operand\" is a multiple of the \"Second operand\"."
+msgstr ""
+"Ja opcija „Nejaušs operands“ nav atlasīta, jums jāpārliecinās, ka katram "
+"apakšlīmenim „Pirmais operands“ ir „Otrā operanda“ dalāmais."
+
+#: server/activities/algebra_div/ActivityEditor.qml:23
+msgctxt "ActivityEditor|"
+msgid "Random operands"
+msgstr "Nejauši operandi"
+
+#: server/activities/algebra_div/ActivityEditor.qml:24
+#: server/activities/algebra_div/ActivityEditor.qml:29
+msgctxt "ActivityEditor|"
+msgid "Sublevels"
+msgstr "Apakšlīmeņi"
+
+#: server/activities/algebra_div/ActivityEditor.qml:25
+msgctxt "ActivityEditor|"
+msgid "Minimum operand value"
+msgstr "Minimālā operanda vērtība"
+
+#: server/activities/algebra_div/ActivityEditor.qml:26
+msgctxt "ActivityEditor|"
+msgid "Maximum operand value"
+msgstr "Maksimālā operanda vērtība"
+
+#: server/activities/algebra_div/ActivityEditor.qml:27
+msgctxt "ActivityEditor|"
+msgid "Result value limit"
+msgstr "Rezultāt vērtības limits"
+
+#: server/activities/algebra_div/ActivityEditor.qml:28
+msgctxt "ActivityEditor|"
+msgid "Shuffle"
+msgstr "Jaukt secību"
+
+#: server/activities/algebra_div/ActivityEditor.qml:34
+msgctxt "ActivityEditor|"
+msgid "First operand"
+msgstr "Pirmais operands"
+
+#: server/activities/algebra_div/ActivityEditor.qml:35
+msgctxt "ActivityEditor|"
+msgid "Second operand"
+msgstr "Otrais operands"
+
+#: server/activities/algebra_minus/ActivityEditor.qml:16
+msgctxt "ActivityEditor|"
+msgid ""
+"If \"Random operands\" is not selected, for each sublevel you must make sure "
+"that the \"First operand\" is greater than the \"Second operand\"."
+msgstr ""
+"Ja opcija „Nejaušs operands“ nav atlasīta, jums jāpārliecinās, ka katrā "
+"apakšlīmenī „Pirmais operands“ ir lielāks par „Otro operandu“."
+
+#: server/activities/binary_bulb/ActivityEditor.qml:14
+msgctxt "ActivityEditor|"
+msgid ""
+"If \"Random numbers\" is not selected, \"Numbers to find\" must contain a "
+"list of integer numbers. Each number must be between 0 and the maximum "
+"number which can be represented with the given \"Bulb count\"."
+msgstr ""
+"Ja opcija „Nejaušs skaitlis“ nav atlasīta, „Atrodamajiem skaitļiem“ ir "
+"jāsatur veselu skaitļu saraksts. Katram skaitlim ir jābūt starp 0 un "
+"maksimālo skaitli, ko iespējams reprezentēt ar doto „Spuldžu skaitu“."
+
+#: server/activities/binary_bulb/BinaryBulbDataDisplay.qml:28
+msgctxt "BinaryBulbDataDisplay|"
+msgid "Expected:"
+msgstr "Gaidīts:"
+
+#: server/activities/binary_bulb/BinaryBulbDataDisplay.qml:34
+msgctxt "BinaryBulbDataDisplay|"
+msgid "Answer:"
+msgstr "Atbilde:"
+
+#. %1 is the numerical value, %2 is the binary value. Example: "5 (101)"
+#: server/activities/binary_bulb/BinaryBulbDataDisplay.qml:46
+#: server/activities/binary_bulb/BinaryBulbDataDisplay.qml:55
+#, qt-format
+msgctxt "BinaryBulbDataDisplay|"
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#: server/activities/binary_bulb/BinaryBulbEditor.qml:28
+msgctxt "BinaryBulbEditor|"
+msgid "Random numbers"
+msgstr "Nejauši skaitļi"
+
+#: server/activities/binary_bulb/BinaryBulbEditor.qml:29
+msgctxt "BinaryBulbEditor|"
+msgid "Sublevels"
+msgstr "Apakšlīmeņi"
+
+#: server/activities/binary_bulb/BinaryBulbEditor.qml:30
+msgctxt "BinaryBulbEditor|"
+msgid "Numbers to find"
+msgstr "Atrodamie skaitļi"
+
+#: server/activities/binary_bulb/BinaryBulbEditor.qml:31
+msgctxt "BinaryBulbEditor|"
+msgid "Shuffle questions"
+msgstr "Jaukt jautājumu secību"
+
+#: server/activities/binary_bulb/BinaryBulbEditor.qml:32
+msgctxt "BinaryBulbEditor|"
+msgid "Bulb count"
+msgstr "Spuldžu skaits"
+
+#: server/activities/binary_bulb/BinaryBulbEditor.qml:33
+msgctxt "BinaryBulbEditor|"
+msgid "Display the current result"
+msgstr "Parādīt pašreizējo rezultātu"
+
+#: server/activities/binary_bulb/BinaryBulbEditor.qml:34
+msgctxt "BinaryBulbEditor|"
+msgid "Display the bulb values"
+msgstr "Parādīt spuldžu vērtības"
+
+#: server/activities/binary_bulb/BinaryBulbEditor.qml:87
+msgctxt "BinaryBulbEditor|"
+msgid "Dataset is empty."
+msgstr "Datu kopa ir tukša."
+
+#: server/activities/binary_bulb/BinaryBulbEditor.qml:101
+#, qt-format
+msgctxt "BinaryBulbEditor|"
+msgid "\"Numbers to find\" for level %1 must not be empty."
+msgstr "„Atrodamie skaitļi“ %1. līmenim nevar būt tukši."
+
+#: server/activities/binary_bulb/BinaryBulbEditor.qml:115
+#, qt-format
+msgctxt "BinaryBulbEditor|"
+msgid ""
+"These values are invalid for level %1: %2. The values must be integer "
+"numbers between 0 and %3."
+msgstr ""
+"%1. līmenim šīs vērtības ir nederīgas: %2. Vērtībām jābūt veseliem skaitļiem "
+"starp 0 un %3."
+
+#: server/activities/binary_bulb/BinaryBulbEditor.qml:119
+#, qt-format
+msgctxt "BinaryBulbEditor|"
+msgid "The following errors need to be fixed:<ul>%1</ul>"
+msgstr "Jānovērš šīs kļūdas:<ul>%1</ul>"
+
+#: server/activities/clockgame/ClockGameDataDisplay.qml:30
+msgctxt "ClockGameDataDisplay|"
+msgid "Expected:"
+msgstr "Gaidīts:"
+
+#: server/activities/clockgame/ClockGameDataDisplay.qml:36
+msgctxt "ClockGameDataDisplay|"
+msgid "Answer:"
+msgstr "Atbilde:"
+
+#: server/activities/clockgame/ClockgameEditor.qml:27
+msgctxt "ClockgameEditor|"
+msgid "Exercise count"
+msgstr "Vingrinājumu skaits"
+
+#: server/activities/clockgame/ClockgameEditor.qml:28
+msgctxt "ClockgameEditor|"
+msgid "Find minutes"
+msgstr "Atrodi minūtes"
+
+#: server/activities/clockgame/ClockgameEditor.qml:29
+msgctxt "ClockgameEditor|"
+msgid "Find seconds"
+msgstr "Atrodi sekundes"
+
+#: server/activities/clockgame/ClockgameEditor.qml:30
+msgctxt "ClockgameEditor|"
+msgid "Display hours numbers"
+msgstr "Parādi stundu skaitļus"
+
+#: server/activities/clockgame/ClockgameEditor.qml:31
+msgctxt "ClockgameEditor|"
+msgid "Display hours marks"
+msgstr "Parādi stundu atzīmes"
+
+#: server/activities/clockgame/ClockgameEditor.qml:32
+msgctxt "ClockgameEditor|"
+msgid "Grey/white background between each hour"
+msgstr "Pelēks/balts fons starp stundām"
+
+#: server/activities/clockgame/ClockgameEditor.qml:33
+msgctxt "ClockgameEditor|"
+msgid "Display minutes numbers"
+msgstr "Parādīt minūšu skaitļus"
+
+#: server/activities/clockgame/ClockgameEditor.qml:34
+msgctxt "ClockgameEditor|"
+msgid "Hide the Hint button in the bar (which gives the current time)"
+msgstr "Slēpt padomu pogu joslā (kas norāda pašreizējo laiku)"
+
+#: server/activities/clockgame/ClockgameEditor.qml:35
+msgctxt "ClockgameEditor|"
+msgid "Fixed hour"
+msgstr "Fiksēta stunda"
+
+#: server/activities/clockgame/ClockgameEditor.qml:36
+#: server/activities/clockgame/ClockgameEditor.qml:38
+#: server/activities/clockgame/ClockgameEditor.qml:40
+msgctxt "ClockgameEditor|"
+msgid "Value"
+msgstr "Vērtība"
+
+#: server/activities/clockgame/ClockgameEditor.qml:37
+msgctxt "ClockgameEditor|"
+msgid "Fixed minutes"
+msgstr "Fiksētas minūtes"
+
+#: server/activities/clockgame/ClockgameEditor.qml:39
+msgctxt "ClockgameEditor|"
+msgid "Fixed seconds"
+msgstr "Fiksētas sekundes"
+
+#: server/activities/comparator/ComparatorDataDisplay.qml:30
+msgctxt "ComparatorDataDisplay|"
+msgid "Result:"
+msgstr "Rezultāts:"
+
+#: server/activities/comparator/ComparatorEditor.qml:29
+msgctxt "ComparatorEditor|"
+msgid "Shuffle"
+msgstr "Jaukt secību"
+
+#: server/activities/comparator/ComparatorEditor.qml:30
+msgctxt "ComparatorEditor|"
+msgid "Questions"
+msgstr "Jautājumi"
+
+#: server/activities/comparator/ComparatorEditor.qml:36
+msgctxt "ComparatorEditor|"
+msgid "Left number"
+msgstr "Skaitlis pa kreisi"
+
+#: server/activities/comparator/ComparatorEditor.qml:37
+msgctxt "ComparatorEditor|"
+msgid "Right number"
+msgstr "Skaitlis pa labi"
+
+#: server/activities/comparator/ComparatorEditor.qml:109
+msgctxt "ComparatorEditor|"
+msgid "Dataset is empty."
+msgstr "Datu kopa ir tukša."
+
+#: server/activities/comparator/ComparatorEditor.qml:119
+#, qt-format
+msgctxt "ComparatorEditor|"
+msgid "Level %1 must not be empty."
+msgstr "%1. līmenis nedrīkst būt tukšs."
+
+#: server/activities/comparator/ComparatorEditor.qml:126
+#, qt-format
+msgctxt "ComparatorEditor|"
+msgid "\"Left number\" in Question %1 of Level %2 must contain a number."
+msgstr "%2. līmeņa %1. jautājumā „Skaitlis pa kreisi“ ir jāsatur skaitlis."
+
+#: server/activities/comparator/ComparatorEditor.qml:130
+#, qt-format
+msgctxt "ComparatorEditor|"
+msgid "\"Right number\" in Question %1 of Level %2 must contain a number."
+msgstr "%2. līmeņa %1. jautājumā „Skaitlis pa labi“ ir jāsatur skaitlis."
+
+#: server/activities/comparator/ComparatorEditor.qml:136
+#, qt-format
+msgctxt "ComparatorEditor|"
+msgid "The following errors need to be fixed:<ul>%1</ul>"
+msgstr "Jānovērš šīs kļūdas:<ul>%1</ul>"
+
+#: server/activities/DailyReport.qml:33
+msgctxt "DailyReport|"
+msgid "All groups"
+msgstr "Visas grupas"
+
+#. Group name first, then Date range, with a space between them. Example: "Group Name 01/07/2025-08/07/2025"
+#: server/activities/DailyReport.qml:129
+#, qt-format
+msgctxt "DailyReport|"
+msgid "%1 %2"
+msgstr "%1 %2"
+
+#: server/activities/DailyReport.qml:133
+msgctxt "DailyReport|"
+msgid "Calendar"
+msgstr "Kalendārs"
+
+#: server/activities/DailyReport.qml:184
+msgctxt "DailyReport|"
+msgid "Count"
+msgstr "Skaits"
+
+#: server/activities/DailyReport.qml:193
+msgctxt "DailyReport|"
+msgid "Time"
+msgstr "Laiks"
+
+#: server/activities/DailyReport.qml:202
+msgctxt "DailyReport|"
+msgid "Ratio"
+msgstr "Attiecība"
+
+#. Number of result lines
+#: server/activities/DailyReport.qml:213
+#, qt-format
+msgctxt "DailyReport|"
+msgid "Lines: %1"
+msgstr "Rindas: %1"
+
+#. Success ratio, example: "50 %"
+#: server/activities/DailyReport.qml:313
+#, qt-format
+msgctxt "DailyReport|"
+msgid "%1 %"
+msgstr "%1 %"
+
+#: server/activities/fractions_create/ActivityEditor.qml:14
+msgctxt "ActivityEditor|"
+msgid ""
+"\"Instruction\" must contain some text telling the fraction to represent."
+msgstr "„Norādījumiem“ jāsatur teksts, kas norāda reprezentējamās daļas."
+
+#: server/activities/fractions_create/FractionsCreateEditor.qml:29
+msgctxt "FractionsCreateEditor|"
+msgid "Shuffle"
+msgstr "Jaukt secību"
+
+#: server/activities/fractions_create/FractionsCreateEditor.qml:30
+msgctxt "FractionsCreateEditor|"
+msgid "Questions"
+msgstr "Jautājumi"
+
+#: server/activities/fractions_create/FractionsCreateEditor.qml:36
+msgctxt "FractionsCreateEditor|"
+msgid "Numerator"
+msgstr "Skaitītājs"
+
+#: server/activities/fractions_create/FractionsCreateEditor.qml:37
+msgctxt "FractionsCreateEditor|"
+msgid "Denominator"
+msgstr "Saucējs"
+
+#: server/activities/fractions_create/FractionsCreateEditor.qml:38
+msgctxt "FractionsCreateEditor|"
+msgid "Instruction"
+msgstr "Norādījumi"
+
+#: server/activities/fractions_create/FractionsCreateEditor.qml:130
+msgctxt "FractionsCreateEditor|"
+msgid "Dataset is empty."
+msgstr "Datu kopa ir tukša."
+
+#: server/activities/fractions_create/FractionsCreateEditor.qml:140
+#, qt-format
+msgctxt "FractionsCreateEditor|"
+msgid "Level %1 must not be empty."
+msgstr "%1. līmenis nedrīkst būt tukšs."
+
+#: server/activities/fractions_create/FractionsCreateEditor.qml:146
+#, qt-format
+msgctxt "FractionsCreateEditor|"
+msgid "\"Instruction\" of Question %1 from Level %2 must not be empty."
+msgstr "%2. līmeņa %1. jautājumā „Norādījumi“ nevar būt tukši."
+
+#: server/activities/fractions_create/FractionsCreateEditor.qml:152
+#, qt-format
+msgctxt "FractionsCreateEditor|"
+msgid "The following errors need to be fixed:<ul>%1</ul>"
+msgstr "Jānovērš šīs kļūdas:<ul>%1</ul>"
+
+#: server/activities/fractions_create/FractionsCreateEditor.qml:160
+msgctxt "FractionsCreateEditor|"
+msgid "Rectangle"
+msgstr "Taisnstūris"
+
+#: server/activities/fractions_create/FractionsCreateEditor.qml:161
+msgctxt "FractionsCreateEditor|"
+msgid "Circle"
+msgstr "Aplis"
+
+#: server/activities/fractions_create/FractionsCreateEditor.qml:164
+msgctxt "FractionsCreateEditor|"
+msgid "Chart Type"
+msgstr "Diagrammas tips"
+
+#: server/activities/fractions_find/FractionsFindDataDisplay.qml:26
+msgctxt "FractionsFindDataDisplay|"
+msgid "Expected:"
+msgstr "Gaidīts:"
+
+#: server/activities/fractions_find/FractionsFindDataDisplay.qml:60
+msgctxt "FractionsFindDataDisplay|"
+msgid "Answer:"
+msgstr "Atbilde:"
+
+#: server/activities/fractions_find/FractionsFindEditor.qml:29
+msgctxt "FractionsFindEditor|"
+msgid "Shuffle"
+msgstr "Jaukt secību"
+
+#: server/activities/fractions_find/FractionsFindEditor.qml:30
+msgctxt "FractionsFindEditor|"
+msgid "Questions"
+msgstr "Jautājumi"
+
+#: server/activities/fractions_find/FractionsFindEditor.qml:36
+msgctxt "FractionsFindEditor|"
+msgid "Static numerator"
+msgstr "Statisks skaitītājs"
+
+#: server/activities/fractions_find/FractionsFindEditor.qml:37
+msgctxt "FractionsFindEditor|"
+msgid "Static denominator"
+msgstr "Statisks saucējs"
+
+#: server/activities/fractions_find/FractionsFindEditor.qml:38
+msgctxt "FractionsFindEditor|"
+msgid "Numerator"
+msgstr "Skaitītājs"
+
+#: server/activities/fractions_find/FractionsFindEditor.qml:39
+msgctxt "FractionsFindEditor|"
+msgid "Denominator"
+msgstr "Saucējs"
+
+#: server/activities/fractions_find/FractionsFindEditor.qml:40
+msgctxt "FractionsFindEditor|"
+msgid "Maximum of units"
+msgstr "Vienību maksimums"
+
+#: server/activities/fractions_find/FractionsFindEditor.qml:41
+msgctxt "FractionsFindEditor|"
+msgid "Random fraction"
+msgstr "Nejauša daļa"
+
+#: server/activities/fractions_find/FractionsFindEditor.qml:159
+msgctxt "FractionsFindEditor|"
+msgid "Dataset is empty."
+msgstr "Datu kopa ir tukša."
+
+#: server/activities/fractions_find/FractionsFindEditor.qml:169
+#, qt-format
+msgctxt "FractionsFindEditor|"
+msgid "Level %1 must not be empty."
+msgstr "%1. līmenis nedrīkst būt tukšs."
+
+#: server/activities/fractions_find/FractionsFindEditor.qml:173
+#, qt-format
+msgctxt "FractionsFindEditor|"
+msgid "The following errors need to be fixed:<ul>%1</ul>"
+msgstr "Jānovērš šīs kļūdas:<ul>%1</ul>"
+
+#: server/activities/fractions_find/FractionsFindEditor.qml:181
+msgctxt "FractionsFindEditor|"
+msgid "Rectangle"
+msgstr "Taisnstūris"
+
+#: server/activities/fractions_find/FractionsFindEditor.qml:182
+msgctxt "FractionsFindEditor|"
+msgid "Circle"
+msgstr "Aplis"
+
+#: server/activities/fractions_find/FractionsFindEditor.qml:185
+msgctxt "FractionsFindEditor|"
+msgid "Chart Type"
+msgstr "Diagrammas tips"
+
+#. %1 is number of hints displayed. Example: "Hints: 1"
+#: server/activities/guess24/Guess24DataDisplay.qml:79
+#, qt-format
+msgctxt "Guess24DataDisplay|"
+msgid "Hints: %1"
+msgstr "Padomi: %1"
+
+#: server/activities/learn_additions/ActivityEditor.qml:16
+msgctxt "ActivityEditor|"
+msgid ""
+"\"Additions\" must contain a list of additions which results are between 0 "
+"and 9."
+msgstr ""
+"„Saskaitīšanām“ ir jāsatur saskaitīšanas operāciju saraksts, kuru rezultāts "
+"ir starp 0 un 9."
+
+#: server/activities/learn_additions/ActivityEditor.qml:18
+#: server/activities/learn_subtractions/ActivityEditor.qml:18
+msgctxt "ActivityEditor|"
+msgid ""
+"\"Number of circles\" can not be smaller than the largest result to find."
+msgstr "„Apļu skaits“ nevar būt mazāks par lielāko atrodamo rezultātu."
+
+#: server/activities/learn_decimals/LearnDecimalsEditor.qml:28
+msgctxt "LearnDecimalsEditor|"
+msgid "Shuffle"
+msgstr "Jaukt secību"
+
+#: server/activities/learn_decimals/LearnDecimalsEditor.qml:29
+msgctxt "LearnDecimalsEditor|"
+msgid "Sublevels"
+msgstr "Apakšlīmeņi"
+
+#: server/activities/learn_decimals/LearnDecimalsEditor.qml:39
+msgctxt "LearnDecimalsEditor|"
+msgid "Fixed Number"
+msgstr "Fiksēts skaitlis"
+
+#: server/activities/learn_decimals/LearnDecimalsEditor.qml:40
+msgctxt "LearnDecimalsEditor|"
+msgid "Minimum Value"
+msgstr "Minimālā vērtība"
+
+#: server/activities/learn_decimals/LearnDecimalsEditor.qml:41
+msgctxt "LearnDecimalsEditor|"
+msgid "Maximum Value"
+msgstr "Maksimālā vērtība"
+
+#: server/activities/learn_decimals/LearnDecimalsEditor.qml:140
+msgctxt "LearnDecimalsEditor|"
+msgid "Dataset is empty."
+msgstr "Datu kopa ir tukša."
+
+#: server/activities/learn_decimals/LearnDecimalsEditor.qml:150
+#, qt-format
+msgctxt "LearnDecimalsEditor|"
+msgid "Level %1 must not be empty."
+msgstr "%1. līmenis nedrīkst būt tukšs."
+
+#: server/activities/learn_decimals/LearnDecimalsEditor.qml:154
+#, qt-format
+msgctxt "LearnDecimalsEditor|"
+msgid "The following errors need to be fixed:<ul>%1</ul>"
+msgstr "Jānovērš šīs kļūdas:<ul>%1</ul>"
+
+#: server/activities/learn_decimals/LearnDecimalsEditor.qml:162
+msgctxt "LearnDecimalsEditor|"
+msgid "Random"
+msgstr "Nejauša secība"
+
+#: server/activities/learn_decimals/LearnDecimalsEditor.qml:163
+msgctxt "LearnDecimalsEditor|"
+msgid "Fixed"
+msgstr "Fiksēts"
+
+#: server/activities/learn_decimals/LearnDecimalsEditor.qml:168
+msgctxt "LearnDecimalsEditor|"
+msgid "Mode"
+msgstr "Režīms"
+
+#: server/activities/learn_decimals_additions/DecimalAdditionEditor.qml:29
+msgctxt "DecimalAdditionEditor|"
+msgid "Shuffle"
+msgstr "Jaukt secību"
+
+#: server/activities/learn_decimals_additions/DecimalAdditionEditor.qml:30
+msgctxt "DecimalAdditionEditor|"
+msgid "Sublevels"
+msgstr "Apakšlīmeņi"
+
+#: server/activities/learn_decimals_additions/DecimalAdditionEditor.qml:41
+msgctxt "DecimalAdditionEditor|"
+msgid "First Number"
+msgstr "Pirmais skaitlis"
+
+#: server/activities/learn_decimals_additions/DecimalAdditionEditor.qml:42
+msgctxt "DecimalAdditionEditor|"
+msgid "Second Number"
+msgstr "Otrais skaitlis"
+
+#: server/activities/learn_decimals_additions/DecimalAdditionEditor.qml:43
+msgctxt "DecimalAdditionEditor|"
+msgid "Minimum Value"
+msgstr "Minimālā vērtība"
+
+#: server/activities/learn_decimals_additions/DecimalAdditionEditor.qml:44
+msgctxt "DecimalAdditionEditor|"
+msgid "Maximum Value"
+msgstr "Maksimālā vērtība"
+
+#: server/activities/learn_decimals_additions/DecimalAdditionEditor.qml:182
+msgctxt "DecimalAdditionEditor|"
+msgid "Dataset is empty."
+msgstr "Datu kopa ir tukša."
+
+#: server/activities/learn_decimals_additions/DecimalAdditionEditor.qml:192
+#, qt-format
+msgctxt "DecimalAdditionEditor|"
+msgid "Level %1 must not be empty."
+msgstr "%1. līmenis nedrīkst būt tukšs."
+
+#: server/activities/learn_decimals_additions/DecimalAdditionEditor.qml:196
+#, qt-format
+msgctxt "DecimalAdditionEditor|"
+msgid "The following errors need to be fixed:<ul>%1</ul>"
+msgstr "Jānovērš šīs kļūdas:<ul>%1</ul>"
+
+#: server/activities/learn_decimals_additions/DecimalAdditionEditor.qml:204
+msgctxt "DecimalAdditionEditor|"
+msgid "Random"
+msgstr "Nejauša secība"
+
+#: server/activities/learn_decimals_additions/DecimalAdditionEditor.qml:205
+msgctxt "DecimalAdditionEditor|"
+msgid "Fixed"
+msgstr "Fiksēts"
+
+#: server/activities/learn_decimals_additions/DecimalAdditionEditor.qml:210
+msgctxt "DecimalAdditionEditor|"
+msgid "Mode"
+msgstr "Režīms"
+
+#: server/activities/learn_digits/ActivityEditor.qml:15
+msgctxt "ActivityEditor|"
+msgid "\"Numbers\" must contain a list of numbers between 0 and 9."
+msgstr "„Skaitļiem“ ir jāsatur skaitļu saraksts starp 0 un 9."
+
+#: server/activities/learn_digits/ActivityEditor.qml:17
+msgctxt "ActivityEditor|"
+msgid ""
+"\"Number of circles\" can not be smaller than the largest number to find."
+msgstr "„Apļu skaits“ nevar būt mazāks par lielāko atrodamo skaitli."
+
+#. %1 is an operation, %2 the result. Example: "2 x 5 = 10"
+#: server/activities/learn_digits/LearnDigitsDataDisplay.qml:24
+#, qt-format
+msgctxt "LearnDigitsDataDisplay|"
+msgid "%1 = %2"
+msgstr "%1 = %2"
+
+#. %1 is the answer. Example: "Answer: 10"
+#: server/activities/learn_digits/LearnDigitsDataDisplay.qml:27
+#, qt-format
+msgctxt "LearnDigitsDataDisplay|"
+msgid "Answer: %1"
+msgstr "Atbilde: %1"
+
+#: server/activities/learn_digits/LearnDigitsEditor.qml:32
+msgctxt "LearnDigitsEditor|"
+msgid "Number of circles"
+msgstr "Apļu skaits"
+
+#: server/activities/learn_digits/LearnDigitsEditor.qml:33
+msgctxt "LearnDigitsEditor|"
+msgid "Random order"
+msgstr "Nejauša secība"
+
+#: server/activities/learn_digits/LearnDigitsEditor.qml:99
+msgctxt "LearnDigitsEditor|"
+msgid "Dataset is empty."
+msgstr "Datu kopa ir tukša."
+
+#: server/activities/learn_digits/LearnDigitsEditor.qml:101
+msgctxt "LearnDigitsEditor|"
+msgid ""
+"\"Numbers\" must only contain integer numbers between 0 and 9, and must not "
+"be empty."
+msgstr ""
+"„Skaitļi“ var saturēt tikai veselus skaitļus starp 0 un 9, kā arī nevar būt "
+"tukšs."
+
+#: server/activities/learn_digits/LearnDigitsEditor.qml:103
+msgctxt "LearnDigitsEditor|"
+msgid ""
+"\"Additions\" must only contain additions which results are integer numbers "
+"between 0 and 9, and must not be empty."
+msgstr ""
+"„Saskaitīšanai“ jāsatur tikai tādas darbības, kuru rezultāts ir veseli "
+"skaitļi starp 0 un 9, kā arī tās nevar būt tukšas."
+
+#: server/activities/learn_digits/LearnDigitsEditor.qml:105
+msgctxt "LearnDigitsEditor|"
+msgid ""
+"\"Subtractions\" must only contain subtractions which results are integer "
+"numbers between 0 and 9, and must not be empty."
+msgstr ""
+"„Atņemšanai“ jāsatur tikai tādas darbības, kuru rezultāts ir veseli skaitļi "
+"starp 0 un 9, kā arī tās nevar būt tukšas."
+
+#: server/activities/learn_digits/LearnDigitsEditor.qml:161
+msgctxt "LearnDigitsEditor|"
+msgid "Numbers"
+msgstr "Skaitļi"
+
+#: server/activities/learn_digits/LearnDigitsEditor.qml:163
+msgctxt "LearnDigitsEditor|"
+msgid "Additions"
+msgstr "Saskaitīšana"
+
+#: server/activities/learn_digits/LearnDigitsEditor.qml:165
+msgctxt "LearnDigitsEditor|"
+msgid "Subtractions"
+msgstr "Atņemšana"
+
+#: server/activities/learn_quantities/ActivityEditor.qml:24
+msgctxt "ActivityEditor|"
+msgid "Fixed Number"
+msgstr "Fiksēts skaitlis"
+
+#: server/activities/learn_quantities/ActivityEditor.qml:25
+msgctxt "ActivityEditor|"
+msgid "Minimum Value"
+msgstr "Minimālā vērtība"
+
+#: server/activities/learn_quantities/ActivityEditor.qml:26
+msgctxt "ActivityEditor|"
+msgid "Maximum Value"
+msgstr "Maksimālā vērtība"
+
+#: server/activities/learn_subtractions/ActivityEditor.qml:16
+msgctxt "ActivityEditor|"
+msgid ""
+"\"Subtractions\" must contain a list of subtractions which results are "
+"between 0 and 9."
+msgstr ""
+"„Atņemšanai“ ir jāsatur atņemšanas operāciju saraksts, kuru rezultāts ir "
+"starp 0 un 9."
+
+#: server/activities/LineReport.qml:65
+msgctxt "LineReport|"
+msgid "Back"
+msgstr "Atpakaļ"
+
+#: server/activities/LineReport.qml:71
+msgctxt "LineReport|"
+msgid "Refresh"
+msgstr "Pārlādēt"
+
+#: server/activities/LineReport.qml:77
+#, qt-format
+msgctxt "LineReport|"
+msgid "Lines: %1"
+msgstr "Rindas: %1"
+
+#: server/activities/LineReport.qml:227
+#, qt-format
+msgctxt "LineReport|"
+msgid "Level: <b>%1</b>"
+msgstr "Līmenis: <b>%1</b>"
+
+#. Result duration in seconds. Example: "Duration: 25s"
+#: server/activities/LineReport.qml:243 server/activities/LineReport.qml:253
+#, qt-format
+msgctxt "LineReport|"
+msgid "Duration: %1s"
+msgstr "Ilgums: %1 sek."
+
+#: server/activities/multiple_choice_questions/ActivityEditor.qml:15
+msgctxt "ActivityEditor|"
+msgid ""
+"In \"Single answer\" mode, users can select only one answer. In \"Multiple "
+"answers\" mode, they can select multiple answers."
+msgstr ""
+"„Vienas atbildes“ režīmā lietotājs var atlasīt tikai vienu atbildi. „Vairāku "
+"atbilžu“ režīmā — vairākas atbildes."
+
+#: server/activities/multiple_choice_questions/ActivityEditor.qml:17
+msgctxt "ActivityEditor|"
+msgid ""
+"All entries in the \"Correct answers\" list must also be present in the "
+"\"Answers\" list."
+msgstr ""
+"Visiem ierakstiem „Pareizo atbilžu“ sarakstā ir jādublējas arī „Atbilžu“ "
+"sarakstā."
+
+#: server/activities/multiple_choice_questions/ActivityEditor.qml:19
+msgctxt "ActivityEditor|"
+msgid ""
+"\"Correct answer text\" and \"Wrong answer text\" are optional messages "
+"displayed after users validate their answer. You can leave those empty if "
+"you want."
+msgstr ""
+"„Pareizas atbildes teksts“ un „Nepareizas atbildes teksts“ ir izvēles ziņas, "
+"kas parādās pēc tam, kad lietotāji ir pārbaudījuši savu atbildi. Ja "
+"nepieciešams, varat šos laukus atstāt tukšus."
+
+#: server/activities/multiple_choice_questions/MultipleChoiceDataDisplay.qml:27
+msgctxt "MultipleChoiceDataDisplay|"
+msgid "Question:"
+msgstr "Jautājums:"
+
+#: server/activities/multiple_choice_questions/MultipleChoiceDataDisplay.qml:33
+msgctxt "MultipleChoiceDataDisplay|"
+msgid "Answer:"
+msgstr "Atbilde:"
+
+#: server/activities/multiple_choice_questions/MultipleChoiceDataDisplay.qml:39
+msgctxt "MultipleChoiceDataDisplay|"
+msgid "Expected:"
+msgstr "Gaidīts:"
+
+#: server/activities/multiple_choice_questions/MultipleChoiceDataDisplay.qml:45
+msgctxt "MultipleChoiceDataDisplay|"
+msgid "Proposed:"
+msgstr "Piedāvāts:"
+
+#: server/activities/multiple_choice_questions/MultipleChoiceEditor.qml:29
+msgctxt "MultipleChoiceEditor|"
+msgid "Shuffle"
+msgstr "Jaukt secību"
+
+#: server/activities/multiple_choice_questions/MultipleChoiceEditor.qml:30
+msgctxt "MultipleChoiceEditor|"
+msgid "Sublevels"
+msgstr "Apakšlīmeņi"
+
+#: server/activities/multiple_choice_questions/MultipleChoiceEditor.qml:36
+msgctxt "MultipleChoiceEditor|"
+msgid "Shuffle answers"
+msgstr "Jaukt atbilžu secību"
+
+#: server/activities/multiple_choice_questions/MultipleChoiceEditor.qml:37
+msgctxt "MultipleChoiceEditor|"
+msgid "Question"
+msgstr "Jautājums"
+
+#: server/activities/multiple_choice_questions/MultipleChoiceEditor.qml:38
+msgctxt "MultipleChoiceEditor|"
+msgid "Answers"
+msgstr "Atbildes"
+
+#: server/activities/multiple_choice_questions/MultipleChoiceEditor.qml:39
+msgctxt "MultipleChoiceEditor|"
+msgid "Correct answers"
+msgstr "Pareizās atbildes"
+
+#: server/activities/multiple_choice_questions/MultipleChoiceEditor.qml:40
+msgctxt "MultipleChoiceEditor|"
+msgid "Correct answer text"
+msgstr "Pareizas atbildes teksts"
+
+#: server/activities/multiple_choice_questions/MultipleChoiceEditor.qml:41
+msgctxt "MultipleChoiceEditor|"
+msgid "Wrong answer text"
+msgstr "Nepareizas atbildes teksts"
+
+#: server/activities/multiple_choice_questions/MultipleChoiceEditor.qml:121
+msgctxt "MultipleChoiceEditor|"
+msgid "Dataset is empty."
+msgstr "Datu kopa ir tukša."
+
+#: server/activities/multiple_choice_questions/MultipleChoiceEditor.qml:131
+#, qt-format
+msgctxt "MultipleChoiceEditor|"
+msgid "Level %1 must not be empty."
+msgstr "%1. līmenis nedrīkst būt tukšs."
+
+#: server/activities/multiple_choice_questions/MultipleChoiceEditor.qml:138
+#, qt-format
+msgctxt "MultipleChoiceEditor|"
+msgid "\"Question\" in Sublevel %1 of Level %2 must not be empty."
+msgstr "%2. līmeņa %1. apakšlīmeņa „Jautājums“ nedrīkst būt tukšs."
+
+#: server/activities/multiple_choice_questions/MultipleChoiceEditor.qml:143
+#, qt-format
+msgctxt "MultipleChoiceEditor|"
+msgid "\"Answers\" in Sublevel %1 of Level %2 must not be empty."
+msgstr "%2. līmeņa %1. apakšlīmeņa „Atbildes“ nevar būt tukšas"
+
+#: server/activities/multiple_choice_questions/MultipleChoiceEditor.qml:148
+#, qt-format
+msgctxt "MultipleChoiceEditor|"
+msgid "\"Correct answers\" in Sublevel %1 of Level %2 must not be empty."
+msgstr "%2. līmeņa %1. apakšlīmeņa „Pareizās atbildes“ nevar būt tukšas."
+
+#: server/activities/multiple_choice_questions/MultipleChoiceEditor.qml:155
+#, qt-format
+msgctxt "MultipleChoiceEditor|"
+msgid ""
+"In Sublevel %1 of Level %2, the correct answer \"%3\" is not in the \"Answers"
+"\" list."
+msgstr ""
+"%2. līmeņa %1. apakšlīmenī pareizā atbilde „%3“ nav atrodama „Atbilžu“ "
+"sarakstā."
+
+#: server/activities/multiple_choice_questions/MultipleChoiceEditor.qml:163
+#, qt-format
+msgctxt "MultipleChoiceEditor|"
+msgid "The following errors need to be fixed:<ul>%1</ul>"
+msgstr "Jānovērš šīs kļūdas:<ul>%1</ul>"
+
+#: server/activities/multiple_choice_questions/MultipleChoiceEditor.qml:171
+msgctxt "MultipleChoiceEditor|"
+msgid "Single answer"
+msgstr "Viena atbilde"
+
+#: server/activities/multiple_choice_questions/MultipleChoiceEditor.qml:172
+msgctxt "MultipleChoiceEditor|"
+msgid "Multiple answers"
+msgstr "Vairākas atbildes"
+
+#: server/activities/multiple_choice_questions/MultipleChoiceEditor.qml:177
+msgctxt "MultipleChoiceEditor|"
+msgid "Mode"
+msgstr "Režīms"
+
+#: server/activities/vertical_subtraction/VerticalEditor.qml:29
+msgctxt "VerticalEditor|"
+msgid "Sublevels"
+msgstr "Apakšlīmeņi"
+
+#: server/activities/vertical_subtraction/VerticalEditor.qml:31
+msgctxt "VerticalEditor|"
+msgid "Number of digits"
+msgstr "Ciparu skaits"
+
+#: server/activities/vertical_subtraction/VerticalEditor.qml:33
+msgctxt "VerticalEditor|"
+msgid "Number of lines"
+msgstr "Rindu skaits"
+
+#: server/activities/vertical_subtraction/VerticalEditor.qml:34
+msgctxt "VerticalEditor|"
+msgid "With carry"
+msgstr "Ar pārnesi"
+
+#: server/activities/vertical_subtraction/VerticalEditor.qml:35
+msgctxt "VerticalEditor|"
+msgid "Already laid"
+msgstr "Jau ievietots"
+
+#: server/activities/vertical_subtraction/VerticalEditor.qml:36
+msgctxt "VerticalEditor|"
+msgid "Write your operation"
+msgstr "Ierakstiet darbību"
+
+#: server/components/CalendarPane.qml:77
+msgctxt "CalendarPane|"
+msgid "Calendar"
+msgstr "Kalendārs"
+
+#: server/components/CheckUserEditDelegate.qml:34
+msgctxt "CheckUserEditDelegate|"
+msgid "Edit pupil"
+msgstr "Rediģēt skolēnu"
+
+#: server/components/EditorBox.qml:84
+msgctxt "EditorBox|"
+msgid "Add"
+msgstr "Pievienot"
+
+#: server/components/EditorBox.qml:95
+msgctxt "EditorBox|"
+msgid "Remove"
+msgstr "Noņemt"
+
+#: server/components/EditorBox.qml:107
+msgctxt "EditorBox|"
+msgid "Move up"
+msgstr "Pārvietot augšup"
+
+#: server/components/EditorBox.qml:119
+msgctxt "EditorBox|"
+msgid "Move down"
+msgstr "Pārvietot lejup"
+
+#: server/components/FieldEdit.qml:318
+msgctxt "FieldEdit|"
+msgid "Add an entry"
+msgstr "Pievienot ierakstu"
+
+#: server/components/FieldEdit.qml:330
+msgctxt "FieldEdit|"
+msgid "Remove last entry"
+msgstr "Noņemt pēdējo ierakstu"
+
+#: server/components/FoldDown.qml:151
+msgctxt "FoldDown|"
+msgid "Filter list"
+msgstr "Filtra saraksts"
+
+#: server/components/OkCancelButtons.qml:21
+msgctxt "OkCancelButtons|"
+msgid "OK"
+msgstr "Labi"
+
+#: server/components/OkCancelButtons.qml:22
+msgctxt "OkCancelButtons|"
+msgid "Cancel"
+msgstr "Atcelt"
+
+#: server/components/RadioGroupEditDelegate.qml:59
+msgctxt "RadioGroupEditDelegate|"
+msgid "Edit group"
+msgstr "Rediģēt grupu"
+
+#: server/components/RadioGroupEditDelegate.qml:71
+msgctxt "RadioGroupEditDelegate|"
+msgid "Delete group"
+msgstr "Dzēst grupu"
+
+#: server/components/ServerLanguageList.qml:32
+msgctxt "ServerLanguageList|"
+msgid "Your system default"
+msgstr "Sistēmas noklusējums"
+
+#: server/controllers/database-controller.cpp:83
+#: server/controllers/database-controller.cpp:89
+#, qt-format
+msgctxt "controllers::DatabaseController|"
+msgid ""
+"File %1\n"
+"Error SQL: %2"
+msgstr ""
+"Datne „%1“\n"
+"Kļūda SQL: %2"
+
+#: server/controllers/database-controller.cpp:125
+msgctxt "controllers::DatabaseController|"
+msgid "Table teacher_ could not be updated to current version."
+msgstr "Tabulu „teacher_“ neizdevās atjaunināt uz pašreizējo versiju."
+
+#: server/controllers/database-controller.cpp:351
+msgctxt "controllers::DatabaseController|"
+msgid "Error creating teacher."
+msgstr "Kļūda, veidojot skolotāju."
+
+#: server/controllers/database-controller.cpp:373
+msgctxt "controllers::DatabaseController|"
+msgid "Wrong password."
+msgstr "Nepareiza parole."
+
+#: server/controllers/database-controller.cpp:417
+#, qt-format
+msgctxt "controllers::DatabaseController|"
+msgid "Group <b>%1</b> already exists."
+msgstr "Grupa <b>%1</b> jau pastāv."
+
+#: server/controllers/database-controller.cpp:438
+#, qt-format
+msgctxt "controllers::DatabaseController|"
+msgid "Group <b>%1</b> could not be updated to <b>%2</b>."
+msgstr "Grupu <b>%1</b> neizdevās atjaunināt uz <b>%2</b>."
+
+#: server/controllers/database-controller.cpp:456
+#, qt-format
+msgctxt "controllers::DatabaseController|"
+msgid "Group <b>%1</b> could not be deleted from table group_."
+msgstr "Grupu <b>%1</b> neizdevās dzēst no tabulas „group_“."
+
+#: server/controllers/database-controller.cpp:459
+#, qt-format
+msgctxt "controllers::DatabaseController|"
+msgid "Group <b>%1</b> could not be deleted from table group_user_."
+msgstr "Grupu <b>%1</b> neizdevās dzēst no tabulas „group_user_“."
+
+#: server/controllers/database-controller.cpp:483
+#, qt-format
+msgctxt "controllers::DatabaseController|"
+msgid "Pupil login <b>%1</b> already exists or password is empty."
+msgstr "Skolēna pieslēgšanās vārds <b>%1</b> jau pastāv vai parole ir tukša."
+
+#: server/controllers/database-controller.cpp:502
+#, qt-format
+msgctxt "controllers::DatabaseController|"
+msgid "<b>%1</b> could not be updated to <b>%2</b>."
+msgstr "<b>%1</b> neizdevās atjaunināt uz <b>%2</b>."
+
+#: server/controllers/database-controller.cpp:522
+#, qt-format
+msgctxt "controllers::DatabaseController|"
+msgid "User <b>%1</b> could not be deleted from table user_."
+msgstr "Lietotāju <b>%1</b> neizdevās dzēst no tabulas „user_“."
+
+#: server/controllers/database-controller.cpp:527
+#, qt-format
+msgctxt "controllers::DatabaseController|"
+msgid "User <b>%1</b> could not be deleted from table result_."
+msgstr "Lietotāju <b>%1</b> neizdevās dzēst no tabulas „result_“."
+
+#: server/controllers/database-controller.cpp:542
+#, qt-format
+msgctxt "controllers::DatabaseController|"
+msgid "User <b>%1</b> could not be deleted from table group_user_."
+msgstr "Lietotāju <b>%1</b> neizdevās dzēst no tabulas „group_user_“."
+
+#: server/controllers/database-controller.cpp:557
+#, qt-format
+msgctxt "controllers::DatabaseController|"
+msgid "User <b>%1</b> already exists in group <b>%2</b>."
+msgstr "Lietotājs <b>%1</b> jau pastāv grupā <b>%2</b>."
+
+#: server/controllers/database-controller.cpp:572
+#, qt-format
+msgctxt "controllers::DatabaseController|"
+msgid "User <b>%1</b> group <b>%2</b> couldn't be deleted."
+msgstr "Lietotāja <b>%1</b> grupu <b>%2</b> neizdevās dzēst."
+
+#: server/controllers/database-controller.cpp:607
+#, qt-format
+msgctxt "controllers::DatabaseController|"
+msgid "Result could not be added for user <b>%1</b>"
+msgstr "Lietotājam<b>%1</b> neizdevās pievienot rezultātu"
+
+#: server/controllers/database-controller.cpp:619
+#, qt-format
+msgctxt "controllers::DatabaseController|"
+msgid "Error inserting activity: %1"
+msgstr "Kļūda, ievietojot aktivitāti: %1"
+
+#: server/controllers/database-controller.cpp:665
+#, qt-format
+msgctxt "controllers::DatabaseController|"
+msgid "Dataset <b>%1</b> already exists."
+msgstr "Datu kopa <b>%1</b> jau pastāv."
+
+#: server/controllers/database-controller.cpp:682
+#, qt-format
+msgctxt "controllers::DatabaseController|"
+msgid "Dataset <b>%1</b> could not be updated to <b>%2</b>."
+msgstr "Datu kopu <b>%1</b> neizdevās atjaunināt uz <b>%2</b>."
+
+#: server/controllers/database-controller.cpp:697
+#, qt-format
+msgctxt "controllers::DatabaseController|"
+msgid "Dataset <b>%1</b> couldn't be deleted."
+msgstr "Datu kopu <b>%1</b> neizdevās dzēst."
+
+#: server/controllers/network-controller.cpp:46
+#, qt-format
+msgctxt "controllers::NetworkController|"
+msgid "Unable to start the server: %1."
+msgstr "Neizdevās palaist serveri: %1."
+
+#: server/dialogs/CreateDbDialog.qml:19
+msgctxt "CreateDbDialog|"
+msgid "You are about to create a new GCompris database."
+msgstr "Jūs grasāties izveidot jaunu „GCompris“ datubāzi."
+
+#: server/dialogs/CreateDbDialog.qml:38
+msgctxt "CreateDbDialog|"
+msgid "Database file"
+msgstr "Datubāzes datne"
+
+#: server/dialogs/CreateDbDialog.qml:40
+msgctxt "CreateDbDialog|"
+msgid "created in:"
+msgstr "izveidota:"
+
+#: server/dialogs/CreateDbDialog.qml:64
+msgctxt "CreateDbDialog|"
+msgid "New database creation"
+msgstr "Jaunas datubāzes izveide"
+
+#: server/dialogs/CreateDbDialog.qml:92
+msgctxt "CreateDbDialog|"
+msgid "Teacher login"
+msgstr "Skolotāja ierakstīšanās"
+
+#: server/dialogs/CreateDbDialog.qml:108
+msgctxt "CreateDbDialog|"
+msgid "Password"
+msgstr "Parole"
+
+#: server/dialogs/CreateDbDialog.qml:124
+msgctxt "CreateDbDialog|"
+msgid "Encrypted database (enabled by default)"
+msgstr "Šifrēta datubāze (ieslēgts pēc noklusējuma)"
+
+#: server/dialogs/DatasetEditorDialog.qml:54
+msgctxt "DatasetEditorDialog|"
+msgid "Create dataset"
+msgstr "Izveidot datu kopu"
+
+#: server/dialogs/DatasetEditorDialog.qml:64
+msgctxt "DatasetEditorDialog|"
+msgid "Update dataset"
+msgstr "Atjaunināt datu kopu"
+
+#: server/dialogs/DatasetEditorDialog.qml:79
+msgctxt "DatasetEditorDialog|"
+msgid "Dataset name is empty"
+msgstr "Datu kopas nosaukums ir tukšs"
+
+#: server/dialogs/DatasetEditorDialog.qml:86
+msgctxt "DatasetEditorDialog|"
+msgid "Difficulty should be between 1 and 6"
+msgstr "Grūtībai ir jābūt starp 1 un 6"
+
+#: server/dialogs/DatasetEditorDialog.qml:239
+msgctxt "DatasetEditorDialog|"
+msgid "INVALID DATASET"
+msgstr "NEDERĪGA DATU KOPA"
+
+#: server/dialogs/DatasetEditorDialog.qml:342
+msgctxt "DatasetEditorDialog|"
+msgid "Editor"
+msgstr "Redaktors"
+
+#: server/dialogs/DatasetEditorDialog.qml:345
+msgctxt "DatasetEditorDialog|"
+msgid "Raw JSON"
+msgstr "Neapstrādāts JSON"
+
+#: server/dialogs/DatasetEditorDialog.qml:375
+msgctxt "DatasetEditorDialog|"
+msgid "Activity name"
+msgstr "Aktivitātes nosaukums"
+
+#: server/dialogs/DatasetEditorDialog.qml:389
+msgctxt "DatasetEditorDialog|"
+msgid "Dataset name"
+msgstr "Datu kopas nosaukums"
+
+#: server/dialogs/DatasetEditorDialog.qml:403
+msgctxt "DatasetEditorDialog|"
+msgid "Goal"
+msgstr "Mērķis"
+
+#: server/dialogs/DatasetEditorDialog.qml:417
+msgctxt "DatasetEditorDialog|"
+msgid "Difficulty"
+msgstr "Grūtība"
+
+#: server/dialogs/DatasetEditorDialog.qml:515
+msgctxt "DatasetEditorDialog|"
+msgid "Instructions"
+msgstr "Norādes"
+
+#: server/dialogs/DatasetEditorDialog.qml:521
+msgctxt "DatasetEditorDialog|"
+msgid "No specific instructions for this editor."
+msgstr "Šim redaktoram nav specifisku norāžu."
+
+#: server/dialogs/ErrorDialog.qml:46
+msgctxt "ErrorDialog|"
+msgid "Information"
+msgstr "Informācija"
+
+#: server/dialogs/ExportPupilsDialog.qml:79
+msgctxt "ExportPupilsDialog|"
+msgid "Export pupils to CSV file"
+msgstr "Eksportēt skolēnus CSV datnē"
+
+#: server/dialogs/ExportPupilsDialog.qml:121
+msgctxt "ExportPupilsDialog|"
+msgid "Save file"
+msgstr "Saglabāt datni"
+
+#: server/dialogs/ExportPupilsDialog.qml:131
+msgctxt "ExportPupilsDialog|"
+msgid "Pupils"
+msgstr "Skolēni"
+
+#: server/dialogs/GroupDialog.qml:114
+msgctxt "GroupDialog|"
+msgid "Name"
+msgstr "Nosaukums"
+
+#: server/dialogs/GroupDialog.qml:128
+msgctxt "GroupDialog|"
+msgid "Description"
+msgstr "Apraksts"
+
+#: server/dialogs/ImportPupilsDialog.qml:70
+msgctxt "ImportPupilsDialog|"
+msgid "Import pupils from CSV file"
+msgstr "Importēt skolēnus no CSV datnes"
+
+#: server/dialogs/ImportPupilsDialog.qml:88
+msgctxt "ImportPupilsDialog|"
+msgid ""
+"Format: name;groups;password\n"
+"Example:\n"
+"Patrick Dummy;group 1;1234\n"
+"Patricia Brown;group 1,group 2;4321\n"
+msgstr ""
+"Formāts: vārds;grupas;parole\n"
+"Piemēram:\n"
+"Patriks Paraugs;grupa1;1234\n"
+"Patrīcija Brauna;grupa 1,grupa 2;4321\n"
+
+#: server/dialogs/ImportPupilsDialog.qml:94
+msgctxt "ImportPupilsDialog|"
+msgid "Add CSV file"
+msgstr "Pievienot CSV datni"
+
+#: server/dialogs/ImportPupilsDialog.qml:141
+msgctxt "ImportPupilsDialog|"
+msgid "Import pupils"
+msgstr "Importēt skolēnus"
+
+#: server/dialogs/PupilDialog.qml:59
+msgctxt "PupilDialog|"
+msgid "Pupil's name is empty"
+msgstr "Skolēna vārds ir tukšs"
+
+#: server/dialogs/PupilDialog.qml:153
+msgctxt "PupilDialog|"
+msgid "Pupil's name"
+msgstr "Skolēna vārds"
+
+#: server/dialogs/PupilDialog.qml:166
+msgctxt "PupilDialog|"
+msgid "Password"
+msgstr "Parole"
+
+#: server/dialogs/PupilDialog.qml:217
+msgctxt "PupilDialog|"
+msgid "Password images:"
+msgstr "Paroles attēli:"
+
+#: server/dialogs/PupilDialog.qml:252
+msgctxt "PupilDialog|"
+msgid "Groups"
+msgstr "Grupas"
+
+#: server/dialogs/PupilsToGroupsDialog.qml:87
+msgctxt "PupilsToGroupsDialog|"
+msgid "Select the groups to add these pupils to:"
+msgstr "Atlasiet grupas, kurām pievienot šos skolēnus:"
+
+#: server/dialogs/PupilsToGroupsDialog.qml:88
+msgctxt "PupilsToGroupsDialog|"
+msgid "Select the groups from which to remove these pupils:"
+msgstr "Atlasiet grupas, no kurām noņemt šos skolēnus:"
+
+#: server/dialogs/RemoveDatasetDialog.qml:70
+msgctxt "RemoveDatasetDialog|"
+msgid ""
+"Are you sure you want to delete the following dataset from the database?"
+msgstr "Vai vēlaties dzēst atlasītu datubāzi no datu kopas?"
+
+#: server/dialogs/RemovePupilsDialog.qml:76
+msgctxt "RemovePupilsDialog|"
+msgid ""
+"Are you sure you want to remove the following pupils from the database ?"
+msgstr "Vai vēlaties no datubāzes noņemt šos skolēnus?"
+
+#: server/dialogs/SendDatasetDialog.qml:93
+msgctxt "SendDatasetDialog|"
+msgid "Do you want to send the dataset to selected pupils?"
+msgstr "Vai vēlaties datu kopu nosūtīt atlasītajiem skolēniem?"
+
+#: server/dialogs/SendDatasetDialog.qml:94
+msgctxt "SendDatasetDialog|"
+msgid "Are you sure you want to remove the dataset from selected pupils?"
+msgstr "Vai vēlaties no datu kopas noņemt atlasītos skolēnus?"
+
+#: server/dialogs/SendDatasetDialog.qml:95
+msgctxt "SendDatasetDialog|"
+msgid ""
+"Are you sure you want to remove all the existing datasets from selected "
+"pupils?"
+msgstr "Vai atlasītos skolēnu vēlaties noņemt no visām datu kopām?"
+
+#: server/dialogs/SendDatasetDialog.qml:129
+msgctxt "SendDatasetDialog|"
+msgid "Pupils"
+msgstr "Skolēni"
+
+#: server/dialogs/SqlLineDialog.qml:19
+msgctxt "SqlLineDialog|"
+msgid "Line details"
+msgstr "Rindas informācija"
+
+#: server/dialogs/SqlLineDialog.qml:193
+msgctxt "SqlLineDialog|"
+msgid "Close"
+msgstr "Aizvērt"
+
+#: server/Main.qml:48
+msgctxt "Main|"
+msgid "GCompris Teachers Tool"
+msgstr "„GCompris“ skolotāja rīks"
+
+#: server/panels/NavigationPanel.qml:70
+msgctxt "NavigationPanel|"
+msgid "Login"
+msgstr "Ierakstīšanās"
+
+#: server/panels/NavigationPanel.qml:78
+msgctxt "NavigationPanel|"
+msgid "Pupils and Groups"
+msgstr "Skolēni un grupas"
+
+#: server/panels/NavigationPanel.qml:86
+msgctxt "NavigationPanel|"
+msgid "Connect devices"
+msgstr "Savienot ierīces"
+
+#: server/panels/NavigationPanel.qml:94
+msgctxt "NavigationPanel|"
+msgid "Activities"
+msgstr "Aktivitātes"
+
+#: server/panels/NavigationPanel.qml:102
+msgctxt "NavigationPanel|"
+msgid "Datasets"
+msgstr "Datu kopas"
+
+#: server/panels/NavigationPanel.qml:110
+msgctxt "NavigationPanel|"
+msgid "Charts"
+msgstr "Diagrammas"
+
+#: server/panels/NavigationPanel.qml:118
+msgctxt "NavigationPanel|"
+msgid "Settings"
+msgstr "Iestatījumi"
+
+#: server/panels/SelectorPanel.qml:50
+msgctxt "SelectorPanel|"
+msgid "Groups"
+msgstr "Grupas"
+
+#: server/panels/SelectorPanel.qml:69
+msgctxt "SelectorPanel|"
+msgid "Pupils"
+msgstr "Skolēni"
+
+#: server/panels/SelectorPanel.qml:85
+msgctxt "SelectorPanel|"
+msgid "Activities"
+msgstr "Aktivitātes"
+
+#: server/singletons/Master.qml:40
+msgctxt "Master|"
+msgid "User ID"
+msgstr "Lietotāja ID"
+
+#: server/singletons/Master.qml:41
+msgctxt "Master|"
+msgid "Name"
+msgstr "Vārds"
+
+#: server/singletons/Master.qml:42
+msgctxt "Master|"
+msgid "Names"
+msgstr "Vārdi"
+
+#: server/singletons/Master.qml:43
+msgctxt "Master|"
+msgid "Password"
+msgstr "Parole"
+
+#: server/singletons/Master.qml:44
+msgctxt "Master|"
+msgid "Users IDs"
+msgstr "Lietotāju ID"
+
+#: server/singletons/Master.qml:45
+msgctxt "Master|"
+msgid "Activity Id"
+msgstr "Aktivitātes ID"
+
+#: server/singletons/Master.qml:46
+msgctxt "Master|"
+msgid "Activity"
+msgstr "Aktivitāte"
+
+#: server/singletons/Master.qml:47
+msgctxt "Master|"
+msgid "Group"
+msgstr "Grupa"
+
+#: server/singletons/Master.qml:48
+msgctxt "Master|"
+msgid "Description"
+msgstr "Apraksts"
+
+#: server/singletons/Master.qml:49
+msgctxt "Master|"
+msgid "Groups"
+msgstr "Grupas"
+
+#: server/singletons/Master.qml:50
+msgctxt "Master|"
+msgid "Groups IDs"
+msgstr "Grupu ID"
+
+#: server/singletons/Master.qml:51 server/singletons/Master.qml:55
+msgctxt "Master|"
+msgid "Date"
+msgstr "Datums"
+
+#: server/singletons/Master.qml:52 server/singletons/Master.qml:57
+msgctxt "Master|"
+msgid "Success"
+msgstr "Izdevās"
+
+#: server/singletons/Master.qml:53
+msgctxt "Master|"
+msgid "Duration"
+msgstr "Ilgums"
+
+#: server/singletons/Master.qml:54
+msgctxt "Master|"
+msgid "Data"
+msgstr "Dati"
+
+#: server/singletons/Master.qml:56
+msgctxt "Master|"
+msgid "Count"
+msgstr "Skaits"
+
+#: server/singletons/Master.qml:58
+msgctxt "Master|"
+msgid "Failed"
+msgstr "Neizdevās"
+
+#: server/singletons/Master.qml:59
+msgctxt "Master|"
+msgid "Success ratio"
+msgstr "Izdošanās un neizdošanās attiecība"
+
+#: server/views/ChartsView.qml:136
+msgctxt "ChartsView|"
+msgid "Activities"
+msgstr "Aktivitātes"
+
+#: server/views/ChartsView.qml:143
+msgctxt "ChartsView|"
+msgid "Pupils"
+msgstr "Skolēni"
+
+#: server/views/datas/AllData.qml:69
+msgctxt "AllData|"
+msgid "Available requests"
+msgstr "Pieejamie pieprasījumi"
+
+#: server/views/datas/AllData.qml:77
+msgctxt "AllData|"
+msgid "All users activities"
+msgstr "Visu lietotāju aktivitātes"
+
+#: server/views/datas/AllData.qml:77
+msgctxt "AllData|"
+msgid "Pupils activities"
+msgstr "Skolēnu aktivitātes"
+
+#: server/views/datas/AllData.qml:77
+msgctxt "AllData|"
+msgid "All groups"
+msgstr "Visas grupas"
+
+#: server/views/datas/AllData.qml:77
+msgctxt "AllData|"
+msgid "Failed activities"
+msgstr "Neizdevušās aktivitātes"
+
+#: server/views/datas/AllData.qml:78
+msgctxt "AllData|"
+msgid "User's groups"
+msgstr "Lietotāja grupas"
+
+#: server/views/datas/AllData.qml:78
+msgctxt "AllData|"
+msgid "Group's users"
+msgstr "Grupas lietotāji"
+
+#: server/views/datas/AllData.qml:78
+msgctxt "AllData|"
+msgid "Daily activities"
+msgstr "Ikdienas aktivitātes"
+
+#: server/views/datas/AllData.qml:78
+msgctxt "AllData|"
+msgid "Daily ratios"
+msgstr "Ikdienas proporcijas"
+
+#. Number of lines
+#: server/views/datas/AllData.qml:90
+#, qt-format
+msgctxt "AllData|"
+msgid "%1 lines"
+msgstr "%1 rindas"
+
+#: server/views/datas/DuplicateData.qml:175
+msgctxt "DuplicateData|"
+msgid "Commands"
+msgstr "Komandas"
+
+#: server/views/datas/DuplicateData.qml:188
+msgctxt "DuplicateData|"
+msgid "Random date"
+msgstr "Nejaušs datums"
+
+#: server/views/datas/DuplicateData.qml:195
+msgctxt "DuplicateData|"
+msgid "Duplicate"
+msgstr "Dublēt"
+
+#: server/views/datas/DuplicateData.qml:199
+msgctxt "DuplicateData|"
+msgid "You are about to duplicate datas"
+msgstr "Jūs grasāties dublēt datus"
+
+#: server/views/datas/DuplicateData.qml:199
+#: server/views/datas/DuplicateData.qml:212
+msgctxt "DuplicateData|"
+msgid "No action now"
+msgstr "Šobrīd darbību nav"
+
+#: server/views/datas/DuplicateData.qml:208
+msgctxt "DuplicateData|"
+msgid "Delete"
+msgstr "Dzēst"
+
+#: server/views/datas/DuplicateData.qml:212
+msgctxt "DuplicateData|"
+msgid "You are about to delete datas"
+msgstr "Jūs grasāties dzēst datus"
+
+#: server/views/datas/DuplicateData.qml:230
+msgctxt "DuplicateData|"
+msgid "Copy to"
+msgstr "Kopēt uz"
+
+#: server/views/DatasetsView.qml:44
+msgctxt "DatasetsView|"
+msgid "Activities"
+msgstr "Aktivitātes"
+
+#: server/views/DatasetsView.qml:63
+msgctxt "DatasetsView|"
+msgid "Datasets"
+msgstr "Datu kopas"
+
+#: server/views/DatasetsView.qml:95
+msgctxt "DatasetsView|"
+msgid "Datasets management"
+msgstr "Datu kopu pārvaldība"
+
+#: server/views/DatasetsView.qml:113
+msgctxt "DatasetsView|"
+msgid "Create dataset"
+msgstr "Izveidot datu kopu"
+
+#: server/views/DatasetsView.qml:122
+msgctxt "DatasetsView|"
+msgid "Update dataset"
+msgstr "Atjaunināt datu kopu"
+
+#: server/views/DatasetsView.qml:131
+msgctxt "DatasetsView|"
+msgid "Send dataset to clients"
+msgstr "Sūtīt datu kopas klientiem"
+
+#: server/views/DatasetsView.qml:150
+msgctxt "DatasetsView|"
+msgid "Remove dataset from clients"
+msgstr "Noņemt no klientiem datu kopas"
+
+#: server/views/DatasetsView.qml:175
+msgctxt "DatasetsView|"
+msgid "Remove all datasets from clients"
+msgstr "Noņemt no klientiem visas datu kopas"
+
+#: server/views/DatasetsView.qml:185
+msgctxt "DatasetsView|"
+msgid "Delete dataset"
+msgstr "Dzēst datu kopas"
+
+#: server/views/DevelopmentView.qml:43
+msgctxt "DevelopmentView|"
+msgid "Edit data"
+msgstr "Rediģēt datus"
+
+#: server/views/DevelopmentView.qml:47
+msgctxt "DevelopmentView|"
+msgid "All requests"
+msgstr "Visi pieprasījumi"
+
+#: server/views/DevicesView.qml:52
+msgctxt "DevicesView|"
+msgid "Not connected"
+msgstr "Nav savienots"
+
+#: server/views/DevicesView.qml:54
+msgctxt "DevicesView|"
+msgid "Bad password input"
+msgstr "Ievadīta nepareiza parole"
+
+#: server/views/DevicesView.qml:56
+msgctxt "DevicesView|"
+msgid "Logged"
+msgstr "Ierakstīties"
+
+#: server/views/DevicesView.qml:58
+msgctxt "DevicesView|"
+msgid "Connection lost"
+msgstr "Savienojums zaudēts"
+
+#: server/views/DevicesView.qml:60
+msgctxt "DevicesView|"
+msgid "Disconnected"
+msgstr "Atvienots"
+
+#: server/views/DevicesView.qml:62
+msgctxt "DevicesView|"
+msgid "Unknown connection status"
+msgstr "Nezināms savienojuma statuss"
+
+#: server/views/DevicesView.qml:84
+msgctxt "DevicesView|"
+msgid "Groups"
+msgstr "Grupas"
+
+#: server/views/DevicesView.qml:101
+msgctxt "DevicesView|"
+msgid "Pupils"
+msgstr "Skolēni"
+
+#: server/views/DevicesView.qml:135
+msgctxt "DevicesView|"
+msgid "Network"
+msgstr "Tīkls"
+
+#: server/views/DevicesView.qml:158
+msgctxt "DevicesView|"
+msgid "Connect devices"
+msgstr "Savienot ierīces"
+
+#: server/views/DevicesView.qml:171
+msgctxt "DevicesView|"
+msgid "Send login list"
+msgstr "Nosūtīt ierakstīšanās sarakstu"
+
+#: server/views/DevicesView.qml:195
+msgctxt "DevicesView|"
+msgid "Disconnect selected pupils"
+msgstr "Atvienot atlasītos skolēnus"
+
+#: server/views/DevicesView.qml:213
+msgctxt "DevicesView|"
+msgid "Disconnect everybody"
+msgstr "Atvienot visus"
+
+#: server/views/DevicesView.qml:229
+msgctxt "DevicesView|"
+msgid "Server ID:"
+msgstr "Servera ID:"
+
+#: server/views/DevicesView.qml:236
+msgctxt "DevicesView|"
+msgid "Teacher port:"
+msgstr "Skolotāja ports:"
+
+#: server/views/DevicesView.qml:243
+msgctxt "DevicesView|"
+msgid "Connected:"
+msgstr "Savienots:"
+
+#: server/views/DevicesView.qml:250
+msgctxt "DevicesView|"
+msgid "Logged:"
+msgstr "Ierakstījies:"
+
+#: server/views/DevicesView.qml:257
+msgctxt "DevicesView|"
+msgid "Data received:"
+msgstr "Saņemtie dati:"
+
+#: server/views/DevicesView.qml:285
+msgctxt "DevicesView|"
+msgid "Network logs"
+msgstr "Tīkla žurnāli"
+
+#: server/views/DevicesView.qml:297
+msgctxt "DevicesView|"
+msgid "Clear logs"
+msgstr "Notīrīt žurnālus"
+
+#: server/views/DevicesView.qml:317
+#, qt-format
+msgctxt "DevicesView|"
+msgid "Server already running on port %1"
+msgstr "Serveris jau ir palaists ar portu %1"
+
+#: server/views/LoginView.qml:43
+msgctxt "LoginView|"
+msgid "Incorrect password"
+msgstr "Nepareiza parole"
+
+#: server/views/LoginView.qml:47
+msgctxt "LoginView|"
+msgid "GCompris-teachers is already running on this computer"
+msgstr "„GCompris“ skolotāju modulis šajā datorā jau ir palaists"
+
+#: server/views/LoginView.qml:48
+msgctxt "LoginView|"
+msgid "Only data browsing is permitted"
+msgstr "Ir atļauta tikai datu pārlūkošana"
+
+#: server/views/LoginView.qml:89
+msgctxt "LoginView|"
+msgid "Teacher login"
+msgstr "Skolotāja ierakstīšanās"
+
+#: server/views/LoginView.qml:110
+msgctxt "LoginView|"
+msgid "Password"
+msgstr "Parole"
+
+#: server/views/LoginView.qml:128
+msgctxt "LoginView|"
+msgid "Login"
+msgstr "Ierakstīties"
+
+#: server/views/LoginView.qml:137
+msgctxt "LoginView|"
+msgid "Create teacher database"
+msgstr "Izveidot skolotāja datubāzi"
+
+#: server/views/LoginView.qml:158
+msgctxt "LoginView|"
+msgid "Database file:"
+msgstr "Datubāzes datne:"
+
+#: server/views/ManagePupilsView.qml:34 server/views/ManagePupilsView.qml:149
+msgctxt "ManagePupilsView|"
+msgid "Add a group"
+msgstr "Pievienot grupu"
+
+#: server/views/ManagePupilsView.qml:44
+msgctxt "ManagePupilsView|"
+msgid "Are you sure you want to remove this group?"
+msgstr "Vai tiešām vēlaties noņemt šo grupu?"
+
+#: server/views/ManagePupilsView.qml:45
+msgctxt "ManagePupilsView|"
+msgid "Pupils will not be removed."
+msgstr "Skolēni netiks noņemti."
+
+#: server/views/ManagePupilsView.qml:52
+msgctxt "ManagePupilsView|"
+msgid "Edit group"
+msgstr "Rediģēt grupu"
+
+#: server/views/ManagePupilsView.qml:68 server/views/ManagePupilsView.qml:207
+msgctxt "ManagePupilsView|"
+msgid "Add a pupil"
+msgstr "Pievienot skolēnu"
+
+#: server/views/ManagePupilsView.qml:74
+msgctxt "ManagePupilsView|"
+msgid "Edit pupil's name and groups"
+msgstr "Rediģēt skolēna vārdu un grupas"
+
+#: server/views/ManagePupilsView.qml:122
+msgctxt "ManagePupilsView|"
+msgid "Groups"
+msgstr "Grupas"
+
+#: server/views/ManagePupilsView.qml:159
+msgctxt "ManagePupilsView|"
+msgid "Pupils and groups"
+msgstr "Skolēni un grupas"
+
+#: server/views/ManagePupilsView.qml:188
+msgctxt "ManagePupilsView|"
+msgid "Pupils management"
+msgstr "Skolēnu pārvaldība"
+
+#: server/views/ManagePupilsView.qml:216
+msgctxt "ManagePupilsView|"
+msgid "Add to groups"
+msgstr "Pievienot grupām"
+
+#: server/views/ManagePupilsView.qml:225
+msgctxt "ManagePupilsView|"
+msgid "Remove from groups"
+msgstr "Noņemt no grupām"
+
+#: server/views/ManagePupilsView.qml:234
+msgctxt "ManagePupilsView|"
+msgid "Export pupils"
+msgstr "Eksportēt skolēnus"
+
+#: server/views/ManagePupilsView.qml:242
+msgctxt "ManagePupilsView|"
+msgid "Import pupils"
+msgstr "Importēt skolēnus"
+
+#: server/views/ManagePupilsView.qml:251
+msgctxt "ManagePupilsView|"
+msgid "Remove pupils"
+msgstr "Noņemt skolēnus"
+
+#: server/views/SettingsView.qml:65
+msgctxt "SettingsView|"
+msgid "Menu panel"
+msgstr "Izvēļņu panelis"
+
+#: server/views/SettingsView.qml:66
+msgctxt "SettingsView|"
+msgid "Left"
+msgstr "Pa kreisi"
+
+#: server/views/SettingsView.qml:66
+msgctxt "SettingsView|"
+msgid "Right"
+msgstr "Pa labi"
+
+#: server/views/SettingsView.qml:77
+msgctxt "SettingsView|"
+msgid "Font size"
+msgstr "Fonta izmērs"
+
+#: server/views/SettingsView.qml:87
+msgctxt "SettingsView|"
+msgid "Theme"
+msgstr "Motīvs"
+
+#: server/views/SettingsView.qml:88
+msgctxt "SettingsView|"
+msgid "Dark"
+msgstr "Tumšais"
+
+#: server/views/SettingsView.qml:88
+msgctxt "SettingsView|"
+msgid "Light"
+msgstr "Gaišais"
+
+#: server/views/SettingsView.qml:103
+msgctxt "SettingsView|"
+msgid "Language selector"
+msgstr "Valodas atlasītājs"
+
+#: server/views/SettingsView.qml:149
+msgctxt "SettingsView|"
+msgid "Server ID"
+msgstr "Servera ID"
+
+#: server/views/SettingsView.qml:171
+msgctxt "SettingsView|"
+msgid "Port"
+msgstr "Ports"
+
+#. next line will display if the server is running or already running
+#: server/views/SettingsView.qml:189
+msgctxt "SettingsView|"
+msgid "Server is"
+msgstr "Serveris"
+
+#: server/views/SettingsView.qml:190
+msgctxt "SettingsView|"
+msgid "Running"
+msgstr "Darbojas"
+
+#: server/views/SettingsView.qml:190
+#, qt-format
+msgctxt "SettingsView|"
+msgid "Already running on port %1"
+msgstr "Jau darbojas portā %1"
+
+#: server/views/SettingsView.qml:198
+msgctxt "SettingsView|"
+msgid "Host name"
+msgstr "Saimniekdatora nosaukums"
+
+#: server/views/SettingsView.qml:205
+msgctxt "SettingsView|"
+msgid "Server IP"
+msgstr "Servera IP"
+
+#: server/views/SettingsView.qml:212
+msgctxt "SettingsView|"
+msgid "Broadcast IPs"
+msgstr "Pārraides IP adreses"
+
+#: server/views/SettingsView.qml:219
+msgctxt "SettingsView|"
+msgid "Netmask"
+msgstr "Tīkla maska"
+
+#: server/views/SettingsView.qml:224
+msgctxt "SettingsView|"
+msgid "MAC address"
+msgstr "MAC adrese"
+
+#: server/views/SettingsView.qml:231
+msgctxt "SettingsView|"
+msgid "GCompris version"
+msgstr "„GCompris“ versija"
+
+#: server/views/SettingsView.qml:238
+msgctxt "SettingsView|"
+msgid "Qt version"
+msgstr "„Qt“ versija"
+
+#: server/views/SettingsView.qml:251
+msgctxt "SettingsView|"
+msgid "Teacher login"
+msgstr "Skolotāja ierakstīšanās"
+
+#: server/views/SettingsView.qml:259
+msgctxt "SettingsView|"
+msgid "Database file"
+msgstr "Datubāzes datne"
+
+#: server/views/SettingsView.qml:266
+msgctxt "SettingsView|"
+msgid "Encrypted database"
+msgstr "Šifrēta datubāze"
+
+#: server/views/SettingsView.qml:267
+msgctxt "SettingsView|"
+msgid "Yes"
+msgstr "Jā"
+
+#: server/views/SettingsView.qml:267
+msgctxt "SettingsView|"
+msgid "No"
+msgstr "Nē"
+
+#: server/views/SettingsView.qml:272
+msgctxt "SettingsView|"
+msgid "Pupils"
+msgstr "Skolēni"
+
+#: server/views/SettingsView.qml:278
+msgctxt "SettingsView|"
+msgid "Groups"
+msgstr "Grupas"
+
+#: server/views/SettingsView.qml:291
+msgctxt "SettingsView|"
+msgid "Pupils connected"
+msgstr "Pievienojušies skolēni"
+
+#: server/views/SettingsView.qml:298
+msgctxt "SettingsView|"
+msgid "Pupils logged"
+msgstr "Ierakstījušies skolēni"
+
+#: server/views/SettingsView.qml:305
+msgctxt "SettingsView|"
+msgid "Activities data received"
+msgstr "Saņemti aktivitāšu dati"
+
+#~ msgctxt "NavigationPanel|"
+#~ msgid "Development (WIP)"
+#~ msgstr "Attīstība (izstrādes stadijā)"
+
+#~ msgctxt "SqlLineDialog|"
+#~ msgid "<"
+#~ msgstr "<"
+
+#~ msgctxt "SqlLineDialog|"
+#~ msgid ">"
+#~ msgstr ">"
+
+#, fuzzy
+#~| msgctxt "AllData|"
+#~| msgid "Daily activities"
+#~ msgctxt "ActivitiesChart|"
+#~ msgid "Daily activities chart"
+#~ msgstr "Ikdienas aktivitātes"
+
+#, fuzzy
+#~| msgctxt "AllData|"
+#~| msgid "All users activities"
+#~ msgctxt "PupilsChart|"
+#~ msgid "User activities chart"
+#~ msgstr "Visu lietotāju aktivitātes"
+
+#~ msgctxt "LoginView|"
+#~ msgid "GCompris Teachers Tool"
+#~ msgstr "„GCompris“ skolotāja rīks"

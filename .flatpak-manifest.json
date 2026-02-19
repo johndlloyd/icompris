@@ -1,0 +1,63 @@
+{
+  "id": "org.kde.gcompris",
+  "runtime": "org.kde.Platform",
+  "runtime-version": "6.10",
+  "sdk": "org.kde.Sdk",
+  "rename-icon": "gcompris-qt",
+  "command": "gcompris-qt",
+  "finish-args": [
+      "--socket=pulseaudio",
+      "--share=ipc",
+      "--socket=x11",
+      "--socket=wayland",
+      "--share=network",
+      "--device=dri"
+  ],
+  "modules": [
+      {
+          "name": "qt6-graphs",
+          "buildsystem": "cmake-ninja",
+          "sources": [
+              {
+                  "type": "git",
+                  "url": "https://github.com/qt/qtgraphs.git",
+                  "tag": "v6.10.1",
+                  "commit": "b50b4e3b46940e5aa3cf31babb4ff1c9454ab473",
+                  "x-checker-data": {
+                      "type": "git",
+                      "tag-pattern": "^v([\\d.]+)$",
+                      "//": "make sure version matches kde runtime version of org.kde.Platform",
+                      "versions": {
+                          ">=": "v6.10",
+                          "<": "v6.11"
+                      }
+                  }
+              }
+          ],
+          "post-install": [
+              "install $FLATPAK_DEST/lib/*-linux-gnu/*.so $FLATPAK_DEST/lib/*-linux-gnu/*.so.* $FLATPAK_DEST/lib"
+          ]
+      },
+      {
+          "name": "gcompris",
+          "buildsystem": "cmake",
+          "builddir": true,
+          "config-opts": [
+              "-DCMAKE_BUILD_TYPE=RelWithDebInfo",
+              "-DQML_BOX2D_MODULE=submodule"
+          ],
+          "sources": [
+              {
+                  "type": "git",
+                  "dest": "external/qml-box2d",
+                  "url": "https://github.com/qml-box2d/qml-box2d.git",
+                  "commit": "b7212d5640701f93f0cd88fbd3a32c619030ae62"
+              },
+              {
+                  "type": "dir",
+                  "path": "."
+              }
+          ]
+      }
+  ]
+}

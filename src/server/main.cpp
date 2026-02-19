@@ -1,0 +1,115 @@
+/* GCompris - main.cpp
+ *
+ * SPDX-FileCopyrightText: 2021 Emmanuel Charruau <echarruau@gmail.com>
+ *
+ * Authors:
+ *   Emmanuel Charruau <echarruau@gmail.com>
+ *
+ *   SPDX-License-Identifier: GPL-3.0-or-later
+ */
+#include <QtDebug>
+#include <QApplication>
+#include <QQuickWindow>
+#include <QQmlApplicationEngine>
+#include <QStandardPaths>
+
+#include "GComprisPlugin.h"
+#include "ApplicationInfo.h"
+#include "ApplicationSettings.h"
+#include "ActivityInfoTree.h"
+
+#include <QResource>
+// #include <config.h>
+
+#include <QQmlContext>
+
+#include "controllers/database-controller.h"
+#include "controllers/network-controller.h"
+#include "netconst.h"
+
+#include <openssl/err.h>
+
+#define GCOMPRIS_TEACHERS_APPLICATION_NAME "gcompris-teachers"
+
+int main(int argc, char *argv[])
+{
+    ERR_load_crypto_strings();
+
+    QApplication app(argc, argv);
+    //    app.setOrganizationName("KDE");           // set config dir to ~/.config/KDE
+    app.setOrganizationName("gcompris"); // set config dir to ~/.config/gcompris
+    app.setApplicationName(GCOMPRIS_TEACHERS_APPLICATION_NAME);
+    app.setOrganizationDomain("kde.org");
+
+#if defined(Q_OS_MAC)
+    // Sandboxing on MacOSX as documented in:
+    // http://doc.qt.io/qt-5/osx-deployment.html
+    QDir dir(QGuiApplication::applicationDirPath());
+    dir.cdUp();
+    dir.cd("Plugins");
+    QGuiApplication::setLibraryPaths(QStringList(dir.absolutePath()));
+#endif
+
+    GComprisPlugin plugin;
+    plugin.registerTypes("core");
+    ActivityInfoTree::registerResources();
+
+    if (!QResource::registerResource(ApplicationInfo::getFilePath("activities_light.rcc")))
+        qDebug() << "Failed to load the resource file " << ApplicationInfo::getFilePath("activities_light.rcc");
+    if (!QResource::registerResource(ApplicationInfo::getFilePath("server.rcc")))
+        qDebug() << "Failed to load the resource file " << ApplicationInfo::getFilePath("server.rcc");
+
+    qmlRegisterUncreatableMetaObject(
+        netconst::staticMetaObject, // meta object created by Q_NAMESPACE macro
+        "core", // import statement (can be any string)
+        1, 0, // major and minor version of the import
+        "NetConst", // name in QML (does not have to match C++ name)
+        "Error: only enums" // error in case someone tries to create a MyNamespace object
+    );
+
+    // Create QStandardPaths::GenericDataLocation if needed
+    QString path = QStandardPaths::writableLocation(QStandardPaths::GenericDataLocation) + "/" + GCOMPRIS_TEACHERS_APPLICATION_NAME;
+    if (!QDir(path).exists()) {
+        QDir().mkdir(path);
+    }
+
+    // Load translations
+    QSettings config(QStandardPaths::writableLocation(QStandardPaths::GenericConfigLocation) + "/gcompris/" + GCOMPRIS_TEACHERS_APPLICATION_NAME + ".conf",
+                     QSettings::IniFormat);
+    QString locale = config.value("locale", GC_DEFAULT_LOCALE).toString();
+    // Load translations
+    ApplicationInfo::getInstance()->switchLocale(QStringLiteral("gcompris_teachers_qt"), locale, false);
+    ApplicationInfo::getInstance()->switchLocale(QStringLiteral("gcompris_qt"), locale);
+
+    // Create the engine and Main qml object
+    QQmlApplicationEngine engine;
+
+    ApplicationInfo::getInstance()->setEngine(engine);
+    // Create the activities
+    ActivityInfoTree::getInstance()->initialize(&engine);
+
+    controllers::DatabaseController databaseController;
+    engine.rootContext()->setContextProperty("databaseController", &databaseController);
+    controllers::NetworkController networkController;
+    engine.rootContext()->setContextProperty("networkController", &networkController);
+
+    qmlRegisterType<controllers::NetworkController>("CM", 1, 0, "NetworkController");
+
+    engine.load(QUrl("qrc:/gcompris/src/server/Main.qml"));
+
+    // add import path for shipped qml modules:
+    engine.addImportPath(QStringLiteral("%1/../lib/qml").arg(QCoreApplication::applicationDirPath()));
+
+    QObject *topLevel = engine.rootObjects().value(0);
+
+    QQuickWindow *window = qobject_cast<QQuickWindow *>(topLevel);
+    if (!window) {
+        qWarning("Error: Your root item has to be a Window.");
+        return -1;
+    }
+
+    window->setIcon(QIcon(QPixmap(QString::fromUtf8(":/gcompris/src/server/resource/gcompris-teachers-icon.png"))));
+
+    window->show();
+    return app.exec();
+}

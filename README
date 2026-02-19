@@ -1,0 +1,52 @@
+
+		     GCompris / I Got IT
+                  GCompris is a GNU package
+                     https://gcompris.net
+
+GCompris is a high quality educational software suite, including a large
+number of activities for children aged 2 to 10. Some of the activities
+are game orientated, but still educational.
+
+Currently GCompris offers more than 100 activities, and more are
+being developed. GCompris is free software, it means that you can
+adapt it to your own needs, improve it and, most importantly, share it
+with children everywhere.
+
+This version is a full rewrite of GCompris using the QtQuick technology.
+
+-------------------------------------------------------------------------------
+			 GCompris MOTIVATION
+
+Big Issue:
+  There are many simple activities dedicated to children on any
+  platforms, desktops, web and tablets. When they exist, they are hard
+  to find and request the teacher/parent to manage a lot of
+  independant small tools.
+
+
+Big Goal:
+  Build an educational game suite all accessible from a single user interface.
+  GCompris provides a simple to use user interface that makes it easy to select
+  appropriate activities.
+
+How:
+  GCompris is designed in a way that it is easy to add new activities to it.
+  The activity is free to implement the game scheme it wants.
+  The status bar is a common facility provided to the activities.
+
+  GCompris provides some tools for teachers/educators to easily add activities.
+
+About You:
+  Yes you can help by:
+  Creating new activities.
+  Translate GCompris.
+  Just giving your ideas.
+
+
+-------------------------------------------------------------------------------
+                           NOTE TO TRANSLATORS
+
+You will get all the information to translate GCompris or to provide
+voices on our developers wiki:
+https://invent.kde.org/education/gcompris/-/wikis/Developers-corner/How-to-translate
+

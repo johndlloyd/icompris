@@ -1,0 +1,98 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Language: en\n"
+"X-Qt-Contexts: true\n"
+
+#. One or more numbers to find, all at the beginning of the list. Don't display the %n in the translation if possible (actual English strings are "Find the previous number" and "Find the previous numbers")
+#: ../activities/adjacent_numbers/Adjacent_numbers.qml:56
+#, qt-format
+msgctxt "Adjacent_numbers|"
+msgid "Find the %n previous number(s)."
+msgid_plural "Find the %n previous number(s)."
+msgstr[0] "Find the previous number"
+msgstr[1] "Find the previous numbers"
+
+#. One or more numbers to find, at the end of the list. Don't display the %n in the translation if possible (actual English strings are "Find the next number" and "Find the next numbers")
+#: ../activities/adjacent_numbers/Adjacent_numbers.qml:60
+#, qt-format
+msgctxt "Adjacent_numbers|"
+msgid "Find the %n next number(s)."
+msgid_plural "Find the %n next number(s)."
+msgstr[0] "Find the next number"
+msgstr[1] "Find the next numbers"
+
+#. One or more numbers to find, not at the beginning nor at the end of the list. Don't display the %n in the translation if possible (actual English strings are "Find the in-between number" and "Find the in-between numbers")
+#: ../activities/adjacent_numbers/Adjacent_numbers.qml:64
+#, qt-format
+msgctxt "Adjacent_numbers|"
+msgid "Find the %n in-between number(s)"
+msgid_plural "Find the %n in-between number(s)"
+msgstr[0] "Find the in-between number"
+msgstr[1] "Find the in-between numbers"
+
+#. More than one number to find, with at least one number at the beginning or at the end of the list. Don't display the %n in the translation if possible (actual English string is "Find the missing numbers")
+#: ../activities/adjacent_numbers/Adjacent_numbers.qml:68
+#, qt-format
+msgctxt "Adjacent_numbers|"
+msgid "Find the %n missing numbers"
+msgid_plural "Find the %n missing numbers"
+msgstr[0] "Find the missing number"
+msgstr[1] "Find the missing numbers"
+
+#: ../activities/clockgame/Clockgame.qml:127
+#, qt-format
+msgctxt "Clockgame|"
+msgid "%n hour(s)"
+msgid_plural "%n hour(s)"
+msgstr[0] "%n hour"
+msgstr[1] "%n hours"
+
+#: ../activities/clockgame/Clockgame.qml:130
+#, qt-format
+msgctxt "Clockgame|"
+msgid "%n minute(s)"
+msgid_plural "%n minute(s)"
+msgstr[0] "%n minute"
+msgstr[1] "%n minutes"
+
+#: ../activities/clockgame/Clockgame.qml:133
+#, qt-format
+msgctxt "Clockgame|"
+msgid "%n second(s)"
+msgid_plural "%n second(s)"
+msgstr[0] "%n second"
+msgstr[1] "%n seconds"
+
+#: ../activities/share/share.js:115
+#, qt-format
+msgctxt ""
+"share|First part of Place %n boy(s) and %n girl(s) in the center. Then split "
+"%n pieces of candy equally between them."
+msgid "Place %n boy(s) "
+msgid_plural "Place %n boy(s) "
+msgstr[0] "Place %n boy "
+msgstr[1] "Place %n boys "
+
+#: ../activities/share/share.js:119
+#, qt-format
+msgctxt ""
+"share|Second part of Place %n boy(s) and %n girl(s) in the center. Then "
+"split %n pieces of candy equally between them."
+msgid "and %n girl(s) in the center. "
+msgid_plural "and %n girl(s) in the center. "
+msgstr[0] "and %n girl in the center. "
+msgstr[1] "and %n girls in the center. "
+
+#: ../activities/share/share.js:123
+#, qt-format
+msgctxt ""
+"share|Third part of Place %n boy(s) and %n girl(s) in the center. Then split "
+"%n pieces of candy equally between them."
+msgid "Then split %n pieces of candy equally between them."
+msgid_plural "Then split %n pieces of candy equally between them."
+msgstr[0] "Then split %n candy equally between them."
+msgstr[1] "Then split %n candies equally between them."

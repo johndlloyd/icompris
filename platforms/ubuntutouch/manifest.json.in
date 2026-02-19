@@ -1,0 +1,15 @@
+{
+    "name": "org.kde.gcompris",
+    "description": "GCompris",
+    "architecture": "@CLICK_ARCH@",
+    "title": "gcompris",
+    "hooks": {
+        "gcompris": {
+            "apparmor": "gcompris.apparmor",
+            "desktop":  "gcompris.desktop"
+        }
+    },
+    "version": "@GCOMPRIS_MAJOR_VERSION@.@GCOMPRIS_MINOR_VERSION@",
+    "maintainer": "lionel <lduboeuf@ouvaton.org>",
+    "framework" : "@CLICK_FRAMEWORK@"
+}

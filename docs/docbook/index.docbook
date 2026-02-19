@@ -1,0 +1,395 @@
+<?xml version="1.0" ?>
+<!DOCTYPE book PUBLIC "-//KDE//DTD DocBook XML V4.5-Based Variant V1.1//EN" "dtd/kdedbx45.dtd" [
+  <!-- Define an entity for your application if it is not part of KDE
+       Git -->
+  <!ENTITY gcompris "<application>GCompris</application>">
+  <!ENTITY kappname "&gcompris;"><!-- replace kmyapplication here
+                                            do *not* replace kappname-->
+  <!ENTITY % addindex "IGNORE">
+  <!ENTITY % English "INCLUDE"> <!-- ONLY If you are writing non-English
+                                     original documentation, change
+                                     the language here -->
+
+  <!-- Do not define any other entities; instead, use the entities
+       from entities/general.entities and en/user.entities. -->
+]>
+<book id="gcompris" lang="&language;">
+
+<bookinfo>
+<title>The &gcompris; Administration Handbook</title>
+
+<authorgroup>
+<author>
+<personname>
+<firstname>Johnny</firstname>
+<surname>Jazeix</surname>
+</personname>
+</author>
+<author>
+<personname>
+<firstname>Timothée</firstname>
+<surname>Giet</surname>
+</personname>
+</author>
+
+<othercredit role="developer">
+<othername>The &gcompris; Team</othername>
+<contrib>Developers</contrib>
+</othercredit> 
+
+<!-- TRANS:ROLES_OF_TRANSLATORS -->
+</authorgroup>
+
+<legalnotice>&FDLNotice;</legalnotice>
+
+<!-- Date of the documentation
+Don't forget to include this last date.
+Please respect the format of the date (YYYY-MM-DD),it is used by scripts.
+-->
+<date>2026-02-04</date>
+
+<!--version information of the application and kde this documentation is valid for.
+for example 'xx.yy.zz'
+-->
+<releaseinfo>26.0</releaseinfo>
+
+<!-- Abstract about this handbook -->
+
+<abstract>
+<para>
+&gcompris; is a multi-activity educational software.
+</para>
+</abstract>
+
+<keywordset>
+<keyword>KDE</keyword>
+<keyword>education</keyword>
+<keyword>children</keyword>
+<keyword>games</keyword>
+</keywordset>
+
+</bookinfo>
+
+<chapter id="administration-handbook">
+<title>Administration Handbook</title>
+
+<sect1 id="introduction">
+<title>Introduction</title>
+<para>&gcompris; is a rich educational software suite which contains a wide range of activities.</para>
+<para>It offers various activities aimed at covering a variety of fields. The topics include reading and typing, arithmetics, geography, sciences, and other topics. It is meant to be used both at home and at school.</para>
+<para>The purpose of &gcompris; is to provide playful activities but always educational.</para>
+<para>&gcompris; is part of &kde; project and is placed under the <ulink url="https://www.gnu.org/licenses/agpl-3.0.html">AGPLv3 license</ulink>. All the code, except the engine for analog electricity activity is under <ulink url="https://www.gnu.org/licenses/gpl.html">GPLv3 license</ulink>.</para>
+<para>&gcompris; is available on the following operating systems: &GNU;/&Linux;, &BSD;, &macOS;, &Windows;, Android.
+It requires a 3D card with support of <emphasis>OpenGL 2.1</emphasis> or higher. 32 bits color depth is mandatory.</para>
+</sect1>
+
+<sect1 id="installation">
+<title>Installation</title>
+<para>The software is delivered under several forms. Follow the process according to your case.</para>
+<itemizedlist>
+<listitem><para>&GNU;/&Linux;: use the packages delivered by your &GNU;/&Linux; distribution. If &gcompris; is not packaged in your &Linux; distribution, please contact them to ask for the inclusion of &gcompris;.</para></listitem>
+<listitem><para>&Windows;: delivered under a classic installer for &Windows; or via the Microsoft Store.</para></listitem>
+<listitem><para>&macOS;: delivered under a classic installer.</para></listitem>
+<listitem><para>Android: distributed by the F-Droid store or Google Play Store. APK file is also available.</para></listitem>
+</itemizedlist>
+</sect1>
+
+<sect1 id="user-interface">
+<title>The User Interface</title>
+<para>The interface is designed for easy use by small children. &gcompris; is controlled with a mouse. Keyboard navigation is also available on most of the activities.</para>
+
+<sect2 id="main-window">
+<title>Main window</title>
+<para>When you start the program, &gcompris; shows a graphical interface which presents the list of activities with a control bar at the bottom.</para>
+<screenshot>
+<screeninfo>Here’s a screenshot of &gcompris; main window</screeninfo>
+  <mediaobject>
+    <imageobject>
+      <imagedata fileref="gcompris-main-menu.png" format="PNG"/>
+    </imageobject>
+    <textobject>
+      <phrase>&gcompris; Main Window</phrase>
+    </textobject>
+  </mediaobject>
+</screenshot>
+
+<para>Each icon represents an activity. Around each one, you can find small icons which give additional information 
+about the activity. A simple click on the icon will lead you to an activity or a menu of activities. There are 8 sections 
+(categories) of activities, which are placed on the top or on the left (only if your orientation is portrait). For example, 
+there is section “Board Games”, which includes board games, like Chess, Tic-Tac-Toe or Align Four.</para>
+<para>Some categories have subcategories to better filter the activities. For math activities, we have three subcategories: numeration, arithmetic and measures.</para>
+<para>The stars indicate the age group for which each game is designed:</para> 
+<itemizedlist>
+<listitem><para><inlinemediaobject><imageobject><imagedata fileref="difficulty1.png" format="PNG" width="2em" depth="2em" scalefit="1"/></imageobject>
+</inlinemediaobject>1, 2 or 3 yellow stars — for 2 to 6 years old.</para></listitem> 
+<listitem><para><inlinemediaobject><imageobject><imagedata fileref="difficulty4.png" format="PNG" width="2em" depth="2em" scalefit="1"/></imageobject>
+</inlinemediaobject>1, 2 or 3 red stars — greater than 6 years old.</para></listitem> 
+</itemizedlist>
+
+<para>At the bottom of the screen there is a control bar for &gcompris;. The possible icons are (the icons are only displayed if they are available in the activity):</para>
+<itemizedlist>
+<listitem><para><inlinemediaobject><imageobject><imagedata fileref="bar_home.png" format="PNG" width="5em" depth="5em" scalefit="1"/></imageobject>
+</inlinemediaobject> Home — Leaves the current activity, returns to the previous menu.</para></listitem> 
+<listitem><para><inlinemediaobject><imageobject><imagedata fileref="bar_ok.png" format="PNG" width="5em" depth="5em" scalefit="1"/></imageobject>
+</inlinemediaobject> “OK” — Validate, confirm your answer. Some activities do not detect automatically whether or not the child has completed the task. In this case, you have to click on this icon. You can also use the &Enter; key on your keyboard.</para></listitem> 
+<listitem><para><inlinemediaobject><imageobject><imagedata fileref="bar_hint.png" format="PNG" width="5em" depth="5em" scalefit="1"/></imageobject>
+</inlinemediaobject> Light — Display a hint for the activity. We can help the children on some activities to guide them to find the answers.</para></listitem>
+<listitem><para><inlinemediaobject><imageobject><imagedata fileref="bar_previous.png" format="PNG" width="2.5em" depth="5em" scalefit="1"/></imageobject></inlinemediaobject>
+<inlinemediaobject><imageobject><imagedata fileref="bar_next.png" format="PNG" width="2.5em" depth="5em" scalefit="1"/></imageobject></inlinemediaobject>
+Arrows — The present level is displayed. Click on one of the arrows to select another level. 
+Generally, the activities offer several levels whose numbers depend on the activity. 
+In &gcompris;, it is possible to go to the next level without having completed the current level.</para></listitem> 
+<listitem><para><inlinemediaobject><imageobject><imagedata fileref="bar_repeat.png" format="PNG" width="5em" depth="5em" scalefit="1"/></imageobject>
+</inlinemediaobject> Lips — Ask &gcompris; to repeat the question.</para></listitem> 
+<listitem><para><inlinemediaobject><imageobject><imagedata fileref="bar_help.png" format="PNG" width="5em" depth="5em" scalefit="1"/></imageobject>
+</inlinemediaobject> Question mark — Display the help dialog box. Sometimes, an activity can be too complex to be described easily in the description area. In this case, this function gives access to additional information.</para></listitem> 
+<listitem><para><inlinemediaobject><imageobject><imagedata fileref="bar_config.png" format="PNG" width="5em" depth="5em" scalefit="1"/></imageobject>
+</inlinemediaobject> Tool box — Configuration menu. The configuration is saved in the user repository (folder) under the name <filename>.config/gcompris/gcompris-qt.conf</filename>. This is a text file which can be edited manually.</para></listitem> 
+<listitem><para><inlinemediaobject><imageobject><imagedata fileref="bar_activity_config.png" format="PNG" width="5em" depth="5em" scalefit="1"/></imageobject>
+</inlinemediaobject> List item — Display the activity settings menu. There are two possible tabs here. First one, “Dataset”, allows to choose the levels of the activities depending on several objectives and the second one, “Options”, allows to update the configuration of the activity if available.</para></listitem>
+<listitem><para><inlinemediaobject><imageobject><imagedata fileref="bar_about.png" format="PNG" width="5em" depth="5em" scalefit="1"/></imageobject>
+</inlinemediaobject> Capital “G” — Information box on &gcompris;, presents the main contributors and the version of the software.</para></listitem> 
+<listitem><para><inlinemediaobject><imageobject><imagedata fileref="bar_exit.png" format="PNG" width="5em" depth="5em" scalefit="1"/></imageobject>
+</inlinemediaobject> Power — Quit &gcompris;. You can also use the shortcut on your keyboard <keycombo action="simul">&Ctrl;<keycap>Q</keycap></keycombo>.</para></listitem> 
+</itemizedlist>
+</sect2>
+
+<sect2 id="kiosk-mode">
+<title>Kiosk Mode</title>
+<para>When you use &gcompris; with small children or on a self-service kiosk, you can disable a certain number of options:</para>
+<itemizedlist>
+<listitem><para><userinput><command>gcompris --enable-kioskmode</command></userinput>: disable the <guiicon>Quit</guiicon> and <guiicon>Configuration</guiicon> buttons.</para></listitem> 
+<listitem><para><userinput><command>gcompris --disable-kioskmode</command></userinput>: enable the <guiicon>Quit</guiicon> and <guiicon>Configuration</guiicon> buttons.</para></listitem>
+<listitem><para><userinput><command>gcompris -f</command></userinput>: run &gcompris; in fullscreen mode</para></listitem> 
+<listitem><para><userinput><command>gcompris -C</command></userinput>: disable the cursor (touch screen mode)</para></listitem> 
+</itemizedlist>
+<para>These options can of course be combined.</para>
+</sect2>
+
+<sect2 id="keyboard-shortcuts">
+<title>Keyboard Shortcuts</title>
+<informaltable>
+<tgroup cols="2">
+<tbody>
+<row>
+<entry>Shortcut</entry>
+<entry>Action</entry>
+</row>
+<row>
+<entry>&Esc; or <keycombo action="simul">&Ctrl;<keycap>W</keycap></keycombo></entry>
+<entry>Quit the current activity or dialog then return to the main menu.</entry>
+</row>
+<row>
+<entry><keycombo action="simul">&Ctrl;<keycap>Q</keycap></keycombo></entry>
+<entry>Quit &gcompris; without further notice.</entry>
+</row>
+<row>
+<entry><keycombo action="simul">&Ctrl;<keycap>F</keycap></keycombo></entry>
+<entry>Toggle fullscreen mode.</entry>
+</row>
+<row>
+<entry><keycombo action="simul">&Ctrl;<keycap>M</keycap></keycombo></entry>
+<entry>Toggle sound mute.</entry>
+</row>
+<row>
+<entry><keycombo action="simul">&Ctrl;<keycap>B</keycap></keycombo></entry>
+<entry>Display or hide the control bar.</entry>
+</row>
+</tbody>
+</tgroup>
+</informaltable>
+</sect2>
+
+</sect1>
+
+<sect1 id="internationalization">
+<title>Notes on Internationalization</title>
+<para>&gcompris; is internationalized and is available in more than 35 languages. If you want 
+to check if your language is available, you can start &gcompris; and select your language in 
+the option of configuration.</para>
+<para>Be careful, some languages need specific fonts to be displayed correctly.</para> 
+<para>If your language is not supported, you can contribute to the software and add the 
+translation of your language. If you are interested, you can contact the 
+<ulink url="https://l10n.kde.org/teams">translation team</ulink> of 
+the &kde; project for your language. You can check the level of translation for your language on 
+the <ulink url="https://l10n.kde.org/">&kde; translation web site</ulink>.</para>
+</sect1>
+
+<sect1 id="learning-language">
+<title>Language learning</title>
+<para>You can use &gcompris; in a foreign language that you are learning. Select a foreign language 
+in the configuration menu. Do not forget to download the optional audio modules for this language.</para>
+</sect1>
+
+<sect1 id="customizing-activities">
+<title>Customizing activities</title>
+<para>You can customize some activities using the configuration button in them.
+For example, you can set the locale in some text activities (like wordsgame), 
+or make it show real car images instead of filled rectangles (traffic).</para>
+
+<para>For multiple activities, you can choose several datasets in the configuration. Each one has a specific objective which is described.</para>
+<screenshot>
+<screeninfo>Dataset of activity “Count the items”</screeninfo>
+  <mediaobject>
+    <imageobject>
+      <imagedata fileref="dataset.png" format="PNG"/>
+    </imageobject>
+    <textobject>
+      <phrase>Dataset of activity “Count the items”</phrase>
+    </textobject>
+  </mediaobject>
+</screenshot>
+
+<para>You can choose the options for this activity.</para>
+<screenshot>
+<screeninfo>Select mode of activity “Count the items”</screeninfo>
+  <mediaobject>
+    <imageobject>
+      <imagedata fileref="activity-config.png" format="PNG"/>
+    </imageobject>
+    <textobject>
+      <phrase>Select mode of activity “Count the items”</phrase>
+    </textobject>
+  </mediaobject>
+</screenshot>
+</sect1>
+
+<sect1 id="console-switches">
+<title>Console Parameters</title>
+<para>Running &gcompris; from a command console with the “--help” option will display all the parameters it accepts:</para>
+<informaltable>
+<tgroup cols="2">
+<tbody>
+<row>
+<entry>-f, --fullscreen</entry>
+<entry>Run &gcompris; in fullscreen mode.</entry>
+</row>
+<row>
+<entry>-w, --window</entry>
+<entry>Run &gcompris; in window mode.</entry>
+</row>
+<row>
+<entry>-s, --sound</entry>
+<entry>Run &gcompris; with sound enabled.</entry>
+</row>
+<row>
+<entry>-m, --mute</entry>
+<entry>Run &gcompris; without sound.</entry>
+</row>
+<row>
+<entry>-c, --cursor</entry>
+<entry>Run &gcompris; with the default system cursor.</entry>
+</row>
+<row>
+<entry>-C, --nocursor</entry>
+<entry>Run &gcompris; without cursor (touch screen mode).</entry>
+</row>
+<row>
+<entry>-v, --version</entry>
+<entry>Print the version of &gcompris;.</entry>
+</row>
+<row>
+<entry>-l, --list-activities</entry>
+<entry>Outputs all the available activities on the standard output.</entry>
+</row>
+<row>
+<entry>--launch activity</entry>
+<entry>Specify the activity when starting &gcompris;.</entry>
+</row>
+<row>
+<entry>--start-level level</entry>
+<entry>Specify the level on which to start the activity specified by “--launch” option when starting &gcompris;. Ignored if no “--launch” option, or if level specified is invalid.</entry>
+</row>
+<row>
+<entry>--difficulty {value|min-max}</entry>
+<entry>For the session, force &gcompris; activities difficulty to be either at value or between min and max values. The values must be between 1 and 6, and if the format is min-max, the min value must be lower than the max value. If it is not the case &gcompris; will not start.</entry>
+</row>
+<row>
+<entry>--export-activities-as-sql</entry>
+<entry>Export activities as SQL.</entry>
+</row>
+<row>
+<entry>--enable-kioskmode</entry>
+<entry>Enable the kiosk mode (hides Quit and Configuration buttons).</entry>
+</row>
+<row>
+<entry>--disable-kioskmode</entry>
+<entry>Disable the kiosk mode (default).</entry>
+</row>
+<row>
+<entry>--show-home-button</entry>
+<entry>Show the Home button in the bar (default).</entry>
+</row>
+<row>
+<entry>--hide-home-button</entry>
+<entry>Hide the Home button in the bar.</entry>
+</row>
+<row>
+<entry>--renderer={renderer}</entry>
+<entry>Specify which graphical renderer to use. On all platforms, “opengl” and software are available. On Windows, you can use “direct3d11” or “direct3d12” (if it was compiled with Qt ≥ 6.6). On &macOS;, you can use “metal”.</entry>
+</row>
+<row>
+<entry>--software-renderer</entry>
+<entry>Use software renderer instead of OpenGL (should work with any graphical card). Deprecated, use “--renderer=software” instead.</entry>
+</row>
+<row>
+<entry>--opengl-renderer</entry>
+<entry>Use OpenGL renderer instead of software (faster and more graphical effects but can crash with some graphical cards). Deprecated, use “--renderer=opengl” instead.</entry>
+</row>
+<row>
+<entry>--locale=locale</entry>
+<entry>Run &gcompris; with the specified locale.</entry>
+</row>
+</tbody>
+</tgroup>
+</informaltable>
+
+<sect2 id="windows-example">
+<title>&Windows; Example</title>
+<para>You can add these switches in the desktop icon properties. Here is an example that runs &gcompris; in kiosk mode in full screen, without Configuration button and cursor:</para>
+<para><userinput><command>"C:\Program Files\GCompris-Qt\bin\GCompris.exe" --enable-kioskmode -f -C</command></userinput></para>
+</sect2>
+
+<sect2 id="gnu-linux-example">
+<title>&GNU;/&Linux; Example</title>
+<para>Create an application launcher and configure the command line parameters. Here is an example that runs &gcompris; in kiosk mode in fullscreen, without Configuration button and cursor:</para> 
+<para><userinput><command>gcompris-qt --enable-kioskmode -f -C</command></userinput></para>
+</sect2>
+
+</sect1>
+
+</chapter>
+<chapter id="credits">
+
+<title>Credits and License</title>
+
+<para>
+&gcompris;
+</para>
+<para>
+Program copyright © 2000–2025 Timothée Giet and others
+</para>
+
+<!-- TRANS:CREDIT_FOR_TRANSLATORS -->
+
+&underFDL;               <!-- FDL: do not remove -->
+
+&underGPL;        	 <!-- GPL License -->
+
+</chapter>
+
+&documentation.index;
+</book>
+
+<!--
+Local Variables:
+mode: xml
+sgml-minimize-attributes:nil
+sgml-general-insert-case:lower
+sgml-indent-step:0
+sgml-indent-data:nil
+End:
+
+vim:tabstop=2:shiftwidth=2:expandtab
+kate: space-indent on; indent-width 2; tab-width 2; indent-mode none;
+-->
