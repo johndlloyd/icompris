@@ -31,6 +31,16 @@ The name **iCompris** is a nod to:
 
 ---
 
+### 📦 Status
+
+* **Current target:** macOS arm64 (Apple Silicon)
+* **Build output:** `dist/gcompris-qt-26.0-macos-arm64-internal.dmg`
+* **Build script:** `tools/macos_build_dmg.sh`
+* **Distribution mode:** Internal/ad-hoc signed DMG (not notarized for public distribution)
+* **Known caveat:** Homebrew Qt layouts can be inconsistent for packaging; Qt online installer builds are preferred for repeatable release artifacts.
+
+---
+
 ### 🛠️ Installation & Building
 
 To build **iCompris** from source, you will need `CMake`, `Qt6`, and `Xcode` tools.
