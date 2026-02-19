@@ -27,7 +27,6 @@ The name **iCompris** is a nod to:
 * **Apple Silicon Native:** Optimized for M1/M2/M3/M4 chips.
 * **Qt6 Migration:** Full support for the latest graphics rendering.
 * **Streamlined DMG:** A simplified installer that adheres to modern macOS security and notarization standards.
-* **No Onions:** (A small developer joke — we've kept the UI clean and the "ingredients" high-quality).
 
 ---
 
